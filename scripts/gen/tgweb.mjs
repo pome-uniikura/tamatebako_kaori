@@ -525,7 +525,9 @@ export function genTenkai(rng, { count, id, domain }) {
       const k = qtext + svg;
       if (seen.has(k)) continue;
       seen.add(k);
-      const choices = letters.filter((l) => l !== t);
+      // 選択肢の記号（A〜E）と面の文字がまぎれないよう「」で囲む
+      const face = (l) => `「${l}」の面`;
+      const choices = letters.filter((l) => l !== t).map(face);
       out.push({
         id: id(),
         domain,
@@ -533,14 +535,15 @@ export function genTenkai(rng, { count, id, domain }) {
         question: qtext,
         figure,
         choices,
-        answer: [choices.indexOf(ans)],
+        answer: [choices.indexOf(face(ans))],
         explanation: `向かい合う面は、展開図の上で「1 つおきに一直線に並ぶ面」になります（間に 1 面はさむ）。一直線になっていないときは、面を回転させて移動し、一直線に並べ直して考えます。\nこの展開図では「${t}」と「${ans}」が向かい合います。\n向かい合う面の組: ${[0, 2, 4].map((f) => `${letterOfFace(f)} と ${letterOfFace(f + 1)}`).join('、')}`,
       });
     } else {
-      const pairs = [0, 2, 4].map((f) => [letterOfFace(f), letterOfFace(f + 1)].sort().join(' と '));
+      const pairText = (a, b) => `「${a}」と「${b}」`;
+      const pairs = [0, 2, 4].map((f) => pairText(...[letterOfFace(f), letterOfFace(f + 1)].sort()));
       const nonPairs = [];
       for (let i = 0; i < 6; i++) for (let j = i + 1; j < 6; j++) {
-        const p = [letters[i], letters[j]].join(' と ');
+        const p = pairText(letters[i], letters[j]);
         if (!pairs.includes(p)) nonPairs.push(p);
       }
       const correct = rng.pick(pairs);

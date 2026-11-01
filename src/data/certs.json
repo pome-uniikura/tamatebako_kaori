@@ -164,6 +164,7 @@
         }
       ],
       "study": { "hours": 10, "note": "文章を読む量が多いので、形式ごとに 1 回は本番の時間で解いて、読む速さをつかんでおきましょう。" },
+      "listen": true,
       "links": [{ "label": "日本エス・エイチ・エル（玉手箱の提供元）", "url": "https://www.shl.ne.jp/" }]
     },
     {
@@ -315,6 +316,7 @@
         }
       ],
       "study": { "hours": 6, "note": "長文読解は玉手箱の趣旨把握・趣旨判定の練習も役に立ちます。" },
+      "listen": true,
       "links": [{ "label": "ヒューマネージ（TG-WEB の提供元）", "url": "https://www.humanage.co.jp/" }]
     },
     {
@@ -493,6 +495,7 @@
         }
       ],
       "study": { "hours": 2, "note": "レッスンを読んでから受検に臨めば十分です。" },
+      "listen": true,
       "links": []
     }
   ]

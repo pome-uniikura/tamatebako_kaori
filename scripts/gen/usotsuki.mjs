@@ -161,7 +161,7 @@ export function solveTypes(p) {
 
 const saysText = (p) => p.people.map((x) => `${x}「${p.says[x][0]}」`).join('\n');
 
-export function genUsotsuki(rng, { id, domain }) {
+export function genUsotsuki(_rng, { id, domain }) {
   const out = [];
   for (const p of CULPRIT) {
     const { rows, ok } = solveCulprit(p);
