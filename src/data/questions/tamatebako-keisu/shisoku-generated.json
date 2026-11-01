@@ -1,0 +1,5102 @@
+[
+ {
+  "id": "tbk-shisoku-001",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ + 38) × 2.5 = 422.5",
+  "choices": [
+   "117",
+   "124",
+   "131",
+   "138",
+   "207"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ + 38 = 422.5 ÷ 2.5 = 169\n□ = 169 − 38 = 131"
+ },
+ {
+  "id": "tbk-shisoku-002",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n1.5 × □ = 25 × 3.9",
+  "choices": [
+   "49",
+   "57",
+   "65",
+   "73",
+   "97.5"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "右辺を先に計算します。25 × 3.9 = 97.5\n□ = 97.5 ÷ 1.5 = 65"
+ },
+ {
+  "id": "tbk-shisoku-003",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n1.2 × □ = 7 × 13.2",
+  "choices": [
+   "77",
+   "85",
+   "92.4",
+   "93",
+   "101"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "右辺を先に計算します。7 × 13.2 = 92.4\n□ = 92.4 ÷ 1.2 = 77"
+ },
+ {
+  "id": "tbk-shisoku-004",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 40% = 424",
+  "choices": [
+   "848",
+   "954",
+   "1060",
+   "1166",
+   "1272"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "40% = 0.4 なので\n□ = 424 ÷ 0.4 = 1060"
+ },
+ {
+  "id": "tbk-shisoku-005",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n9 × 2.5 − □ = 57 ÷ 3",
+  "choices": [
+   "3.5",
+   "3.9",
+   "4.3",
+   "4.7",
+   "5.1"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "左の掛け算 9 × 2.5 = 22.5、右辺 57 ÷ 3 = 19\n□ = 22.5 − 19 = 3.5"
+ },
+ {
+  "id": "tbk-shisoku-006",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ − 3.66 = 7.7 × 4",
+  "choices": [
+   "30.8",
+   "34.46",
+   "34.51",
+   "34.56",
+   "34.61"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "右辺 7.7 × 4 = 30.8\n□ = 30.8 + 3.66 = 34.46"
+ },
+ {
+  "id": "tbk-shisoku-007",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ − 44.3 = 8.1 × 4",
+  "choices": [
+   "32.4",
+   "69",
+   "76.7",
+   "84.4",
+   "92.1"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "右辺 8.1 × 4 = 32.4\n□ = 32.4 + 44.3 = 76.7"
+ },
+ {
+  "id": "tbk-shisoku-008",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ − 38) ÷ 0.25 = 784",
+  "choices": [
+   "158",
+   "178",
+   "206",
+   "234",
+   "262"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ − 38 = 784 × 0.25 = 196\n□ = 196 + 38 = 234"
+ },
+ {
+  "id": "tbk-shisoku-009",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 3 = 15 × 7.8",
+  "choices": [
+   "31",
+   "33",
+   "35",
+   "37",
+   "39"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "右辺を先に計算します。15 × 7.8 = 117\n□ = 117 ÷ 3 = 39"
+ },
+ {
+  "id": "tbk-shisoku-010",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n621 − □ × 3 = 270",
+  "choices": [
+   "105",
+   "111",
+   "117",
+   "123",
+   "297"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ × 3 = 621 − 270 = 351\n□ = 351 ÷ 3 = 117"
+ },
+ {
+  "id": "tbk-shisoku-011",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ − 36) ÷ 2 = 105",
+  "choices": [
+   "174",
+   "186",
+   "206",
+   "226",
+   "246"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "□ − 36 = 105 × 2 = 210\n□ = 210 + 36 = 246"
+ },
+ {
+  "id": "tbk-shisoku-012",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n37 × 8 − □ = 147 ÷ 3",
+  "choices": [
+   "172",
+   "197",
+   "222",
+   "247",
+   "345"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "左の掛け算 37 × 8 = 296、右辺 147 ÷ 3 = 49\n□ = 296 − 49 = 247"
+ },
+ {
+  "id": "tbk-shisoku-013",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n29 × 0.8 − □ = 54 ÷ 3",
+  "choices": [
+   "5.2",
+   "5.7",
+   "6.2",
+   "6.7",
+   "7.2"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "左の掛け算 29 × 0.8 = 23.2、右辺 54 ÷ 3 = 18\n□ = 23.2 − 18 = 5.2"
+ },
+ {
+  "id": "tbk-shisoku-014",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n5 × □ = 25 × 15.4",
+  "choices": [
+   "65",
+   "71",
+   "77",
+   "83",
+   "89"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "右辺を先に計算します。25 × 15.4 = 385\n□ = 385 ÷ 5 = 77"
+ },
+ {
+  "id": "tbk-shisoku-015",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 9/2 = 36/5",
+  "choices": [
+   "5/8",
+   "8/5",
+   "9/5",
+   "13/5",
+   "162/5"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "□ = 36/5 ÷ 9/2 = 36/5 × 2/9 = 8/5"
+ },
+ {
+  "id": "tbk-shisoku-016",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 0.5 = 2 × 12.5",
+  "choices": [
+   "25",
+   "41",
+   "44",
+   "47",
+   "50"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "右辺を先に計算します。2 × 12.5 = 25\n□ = 25 ÷ 0.5 = 50"
+ },
+ {
+  "id": "tbk-shisoku-017",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ − 81) ÷ 1.2 = 15",
+  "choices": [
+   "83",
+   "91",
+   "96",
+   "99",
+   "107"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ − 81 = 15 × 1.2 = 18\n□ = 18 + 81 = 99"
+ },
+ {
+  "id": "tbk-shisoku-018",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 15 = 2 × 675",
+  "choices": [
+   "90",
+   "101",
+   "112",
+   "123",
+   "134"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "右辺を先に計算します。2 × 675 = 1350\n□ = 1350 ÷ 15 = 90"
+ },
+ {
+  "id": "tbk-shisoku-019",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n27 ÷ □ = 0.5",
+  "choices": [
+   "27",
+   "48",
+   "51",
+   "54",
+   "57"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ = 27 ÷ 0.5 = 54"
+ },
+ {
+  "id": "tbk-shisoku-020",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n327 − □ × 4 = 115",
+  "choices": [
+   "44",
+   "47",
+   "50",
+   "53",
+   "110.5"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ × 4 = 327 − 115 = 212\n□ = 212 ÷ 4 = 53"
+ },
+ {
+  "id": "tbk-shisoku-021",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n17 × 12 − □ = 260 ÷ 5",
+  "choices": [
+   "56",
+   "116",
+   "134",
+   "152",
+   "170"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "左の掛け算 17 × 12 = 204、右辺 260 ÷ 5 = 52\n□ = 204 − 52 = 152"
+ },
+ {
+  "id": "tbk-shisoku-022",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n125% × □ = 1125",
+  "choices": [
+   "900",
+   "990",
+   "1080",
+   "1170",
+   "1406.25"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "125% = 1.25 なので\n□ = 1125 ÷ 1.25 = 900"
+ },
+ {
+  "id": "tbk-shisoku-023",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ + 79) × 1.5 = 280.5",
+  "choices": [
+   "69",
+   "82",
+   "95",
+   "108",
+   "187"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ + 79 = 280.5 ÷ 1.5 = 187\n□ = 187 − 79 = 108"
+ },
+ {
+  "id": "tbk-shisoku-024",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 35% = 145.6",
+  "choices": [
+   "316",
+   "366",
+   "416",
+   "466",
+   "516"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "35% = 0.35 なので\n□ = 145.6 ÷ 0.35 = 416"
+ },
+ {
+  "id": "tbk-shisoku-025",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n6/7 ÷ □ = 18/7",
+  "choices": [
+   "1/6",
+   "1/3",
+   "2/3",
+   "108/49",
+   "3"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "□ = 6/7 ÷ 18/7 = 6/7 × 7/18 = 1/3"
+ },
+ {
+  "id": "tbk-shisoku-026",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 7 = 3 × 728",
+  "choices": [
+   "275",
+   "312",
+   "349",
+   "386",
+   "423"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "右辺を先に計算します。3 × 728 = 2184\n□ = 2184 ÷ 7 = 312"
+ },
+ {
+  "id": "tbk-shisoku-027",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n31 × 3 − □ = 32 ÷ 8",
+  "choices": [
+   "78",
+   "89",
+   "97",
+   "100",
+   "111"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "左の掛け算 31 × 3 = 93、右辺 32 ÷ 8 = 4\n□ = 93 − 4 = 89"
+ },
+ {
+  "id": "tbk-shisoku-028",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n25 × 12 − □ = 162 ÷ 6",
+  "choices": [
+   "273",
+   "287",
+   "301",
+   "315",
+   "327"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "左の掛け算 25 × 12 = 300、右辺 162 ÷ 6 = 27\n□ = 300 − 27 = 273"
+ },
+ {
+  "id": "tbk-shisoku-029",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 2/3 = 5/6",
+  "choices": [
+   "5/9",
+   "1",
+   "5/4",
+   "9/4",
+   "5/2"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ = 5/6 ÷ 2/3 = 5/6 × 3/2 = 5/4"
+ },
+ {
+  "id": "tbk-shisoku-030",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ − 3.17 = 2.2 × 2",
+  "choices": [
+   "4.4",
+   "7.42",
+   "7.47",
+   "7.52",
+   "7.57"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "右辺 2.2 × 2 = 4.4\n□ = 4.4 + 3.17 = 7.57"
+ },
+ {
+  "id": "tbk-shisoku-031",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n174 − □ × 3 = 132",
+  "choices": [
+   "12",
+   "13",
+   "14",
+   "15",
+   "16"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ × 3 = 174 − 132 = 42\n□ = 42 ÷ 3 = 14"
+ },
+ {
+  "id": "tbk-shisoku-032",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ + 2/5 = 2",
+  "choices": [
+   "7/5",
+   "8/5",
+   "9/5",
+   "12/5",
+   "13/5"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "□ = 2 − 2/5。通分して計算すると 8/5"
+ },
+ {
+  "id": "tbk-shisoku-033",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ + 65) × 3 = 546",
+  "choices": [
+   "90",
+   "99",
+   "108",
+   "117",
+   "247"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ + 65 = 546 ÷ 3 = 182\n□ = 182 − 65 = 117"
+ },
+ {
+  "id": "tbk-shisoku-034",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 150% = 1110",
+  "choices": [
+   "562",
+   "651",
+   "740",
+   "829",
+   "1665"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "150% = 1.5 なので\n□ = 1110 ÷ 1.5 = 740"
+ },
+ {
+  "id": "tbk-shisoku-035",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n150% × □ = 112.5",
+  "choices": [
+   "51",
+   "59",
+   "67",
+   "75",
+   "168.75"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "150% = 1.5 なので\n□ = 112.5 ÷ 1.5 = 75"
+ },
+ {
+  "id": "tbk-shisoku-036",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n8% × □ = 12.8",
+  "choices": [
+   "102.4",
+   "122",
+   "141",
+   "160",
+   "179"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "8% = 0.08 なので\n□ = 12.8 ÷ 0.08 = 160"
+ },
+ {
+  "id": "tbk-shisoku-037",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n23 × 7 − □ = 128 ÷ 4",
+  "choices": [
+   "111",
+   "117",
+   "123",
+   "129",
+   "193"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "左の掛け算 23 × 7 = 161、右辺 128 ÷ 4 = 32\n□ = 161 − 32 = 129"
+ },
+ {
+  "id": "tbk-shisoku-038",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ + 44) × 2 = 188",
+  "choices": [
+   "40",
+   "45",
+   "50",
+   "55",
+   "138"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ + 44 = 188 ÷ 2 = 94\n□ = 94 − 44 = 50"
+ },
+ {
+  "id": "tbk-shisoku-039",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n161 − □ × 3 = 101",
+  "choices": [
+   "14",
+   "16",
+   "18",
+   "20",
+   "22"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ × 3 = 161 − 101 = 60\n□ = 60 ÷ 3 = 20"
+ },
+ {
+  "id": "tbk-shisoku-040",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ − 44.2 = 2.6 × 3",
+  "choices": [
+   "40",
+   "44",
+   "48",
+   "52",
+   "56"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "右辺 2.6 × 3 = 7.8\n□ = 7.8 + 44.2 = 52"
+ },
+ {
+  "id": "tbk-shisoku-041",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n125% × □ = 275",
+  "choices": [
+   "220",
+   "238",
+   "256",
+   "274",
+   "343.75"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "125% = 1.25 なので\n□ = 275 ÷ 1.25 = 220"
+ },
+ {
+  "id": "tbk-shisoku-042",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n7 × □ = 0.4 × 1491",
+  "choices": [
+   "76.7",
+   "85.2",
+   "93.7",
+   "102.2",
+   "110.7"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "右辺を先に計算します。0.4 × 1491 = 596.4\n□ = 596.4 ÷ 7 = 85.2"
+ },
+ {
+  "id": "tbk-shisoku-043",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 25% = 565",
+  "choices": [
+   "1808",
+   "1921",
+   "2034",
+   "2147",
+   "2260"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "25% = 0.25 なので\n□ = 565 ÷ 0.25 = 2260"
+ },
+ {
+  "id": "tbk-shisoku-044",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n35 × 7 − □ = 106 ÷ 2",
+  "choices": [
+   "192",
+   "215",
+   "238",
+   "261",
+   "298"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "左の掛け算 35 × 7 = 245、右辺 106 ÷ 2 = 53\n□ = 245 − 53 = 192"
+ },
+ {
+  "id": "tbk-shisoku-045",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n25 × □ = 0.5 × 1475",
+  "choices": [
+   "17.5",
+   "20.5",
+   "23.5",
+   "26.5",
+   "29.5"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "右辺を先に計算します。0.5 × 1475 = 737.5\n□ = 737.5 ÷ 25 = 29.5"
+ },
+ {
+  "id": "tbk-shisoku-046",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n25 × 7 − □ = 112 ÷ 4",
+  "choices": [
+   "147",
+   "162",
+   "177",
+   "192",
+   "203"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "左の掛け算 25 × 7 = 175、右辺 112 ÷ 4 = 28\n□ = 175 − 28 = 147"
+ },
+ {
+  "id": "tbk-shisoku-047",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n5 × □ = 7 × 365",
+  "choices": [
+   "388",
+   "429",
+   "470",
+   "511",
+   "552"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "右辺を先に計算します。7 × 365 = 2555\n□ = 2555 ÷ 5 = 511"
+ },
+ {
+  "id": "tbk-shisoku-048",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n162.5 − □ × 1.5 = 101",
+  "choices": [
+   "41",
+   "44",
+   "47",
+   "50",
+   "61.5"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "□ × 1.5 = 162.5 − 101 = 61.5\n□ = 61.5 ÷ 1.5 = 41"
+ },
+ {
+  "id": "tbk-shisoku-049",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ ÷ 0.4 = 625",
+  "choices": [
+   "100",
+   "190",
+   "210",
+   "230",
+   "250"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "□ = 625 × 0.4 = 250"
+ },
+ {
+  "id": "tbk-shisoku-050",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n10 × 12 − □ = 32 ÷ 8",
+  "choices": [
+   "116",
+   "124",
+   "128",
+   "140",
+   "152"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "左の掛け算 10 × 12 = 120、右辺 32 ÷ 8 = 4\n□ = 120 − 4 = 116"
+ },
+ {
+  "id": "tbk-shisoku-051",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 2.5 = 6 × 18.75",
+  "choices": [
+   "39",
+   "41",
+   "43",
+   "45",
+   "112.5"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "右辺を先に計算します。6 × 18.75 = 112.5\n□ = 112.5 ÷ 2.5 = 45"
+ },
+ {
+  "id": "tbk-shisoku-052",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ + 2/7 = 17/35",
+  "choices": [
+   "1/6",
+   "1/5",
+   "2/5",
+   "27/35",
+   "5"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "□ = 17/35 − 2/7。通分して計算すると 1/5"
+ },
+ {
+  "id": "tbk-shisoku-053",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n14.25 ÷ □ = 1.5",
+  "choices": [
+   "8.5",
+   "9.5",
+   "10.5",
+   "11.5",
+   "14.25"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "□ = 14.25 ÷ 1.5 = 9.5"
+ },
+ {
+  "id": "tbk-shisoku-054",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ − 5.77 = 1.2 × 5",
+  "choices": [
+   "6",
+   "11.72",
+   "11.77",
+   "11.82",
+   "11.87"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "右辺 1.2 × 5 = 6\n□ = 6 + 5.77 = 11.77"
+ },
+ {
+  "id": "tbk-shisoku-055",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 16 = 2 × 440",
+  "choices": [
+   "43",
+   "47",
+   "51",
+   "55",
+   "59"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "右辺を先に計算します。2 × 440 = 880\n□ = 880 ÷ 16 = 55"
+ },
+ {
+  "id": "tbk-shisoku-056",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n410 − □ × 7 = 74",
+  "choices": [
+   "46",
+   "48",
+   "50",
+   "52",
+   "54"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "□ × 7 = 410 − 74 = 336\n□ = 336 ÷ 7 = 48"
+ },
+ {
+  "id": "tbk-shisoku-057",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ + 23) × 6 = 156",
+  "choices": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ + 23 = 156 ÷ 6 = 26\n□ = 26 − 23 = 3"
+ },
+ {
+  "id": "tbk-shisoku-058",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ + 77) × 6 = 1422",
+  "choices": [
+   "136",
+   "144",
+   "152",
+   "160",
+   "314"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ + 77 = 1422 ÷ 6 = 237\n□ = 237 − 77 = 160"
+ },
+ {
+  "id": "tbk-shisoku-059",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 2.5 = 0.5 × 1800",
+  "choices": [
+   "252",
+   "288",
+   "324",
+   "360",
+   "900"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "右辺を先に計算します。0.5 × 1800 = 900\n□ = 900 ÷ 2.5 = 360"
+ },
+ {
+  "id": "tbk-shisoku-060",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 15% = 58.5",
+  "choices": [
+   "297",
+   "328",
+   "359",
+   "390",
+   "877.5"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "15% = 0.15 なので\n□ = 58.5 ÷ 0.15 = 390"
+ },
+ {
+  "id": "tbk-shisoku-061",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n35% × □ = 94.5",
+  "choices": [
+   "242",
+   "256",
+   "270",
+   "284",
+   "298"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "35% = 0.35 なので\n□ = 94.5 ÷ 0.35 = 270"
+ },
+ {
+  "id": "tbk-shisoku-062",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 7/5 = 9/5",
+  "choices": [
+   "9/14",
+   "7/9",
+   "9/7",
+   "10/7",
+   "63/25"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ = 9/5 ÷ 7/5 = 9/5 × 5/7 = 9/7"
+ },
+ {
+  "id": "tbk-shisoku-063",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 25% = 405",
+  "choices": [
+   "1539",
+   "1620",
+   "1701",
+   "1782",
+   "1863"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "25% = 0.25 なので\n□ = 405 ÷ 0.25 = 1620"
+ },
+ {
+  "id": "tbk-shisoku-064",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n105 ÷ □ = 2.5",
+  "choices": [
+   "38",
+   "42",
+   "46",
+   "50",
+   "105"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "□ = 105 ÷ 2.5 = 42"
+ },
+ {
+  "id": "tbk-shisoku-065",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ + 9) × 3 = 138",
+  "choices": [
+   "28",
+   "31",
+   "34",
+   "37",
+   "55"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ + 9 = 138 ÷ 3 = 46\n□ = 46 − 9 = 37"
+ },
+ {
+  "id": "tbk-shisoku-066",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n0.6 × □ = 3 × 7.4",
+  "choices": [
+   "13.32",
+   "37",
+   "39",
+   "41",
+   "43"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "右辺を先に計算します。3 × 7.4 = 22.2\n□ = 22.2 ÷ 0.6 = 37"
+ },
+ {
+  "id": "tbk-shisoku-067",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n18 × □ = 5 × 3520.8",
+  "choices": [
+   "978",
+   "1056",
+   "1134",
+   "1212",
+   "1290"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "右辺を先に計算します。5 × 3520.8 = 17604\n□ = 17604 ÷ 18 = 978"
+ },
+ {
+  "id": "tbk-shisoku-068",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ − 68) ÷ 4 = 19",
+  "choices": [
+   "87",
+   "144",
+   "151",
+   "158",
+   "165"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "□ − 68 = 19 × 4 = 76\n□ = 76 + 68 = 144"
+ },
+ {
+  "id": "tbk-shisoku-069",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n31 × 12 − □ = 10 ÷ 2",
+  "choices": [
+   "330",
+   "367",
+   "377",
+   "404",
+   "441"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "左の掛け算 31 × 12 = 372、右辺 10 ÷ 2 = 5\n□ = 372 − 5 = 367"
+ },
+ {
+  "id": "tbk-shisoku-070",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 1.25 = 2.5 × 12.5",
+  "choices": [
+   "19",
+   "21",
+   "23",
+   "25",
+   "31.25"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "右辺を先に計算します。2.5 × 12.5 = 31.25\n□ = 31.25 ÷ 1.25 = 25"
+ },
+ {
+  "id": "tbk-shisoku-071",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n889 − □ × 9 = 295",
+  "choices": [
+   "58",
+   "66",
+   "74",
+   "82",
+   "90"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "□ × 9 = 889 − 295 = 594\n□ = 594 ÷ 9 = 66"
+ },
+ {
+  "id": "tbk-shisoku-072",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 25% = 102.5",
+  "choices": [
+   "214",
+   "263",
+   "312",
+   "361",
+   "410"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "25% = 0.25 なので\n□ = 102.5 ÷ 0.25 = 410"
+ },
+ {
+  "id": "tbk-shisoku-073",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ − 9.69 = 7.8 × 0.5",
+  "choices": [
+   "13.49",
+   "13.54",
+   "13.59",
+   "13.64",
+   "13.69"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "右辺 7.8 × 0.5 = 3.9\n□ = 3.9 + 9.69 = 13.59"
+ },
+ {
+  "id": "tbk-shisoku-074",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ − 16.9 = 3.9 × 2",
+  "choices": [
+   "7.8",
+   "17.2",
+   "19.7",
+   "22.2",
+   "24.7"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "右辺 3.9 × 2 = 7.8\n□ = 7.8 + 16.9 = 24.7"
+ },
+ {
+  "id": "tbk-shisoku-075",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 0.8 = 6 × 10.4",
+  "choices": [
+   "49.92",
+   "78",
+   "86",
+   "94",
+   "102"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "右辺を先に計算します。6 × 10.4 = 62.4\n□ = 62.4 ÷ 0.8 = 78"
+ },
+ {
+  "id": "tbk-shisoku-076",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n25% × □ = 55",
+  "choices": [
+   "194",
+   "220",
+   "246",
+   "272",
+   "298"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "25% = 0.25 なので\n□ = 55 ÷ 0.25 = 220"
+ },
+ {
+  "id": "tbk-shisoku-077",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 5 = 20 × 10.25",
+  "choices": [
+   "33",
+   "35",
+   "37",
+   "39",
+   "41"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "右辺を先に計算します。20 × 10.25 = 205\n□ = 205 ÷ 5 = 41"
+ },
+ {
+  "id": "tbk-shisoku-078",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n1195 − □ × 12 = 283",
+  "choices": [
+   "76",
+   "82",
+   "88",
+   "94",
+   "100"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "□ × 12 = 1195 − 283 = 912\n□ = 912 ÷ 12 = 76"
+ },
+ {
+  "id": "tbk-shisoku-079",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ ÷ 3 = 7",
+  "choices": [
+   "12",
+   "15",
+   "18",
+   "21",
+   "24"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ = 7 × 3 = 21"
+ },
+ {
+  "id": "tbk-shisoku-080",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ + 3/2 = 13/6",
+  "choices": [
+   "1/3",
+   "1/2",
+   "2/3",
+   "3/2",
+   "11/3"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ = 13/6 − 3/2。通分して計算すると 2/3"
+ },
+ {
+  "id": "tbk-shisoku-081",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n15 × 9 − □ = 58 ÷ 2",
+  "choices": [
+   "67",
+   "80",
+   "93",
+   "106",
+   "164"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "左の掛け算 15 × 9 = 135、右辺 58 ÷ 2 = 29\n□ = 135 − 29 = 106"
+ },
+ {
+  "id": "tbk-shisoku-082",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ + 64) × 2 = 420",
+  "choices": [
+   "146",
+   "158",
+   "170",
+   "182",
+   "274"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "□ + 64 = 420 ÷ 2 = 210\n□ = 210 − 64 = 146"
+ },
+ {
+  "id": "tbk-shisoku-083",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n112 − □ × 0.5 = 102",
+  "choices": [
+   "10",
+   "18",
+   "20",
+   "22",
+   "24"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ × 0.5 = 112 − 102 = 10\n□ = 10 ÷ 0.5 = 20"
+ },
+ {
+  "id": "tbk-shisoku-084",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ − 14.4 = 5.7 × 3",
+  "choices": [
+   "17.1",
+   "21.9",
+   "25.1",
+   "28.3",
+   "31.5"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "右辺 5.7 × 3 = 17.1\n□ = 17.1 + 14.4 = 31.5"
+ },
+ {
+  "id": "tbk-shisoku-085",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n0.2 × □ = 20 × 9.18",
+  "choices": [
+   "698",
+   "808",
+   "918",
+   "1028",
+   "1138"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "右辺を先に計算します。20 × 9.18 = 183.6\n□ = 183.6 ÷ 0.2 = 918"
+ },
+ {
+  "id": "tbk-shisoku-086",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n120% × □ = 984",
+  "choices": [
+   "722",
+   "820",
+   "918",
+   "1016",
+   "1180.8"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "120% = 1.2 なので\n□ = 984 ÷ 1.2 = 820"
+ },
+ {
+  "id": "tbk-shisoku-087",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n15 × 1.5 − □ = 45 ÷ 3",
+  "choices": [
+   "5.9",
+   "6.7",
+   "7.5",
+   "8.3",
+   "9.1"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "左の掛け算 15 × 1.5 = 22.5、右辺 45 ÷ 3 = 15\n□ = 22.5 − 15 = 7.5"
+ },
+ {
+  "id": "tbk-shisoku-088",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n412 ÷ □ = 4",
+  "choices": [
+   "87",
+   "95",
+   "103",
+   "111",
+   "119"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ = 412 ÷ 4 = 103"
+ },
+ {
+  "id": "tbk-shisoku-089",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ − 59.7 = 5.5 × 3",
+  "choices": [
+   "68.6",
+   "76.2",
+   "83.8",
+   "91.4",
+   "99"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "右辺 5.5 × 3 = 16.5\n□ = 16.5 + 59.7 = 76.2"
+ },
+ {
+  "id": "tbk-shisoku-090",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ ÷ 4 = 19.75",
+  "choices": [
+   "79",
+   "88",
+   "97",
+   "106",
+   "115"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "□ = 19.75 × 4 = 79"
+ },
+ {
+  "id": "tbk-shisoku-091",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ − 24.1 = 9.9 × 2",
+  "choices": [
+   "19.8",
+   "35.1",
+   "39.5",
+   "43.9",
+   "48.3"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "右辺 9.9 × 2 = 19.8\n□ = 19.8 + 24.1 = 43.9"
+ },
+ {
+  "id": "tbk-shisoku-092",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ − 11) ÷ 3 = 36",
+  "choices": [
+   "105",
+   "108",
+   "119",
+   "133",
+   "147"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ − 11 = 36 × 3 = 108\n□ = 108 + 11 = 119"
+ },
+ {
+  "id": "tbk-shisoku-093",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ − 39) ÷ 5 = 30.2",
+  "choices": [
+   "112",
+   "133",
+   "152",
+   "171",
+   "190"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "□ − 39 = 30.2 × 5 = 151\n□ = 151 + 39 = 190"
+ },
+ {
+  "id": "tbk-shisoku-094",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n14 × 8 − □ = 12 ÷ 6",
+  "choices": [
+   "110",
+   "114",
+   "121",
+   "132",
+   "143"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "左の掛け算 14 × 8 = 112、右辺 12 ÷ 6 = 2\n□ = 112 − 2 = 110"
+ },
+ {
+  "id": "tbk-shisoku-095",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 1/4 = 1/3",
+  "choices": [
+   "1/12",
+   "2/3",
+   "3/4",
+   "1",
+   "4/3"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "□ = 1/3 ÷ 1/4 = 1/3 × 4/1 = 4/3"
+ },
+ {
+  "id": "tbk-shisoku-096",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 6 = 16 × 240.75",
+  "choices": [
+   "488",
+   "565",
+   "642",
+   "719",
+   "796"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "右辺を先に計算します。16 × 240.75 = 3852\n□ = 3852 ÷ 6 = 642"
+ },
+ {
+  "id": "tbk-shisoku-097",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ − 9.61 = 2.9 × 5",
+  "choices": [
+   "14.5",
+   "23.96",
+   "24.01",
+   "24.06",
+   "24.11"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "右辺 2.9 × 5 = 14.5\n□ = 14.5 + 9.61 = 24.11"
+ },
+ {
+  "id": "tbk-shisoku-098",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ ÷ 4 = 18.5",
+  "choices": [
+   "67",
+   "74",
+   "81",
+   "88",
+   "95"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "□ = 18.5 × 4 = 74"
+ },
+ {
+  "id": "tbk-shisoku-099",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n25% × □ = 177.5",
+  "choices": [
+   "540",
+   "625",
+   "710",
+   "795",
+   "880"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "25% = 0.25 なので\n□ = 177.5 ÷ 0.25 = 710"
+ },
+ {
+  "id": "tbk-shisoku-100",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n16 × □ = 7 × 132.8",
+  "choices": [
+   "52.3",
+   "58.1",
+   "63.9",
+   "69.7",
+   "75.5"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "右辺を先に計算します。7 × 132.8 = 929.6\n□ = 929.6 ÷ 16 = 58.1"
+ },
+ {
+  "id": "tbk-shisoku-101",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 4/5 = 2/15",
+  "choices": [
+   "8/75",
+   "1/6",
+   "1/3",
+   "7/6",
+   "6"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "□ = 2/15 ÷ 4/5 = 2/15 × 5/4 = 1/6"
+ },
+ {
+  "id": "tbk-shisoku-102",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 0.8 = 20 × 3.04",
+  "choices": [
+   "48.64",
+   "68",
+   "76",
+   "84",
+   "92"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "右辺を先に計算します。20 × 3.04 = 60.8\n□ = 60.8 ÷ 0.8 = 76"
+ },
+ {
+  "id": "tbk-shisoku-103",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n946 − □ × 9 = 235",
+  "choices": [
+   "63",
+   "67",
+   "71",
+   "75",
+   "79"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "□ × 9 = 946 − 235 = 711\n□ = 711 ÷ 9 = 79"
+ },
+ {
+  "id": "tbk-shisoku-104",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 8% = 77.6",
+  "choices": [
+   "620.8",
+   "892",
+   "970",
+   "1048",
+   "1126"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "8% = 0.08 なので\n□ = 77.6 ÷ 0.08 = 970"
+ },
+ {
+  "id": "tbk-shisoku-105",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n1.25 × □ = 0.5 × 122.5",
+  "choices": [
+   "34",
+   "39",
+   "44",
+   "49",
+   "61.25"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "右辺を先に計算します。0.5 × 122.5 = 61.25\n□ = 61.25 ÷ 1.25 = 49"
+ },
+ {
+  "id": "tbk-shisoku-106",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 75% = 600",
+  "choices": [
+   "450",
+   "608",
+   "704",
+   "800",
+   "896"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "75% = 0.75 なので\n□ = 600 ÷ 0.75 = 800"
+ },
+ {
+  "id": "tbk-shisoku-107",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n490.5 − □ × 2.5 = 283",
+  "choices": [
+   "62",
+   "69",
+   "76",
+   "83",
+   "207.5"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ × 2.5 = 490.5 − 283 = 207.5\n□ = 207.5 ÷ 2.5 = 83"
+ },
+ {
+  "id": "tbk-shisoku-108",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n0.8 × □ = 2 × 6.8",
+  "choices": [
+   "13.6",
+   "16",
+   "17",
+   "18",
+   "19"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "右辺を先に計算します。2 × 6.8 = 13.6\n□ = 13.6 ÷ 0.8 = 17"
+ },
+ {
+  "id": "tbk-shisoku-109",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ + 3/7 = 9/7",
+  "choices": [
+   "3/7",
+   "5/7",
+   "6/7",
+   "7/6",
+   "12/7"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ = 9/7 − 3/7。通分して計算すると 6/7"
+ },
+ {
+  "id": "tbk-shisoku-110",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n23 × 8 − □ = 50 ÷ 5",
+  "choices": [
+   "146",
+   "160",
+   "174",
+   "188",
+   "194"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "左の掛け算 23 × 8 = 184、右辺 50 ÷ 5 = 10\n□ = 184 − 10 = 174"
+ },
+ {
+  "id": "tbk-shisoku-111",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n15 × □ = 4 × 348.75",
+  "choices": [
+   "83",
+   "88",
+   "93",
+   "98",
+   "103"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "右辺を先に計算します。4 × 348.75 = 1395\n□ = 1395 ÷ 15 = 93"
+ },
+ {
+  "id": "tbk-shisoku-112",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n3/4 ÷ □ = 21/44",
+  "choices": [
+   "63/176",
+   "7/11",
+   "11/14",
+   "10/7",
+   "11/7"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "□ = 3/4 ÷ 21/44 = 3/4 × 44/21 = 11/7"
+ },
+ {
+  "id": "tbk-shisoku-113",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n387.5 − □ × 1.5 = 293",
+  "choices": [
+   "51",
+   "57",
+   "63",
+   "69",
+   "94.5"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ × 1.5 = 387.5 − 293 = 94.5\n□ = 94.5 ÷ 1.5 = 63"
+ },
+ {
+  "id": "tbk-shisoku-114",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ − 1.3 = 5.6 × 0.5",
+  "choices": [
+   "2.8",
+   "4.1",
+   "4.5",
+   "4.9",
+   "5.3"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "右辺 5.6 × 0.5 = 2.8\n□ = 2.8 + 1.3 = 4.1"
+ },
+ {
+  "id": "tbk-shisoku-115",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 80% = 260",
+  "choices": [
+   "208",
+   "273",
+   "299",
+   "325",
+   "351"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "80% = 0.8 なので\n□ = 260 ÷ 0.8 = 325"
+ },
+ {
+  "id": "tbk-shisoku-116",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n29 × 6 − □ = 344 ÷ 8",
+  "choices": [
+   "101",
+   "111",
+   "121",
+   "131",
+   "217"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "左の掛け算 29 × 6 = 174、右辺 344 ÷ 8 = 43\n□ = 174 − 43 = 131"
+ },
+ {
+  "id": "tbk-shisoku-117",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 5 = 15 × 10",
+  "choices": [
+   "14",
+   "18",
+   "22",
+   "26",
+   "30"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "右辺を先に計算します。15 × 10 = 150\n□ = 150 ÷ 5 = 30"
+ },
+ {
+  "id": "tbk-shisoku-118",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 3 = 25 × 7.08",
+  "choices": [
+   "44",
+   "49",
+   "54",
+   "59",
+   "64"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "右辺を先に計算します。25 × 7.08 = 177\n□ = 177 ÷ 3 = 59"
+ },
+ {
+  "id": "tbk-shisoku-119",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ + 13) × 1.5 = 213",
+  "choices": [
+   "84",
+   "99",
+   "114",
+   "129",
+   "155"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ + 13 = 213 ÷ 1.5 = 142\n□ = 142 − 13 = 129"
+ },
+ {
+  "id": "tbk-shisoku-120",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n5 × 8 − □ = 176 ÷ 8",
+  "choices": [
+   "18",
+   "20",
+   "22",
+   "24",
+   "26"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "左の掛け算 5 × 8 = 40、右辺 176 ÷ 8 = 22\n□ = 40 − 22 = 18"
+ },
+ {
+  "id": "tbk-shisoku-121",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ − 75.6 = 9.9 × 2",
+  "choices": [
+   "76.4",
+   "85.9",
+   "95.4",
+   "104.9",
+   "114.4"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "右辺 9.9 × 2 = 19.8\n□ = 19.8 + 75.6 = 95.4"
+ },
+ {
+  "id": "tbk-shisoku-122",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n95 − □ × 0.4 = 71",
+  "choices": [
+   "24",
+   "54",
+   "60",
+   "66",
+   "72"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ × 0.4 = 95 − 71 = 24\n□ = 24 ÷ 0.4 = 60"
+ },
+ {
+  "id": "tbk-shisoku-123",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n3/2 ÷ □ = 33/2",
+  "choices": [
+   "1/22",
+   "1/11",
+   "2/11",
+   "12/11",
+   "99/4"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "□ = 3/2 ÷ 33/2 = 3/2 × 2/33 = 1/11"
+ },
+ {
+  "id": "tbk-shisoku-124",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n780 ÷ □ = 15",
+  "choices": [
+   "48",
+   "52",
+   "56",
+   "60",
+   "64"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "□ = 780 ÷ 15 = 52"
+ },
+ {
+  "id": "tbk-shisoku-125",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 7 = 20 × 2.8",
+  "choices": [
+   "5",
+   "6",
+   "7",
+   "8",
+   "9"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "右辺を先に計算します。20 × 2.8 = 56\n□ = 56 ÷ 7 = 8"
+ },
+ {
+  "id": "tbk-shisoku-126",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 8 = 0.8 × 253",
+  "choices": [
+   "17.8",
+   "20.3",
+   "22.8",
+   "25.3",
+   "27.8"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "右辺を先に計算します。0.8 × 253 = 202.4\n□ = 202.4 ÷ 8 = 25.3"
+ },
+ {
+  "id": "tbk-shisoku-127",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n6 × □ = 3 × 195.4",
+  "choices": [
+   "97.7",
+   "107.5",
+   "117.3",
+   "127.1",
+   "136.9"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "右辺を先に計算します。3 × 195.4 = 586.2\n□ = 586.2 ÷ 6 = 97.7"
+ },
+ {
+  "id": "tbk-shisoku-128",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 0.6 = 25 × 8.64",
+  "choices": [
+   "129.6",
+   "360",
+   "403",
+   "446",
+   "489"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "右辺を先に計算します。25 × 8.64 = 216\n□ = 216 ÷ 0.6 = 360"
+ },
+ {
+  "id": "tbk-shisoku-129",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n33 × 12 − □ = 15 ÷ 5",
+  "choices": [
+   "393",
+   "399",
+   "424",
+   "455",
+   "486"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "左の掛け算 33 × 12 = 396、右辺 15 ÷ 5 = 3\n□ = 396 − 3 = 393"
+ },
+ {
+  "id": "tbk-shisoku-130",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n15% × □ = 12",
+  "choices": [
+   "72",
+   "80",
+   "88",
+   "96",
+   "180"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "15% = 0.15 なので\n□ = 12 ÷ 0.15 = 80"
+ },
+ {
+  "id": "tbk-shisoku-131",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n139 − □ × 8 = 51",
+  "choices": [
+   "8",
+   "9",
+   "10",
+   "11",
+   "23.75"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ × 8 = 139 − 51 = 88\n□ = 88 ÷ 8 = 11"
+ },
+ {
+  "id": "tbk-shisoku-132",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n30 × 9 − □ = 40 ÷ 4",
+  "choices": [
+   "234",
+   "247",
+   "260",
+   "273",
+   "280"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "左の掛け算 30 × 9 = 270、右辺 40 ÷ 4 = 10\n□ = 270 − 10 = 260"
+ },
+ {
+  "id": "tbk-shisoku-133",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 120% = 708",
+  "choices": [
+   "449",
+   "496",
+   "543",
+   "590",
+   "849.6"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "120% = 1.2 なので\n□ = 708 ÷ 1.2 = 590"
+ },
+ {
+  "id": "tbk-shisoku-134",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n25 × □ = 2 × 925",
+  "choices": [
+   "68",
+   "74",
+   "80",
+   "86",
+   "92"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "右辺を先に計算します。2 × 925 = 1850\n□ = 1850 ÷ 25 = 74"
+ },
+ {
+  "id": "tbk-shisoku-135",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n9/8 ÷ □ = 9/10",
+  "choices": [
+   "4/5",
+   "81/80",
+   "5/4",
+   "9/4",
+   "5/2"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ = 9/8 ÷ 9/10 = 9/8 × 10/9 = 5/4"
+ },
+ {
+  "id": "tbk-shisoku-136",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ − 3.35 = 9.1 × 3",
+  "choices": [
+   "27.3",
+   "30.55",
+   "30.6",
+   "30.65",
+   "30.7"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "右辺 9.1 × 3 = 27.3\n□ = 27.3 + 3.35 = 30.65"
+ },
+ {
+  "id": "tbk-shisoku-137",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 45% = 22.5",
+  "choices": [
+   "45",
+   "50",
+   "55",
+   "60",
+   "65"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "45% = 0.45 なので\n□ = 22.5 ÷ 0.45 = 50"
+ },
+ {
+  "id": "tbk-shisoku-138",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 7 = 0.5 × 1204",
+  "choices": [
+   "78",
+   "82",
+   "86",
+   "90",
+   "94"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "右辺を先に計算します。0.5 × 1204 = 602\n□ = 602 ÷ 7 = 86"
+ },
+ {
+  "id": "tbk-shisoku-139",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ + 5/6 = 19/12",
+  "choices": [
+   "1/2",
+   "3/4",
+   "1",
+   "3/2",
+   "29/12"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "□ = 19/12 − 5/6。通分して計算すると 3/4"
+ },
+ {
+  "id": "tbk-shisoku-140",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 45% = 702",
+  "choices": [
+   "1560",
+   "1685",
+   "1810",
+   "1935",
+   "2060"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "45% = 0.45 なので\n□ = 702 ÷ 0.45 = 1560"
+ },
+ {
+  "id": "tbk-shisoku-141",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 40% = 568",
+  "choices": [
+   "1078",
+   "1192",
+   "1306",
+   "1420",
+   "1534"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "40% = 0.4 なので\n□ = 568 ÷ 0.4 = 1420"
+ },
+ {
+  "id": "tbk-shisoku-142",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n100.5 ÷ □ = 1.5",
+  "choices": [
+   "46",
+   "53",
+   "60",
+   "67",
+   "100.5"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ = 100.5 ÷ 1.5 = 67"
+ },
+ {
+  "id": "tbk-shisoku-143",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ − 38) ÷ 0.5 = 6",
+  "choices": [
+   "32",
+   "35",
+   "38",
+   "41",
+   "44"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ − 38 = 6 × 0.5 = 3\n□ = 3 + 38 = 41"
+ },
+ {
+  "id": "tbk-shisoku-144",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n9 × □ = 7 × 99",
+  "choices": [
+   "61",
+   "65",
+   "69",
+   "73",
+   "77"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "右辺を先に計算します。7 × 99 = 693\n□ = 693 ÷ 9 = 77"
+ },
+ {
+  "id": "tbk-shisoku-145",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ ÷ 0.4 = 1052.5",
+  "choices": [
+   "168.4",
+   "319",
+   "353",
+   "387",
+   "421"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "□ = 1052.5 × 0.4 = 421"
+ },
+ {
+  "id": "tbk-shisoku-146",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ − 97.1 = 6.6 × 0.5",
+  "choices": [
+   "80.4",
+   "90.4",
+   "100.4",
+   "110.4",
+   "120.4"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "右辺 6.6 × 0.5 = 3.3\n□ = 3.3 + 97.1 = 100.4"
+ },
+ {
+  "id": "tbk-shisoku-147",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n34 × 8 − □ = 18 ÷ 2",
+  "choices": [
+   "250",
+   "263",
+   "276",
+   "281",
+   "289"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "左の掛け算 34 × 8 = 272、右辺 18 ÷ 2 = 9\n□ = 272 − 9 = 263"
+ },
+ {
+  "id": "tbk-shisoku-148",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 1/3 = 1/15",
+  "choices": [
+   "1/45",
+   "1/10",
+   "1/5",
+   "2/5",
+   "5"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ = 1/15 ÷ 1/3 = 1/15 × 3/1 = 1/5"
+ },
+ {
+  "id": "tbk-shisoku-149",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n18 × □ = 3 × 3462",
+  "choices": [
+   "577",
+   "635",
+   "693",
+   "751",
+   "809"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "右辺を先に計算します。3 × 3462 = 10386\n□ = 10386 ÷ 18 = 577"
+ },
+ {
+  "id": "tbk-shisoku-150",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n120% × □ = 2448",
+  "choices": [
+   "1734",
+   "1836",
+   "1938",
+   "2040",
+   "2937.6"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "120% = 1.2 なので\n□ = 2448 ÷ 1.2 = 2040"
+ },
+ {
+  "id": "tbk-shisoku-151",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n1243 − □ × 9 = 172",
+  "choices": [
+   "63",
+   "77",
+   "91",
+   "105",
+   "119"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "□ × 9 = 1243 − 172 = 1071\n□ = 1071 ÷ 9 = 119"
+ },
+ {
+  "id": "tbk-shisoku-152",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n25% × □ = 7.5",
+  "choices": [
+   "14",
+   "18",
+   "22",
+   "26",
+   "30"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "25% = 0.25 なので\n□ = 7.5 ÷ 0.25 = 30"
+ },
+ {
+  "id": "tbk-shisoku-153",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 1.2 = 2.5 × 23.52",
+  "choices": [
+   "43",
+   "45",
+   "47",
+   "49",
+   "70.56"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "右辺を先に計算します。2.5 × 23.52 = 58.8\n□ = 58.8 ÷ 1.2 = 49"
+ },
+ {
+  "id": "tbk-shisoku-154",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 5% = 27.5",
+  "choices": [
+   "385",
+   "440",
+   "495",
+   "550",
+   "605"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "5% = 0.05 なので\n□ = 27.5 ÷ 0.05 = 550"
+ },
+ {
+  "id": "tbk-shisoku-155",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n96.5 − □ × 2.5 = 39",
+  "choices": [
+   "22",
+   "23",
+   "24",
+   "25",
+   "54.2"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "□ × 2.5 = 96.5 − 39 = 57.5\n□ = 57.5 ÷ 2.5 = 23"
+ },
+ {
+  "id": "tbk-shisoku-156",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 24 = 1.5 × 672",
+  "choices": [
+   "38",
+   "40",
+   "42",
+   "44",
+   "46"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "右辺を先に計算します。1.5 × 672 = 1008\n□ = 1008 ÷ 24 = 42"
+ },
+ {
+  "id": "tbk-shisoku-157",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n363 − □ × 2.5 = 173",
+  "choices": [
+   "58",
+   "64",
+   "70",
+   "76",
+   "190"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ × 2.5 = 363 − 173 = 190\n□ = 190 ÷ 2.5 = 76"
+ },
+ {
+  "id": "tbk-shisoku-158",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n16 × □ = 0.4 × 708",
+  "choices": [
+   "17.7",
+   "19.5",
+   "21.3",
+   "23.1",
+   "24.9"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "右辺を先に計算します。0.4 × 708 = 283.2\n□ = 283.2 ÷ 16 = 17.7"
+ },
+ {
+  "id": "tbk-shisoku-159",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n1265 − □ × 12 = 257",
+  "choices": [
+   "72",
+   "76",
+   "80",
+   "84",
+   "88"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ × 12 = 1265 − 257 = 1008\n□ = 1008 ÷ 12 = 84"
+ },
+ {
+  "id": "tbk-shisoku-160",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n35% × □ = 385",
+  "choices": [
+   "1012",
+   "1100",
+   "1188",
+   "1276",
+   "1364"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "35% = 0.35 なので\n□ = 385 ÷ 0.35 = 1100"
+ },
+ {
+  "id": "tbk-shisoku-161",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ − 77) ÷ 0.25 = 356",
+  "choices": [
+   "142",
+   "150",
+   "158",
+   "166",
+   "433"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ − 77 = 356 × 0.25 = 89\n□ = 89 + 77 = 166"
+ },
+ {
+  "id": "tbk-shisoku-162",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ − 2.8 = 7.3 × 2",
+  "choices": [
+   "14.6",
+   "17.4",
+   "19.1",
+   "20.8",
+   "22.5"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "右辺 7.3 × 2 = 14.6\n□ = 14.6 + 2.8 = 17.4"
+ },
+ {
+  "id": "tbk-shisoku-163",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 6 = 24 × 10.5",
+  "choices": [
+   "42",
+   "47",
+   "52",
+   "57",
+   "62"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "右辺を先に計算します。24 × 10.5 = 252\n□ = 252 ÷ 6 = 42"
+ },
+ {
+  "id": "tbk-shisoku-164",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n6 × 12 − □ = 24 ÷ 4",
+  "choices": [
+   "51",
+   "56",
+   "61",
+   "66",
+   "78"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "左の掛け算 6 × 12 = 72、右辺 24 ÷ 4 = 6\n□ = 72 − 6 = 66"
+ },
+ {
+  "id": "tbk-shisoku-165",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n16 × □ = 1.5 × 160",
+  "choices": [
+   "11",
+   "13",
+   "15",
+   "17",
+   "19"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "右辺を先に計算します。1.5 × 160 = 240\n□ = 240 ÷ 16 = 15"
+ },
+ {
+  "id": "tbk-shisoku-166",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n5/9 ÷ □ = 25/54",
+  "choices": [
+   "125/486",
+   "1",
+   "6/5",
+   "11/5",
+   "12/5"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ = 5/9 ÷ 25/54 = 5/9 × 54/25 = 6/5"
+ },
+ {
+  "id": "tbk-shisoku-167",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ + 1/3 = 11/9",
+  "choices": [
+   "4/5",
+   "8/9",
+   "9/8",
+   "14/9",
+   "17/9"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "□ = 11/9 − 1/3。通分して計算すると 8/9"
+ },
+ {
+  "id": "tbk-shisoku-168",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ + 3/5 = 52/45",
+  "choices": [
+   "5/18",
+   "1/2",
+   "5/9",
+   "79/45",
+   "9/5"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ = 52/45 − 3/5。通分して計算すると 5/9"
+ },
+ {
+  "id": "tbk-shisoku-169",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n9 × 9 − □ = 135 ÷ 3",
+  "choices": [
+   "24",
+   "28",
+   "32",
+   "36",
+   "54"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "左の掛け算 9 × 9 = 81、右辺 135 ÷ 3 = 45\n□ = 81 − 45 = 36"
+ },
+ {
+  "id": "tbk-shisoku-170",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n606 − □ × 9 = 120",
+  "choices": [
+   "54",
+   "58",
+   "62",
+   "66",
+   "70"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "□ × 9 = 606 − 120 = 486\n□ = 486 ÷ 9 = 54"
+ },
+ {
+  "id": "tbk-shisoku-171",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n34 × 9 − □ = 84 ÷ 6",
+  "choices": [
+   "263",
+   "292",
+   "320",
+   "321",
+   "350"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "左の掛け算 34 × 9 = 306、右辺 84 ÷ 6 = 14\n□ = 306 − 14 = 292"
+ },
+ {
+  "id": "tbk-shisoku-172",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 75% = 270",
+  "choices": [
+   "202.5",
+   "273",
+   "302",
+   "331",
+   "360"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "75% = 0.75 なので\n□ = 270 ÷ 0.75 = 360"
+ },
+ {
+  "id": "tbk-shisoku-173",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ − 41) ÷ 5 = 40",
+  "choices": [
+   "200",
+   "241",
+   "265",
+   "289",
+   "313"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "□ − 41 = 40 × 5 = 200\n□ = 200 + 41 = 241"
+ },
+ {
+  "id": "tbk-shisoku-174",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n489 − □ × 12 = 249",
+  "choices": [
+   "12",
+   "14",
+   "16",
+   "18",
+   "20"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "□ × 12 = 489 − 249 = 240\n□ = 240 ÷ 12 = 20"
+ },
+ {
+  "id": "tbk-shisoku-175",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n1.25 × □ = 5 × 21.25",
+  "choices": [
+   "75",
+   "85",
+   "95",
+   "105",
+   "106.25"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "右辺を先に計算します。5 × 21.25 = 106.25\n□ = 106.25 ÷ 1.25 = 85"
+ },
+ {
+  "id": "tbk-shisoku-176",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ + 85) × 1.2 = 213.6",
+  "choices": [
+   "93",
+   "104",
+   "115",
+   "126",
+   "178"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "□ + 85 = 213.6 ÷ 1.2 = 178\n□ = 178 − 85 = 93"
+ },
+ {
+  "id": "tbk-shisoku-177",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ − 58) ÷ 3 = 73",
+  "choices": [
+   "131",
+   "249",
+   "277",
+   "305",
+   "333"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ − 58 = 73 × 3 = 219\n□ = 219 + 58 = 277"
+ },
+ {
+  "id": "tbk-shisoku-178",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 1.2 = 0.8 × 66.3",
+  "choices": [
+   "44.2",
+   "48.6",
+   "53",
+   "53.04",
+   "57.4"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "右辺を先に計算します。0.8 × 66.3 = 53.04\n□ = 53.04 ÷ 1.2 = 44.2"
+ },
+ {
+  "id": "tbk-shisoku-179",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 40% = 9.6",
+  "choices": [
+   "24",
+   "26",
+   "28",
+   "30",
+   "32"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "40% = 0.4 なので\n□ = 9.6 ÷ 0.4 = 24"
+ },
+ {
+  "id": "tbk-shisoku-180",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ − 0.84 = 9.8 × 2",
+  "choices": [
+   "19.6",
+   "20.34",
+   "20.39",
+   "20.44",
+   "20.49"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "右辺 9.8 × 2 = 19.6\n□ = 19.6 + 0.84 = 20.44"
+ },
+ {
+  "id": "tbk-shisoku-181",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n5936 ÷ □ = 8",
+  "choices": [
+   "668",
+   "705",
+   "742",
+   "779",
+   "816"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ = 5936 ÷ 8 = 742"
+ },
+ {
+  "id": "tbk-shisoku-182",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 7/9 = 35/54",
+  "choices": [
+   "5/12",
+   "245/486",
+   "2/3",
+   "5/6",
+   "1"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ = 35/54 ÷ 7/9 = 35/54 × 9/7 = 5/6"
+ },
+ {
+  "id": "tbk-shisoku-183",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n452 − □ × 2.5 = 232",
+  "choices": [
+   "88",
+   "97",
+   "106",
+   "115",
+   "220"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "□ × 2.5 = 452 − 232 = 220\n□ = 220 ÷ 2.5 = 88"
+ },
+ {
+  "id": "tbk-shisoku-184",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n48 ÷ □ = 4",
+  "choices": [
+   "11",
+   "12",
+   "13",
+   "14",
+   "15"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "□ = 48 ÷ 4 = 12"
+ },
+ {
+  "id": "tbk-shisoku-185",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ + 91) × 5 = 475",
+  "choices": [
+   "3",
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "□ + 91 = 475 ÷ 5 = 95\n□ = 95 − 91 = 4"
+ },
+ {
+  "id": "tbk-shisoku-186",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n0.25 × □ = 0.5 × 38",
+  "choices": [
+   "60",
+   "64",
+   "68",
+   "72",
+   "76"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "右辺を先に計算します。0.5 × 38 = 19\n□ = 19 ÷ 0.25 = 76"
+ },
+ {
+  "id": "tbk-shisoku-187",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ − 25) ÷ 4 = 4.75",
+  "choices": [
+   "19",
+   "40",
+   "42",
+   "44",
+   "46"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ − 25 = 4.75 × 4 = 19\n□ = 19 + 25 = 44"
+ },
+ {
+  "id": "tbk-shisoku-188",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 20% = 60",
+  "choices": [
+   "255",
+   "270",
+   "285",
+   "300",
+   "315"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "20% = 0.2 なので\n□ = 60 ÷ 0.2 = 300"
+ },
+ {
+  "id": "tbk-shisoku-189",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n211 − □ × 7 = 50",
+  "choices": [
+   "20",
+   "21",
+   "22",
+   "23",
+   "24"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ × 7 = 211 − 50 = 161\n□ = 161 ÷ 7 = 23"
+ },
+ {
+  "id": "tbk-shisoku-190",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 12 = 15 × 65.6",
+  "choices": [
+   "61",
+   "68",
+   "75",
+   "82",
+   "89"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "右辺を先に計算します。15 × 65.6 = 984\n□ = 984 ÷ 12 = 82"
+ },
+ {
+  "id": "tbk-shisoku-191",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ + 31) × 3 = 507",
+  "choices": [
+   "138",
+   "145",
+   "152",
+   "159",
+   "200"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "□ + 31 = 507 ÷ 3 = 169\n□ = 169 − 31 = 138"
+ },
+ {
+  "id": "tbk-shisoku-192",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 12 = 8 × 612",
+  "choices": [
+   "388",
+   "408",
+   "428",
+   "448",
+   "468"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "右辺を先に計算します。8 × 612 = 4896\n□ = 4896 ÷ 12 = 408"
+ },
+ {
+  "id": "tbk-shisoku-193",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 0.25 = 5 × 4.55",
+  "choices": [
+   "91",
+   "96",
+   "101",
+   "106",
+   "111"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "右辺を先に計算します。5 × 4.55 = 22.75\n□ = 22.75 ÷ 0.25 = 91"
+ },
+ {
+  "id": "tbk-shisoku-194",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ + 4/5 = 32/15",
+  "choices": [
+   "2/3",
+   "1",
+   "4/3",
+   "8/3",
+   "44/15"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ = 32/15 − 4/5。通分して計算すると 4/3"
+ },
+ {
+  "id": "tbk-shisoku-195",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n4 × □ = 15 × 12.8",
+  "choices": [
+   "28",
+   "33",
+   "38",
+   "43",
+   "48"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "右辺を先に計算します。15 × 12.8 = 192\n□ = 192 ÷ 4 = 48"
+ },
+ {
+  "id": "tbk-shisoku-196",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n1/3 ÷ □ = 1/2",
+  "choices": [
+   "1/6",
+   "1/3",
+   "1/2",
+   "2/3",
+   "1"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ = 1/3 ÷ 1/2 = 1/3 × 2/1 = 2/3"
+ },
+ {
+  "id": "tbk-shisoku-197",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 75% = 435",
+  "choices": [
+   "326.25",
+   "522",
+   "551",
+   "580",
+   "609"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "75% = 0.75 なので\n□ = 435 ÷ 0.75 = 580"
+ },
+ {
+  "id": "tbk-shisoku-198",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 6 = 0.5 × 444",
+  "choices": [
+   "25",
+   "28",
+   "31",
+   "34",
+   "37"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "右辺を先に計算します。0.5 × 444 = 222\n□ = 222 ÷ 6 = 37"
+ },
+ {
+  "id": "tbk-shisoku-199",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 5 = 6 × 23.5",
+  "choices": [
+   "25.4",
+   "28.2",
+   "31",
+   "33.8",
+   "36.6"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "右辺を先に計算します。6 × 23.5 = 141\n□ = 141 ÷ 5 = 28.2"
+ },
+ {
+  "id": "tbk-shisoku-200",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 0.2 = 2 × 2.1",
+  "choices": [
+   "19",
+   "21",
+   "23",
+   "25",
+   "27"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "右辺を先に計算します。2 × 2.1 = 4.2\n□ = 4.2 ÷ 0.2 = 21"
+ },
+ {
+  "id": "tbk-shisoku-201",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n125% × □ = 1387.5",
+  "choices": [
+   "886",
+   "942",
+   "998",
+   "1054",
+   "1110"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "125% = 1.25 なので\n□ = 1387.5 ÷ 1.25 = 1110"
+ },
+ {
+  "id": "tbk-shisoku-202",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ − 58.1 = 4.6 × 4",
+  "choices": [
+   "76.5",
+   "84.2",
+   "91.9",
+   "99.6",
+   "107.3"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "右辺 4.6 × 4 = 18.4\n□ = 18.4 + 58.1 = 76.5"
+ },
+ {
+  "id": "tbk-shisoku-203",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n18 × 8 − □ = 225 ÷ 5",
+  "choices": [
+   "81",
+   "83",
+   "91",
+   "99",
+   "107"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "左の掛け算 18 × 8 = 144、右辺 225 ÷ 5 = 45\n□ = 144 − 45 = 99"
+ },
+ {
+  "id": "tbk-shisoku-204",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ − 2.01 = 2.4 × 2",
+  "choices": [
+   "2.79",
+   "6.66",
+   "6.71",
+   "6.76",
+   "6.81"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "右辺 2.4 × 2 = 4.8\n□ = 4.8 + 2.01 = 6.81"
+ },
+ {
+  "id": "tbk-shisoku-205",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 3 = 25 × 109.8",
+  "choices": [
+   "623",
+   "696",
+   "769",
+   "842",
+   "915"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "右辺を先に計算します。25 × 109.8 = 2745\n□ = 2745 ÷ 3 = 915"
+ },
+ {
+  "id": "tbk-shisoku-206",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n9 × □ = 15 × 556.2",
+  "choices": [
+   "594",
+   "705",
+   "816",
+   "927",
+   "1038"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "右辺を先に計算します。15 × 556.2 = 8343\n□ = 8343 ÷ 9 = 927"
+ },
+ {
+  "id": "tbk-shisoku-207",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ − 3.3 = 3.3 × 1.5",
+  "choices": [
+   "4.95",
+   "8.15",
+   "8.2",
+   "8.25",
+   "8.3"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "右辺 3.3 × 1.5 = 4.95\n□ = 4.95 + 3.3 = 8.25"
+ },
+ {
+  "id": "tbk-shisoku-208",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n303.5 − □ × 2.5 = 256",
+  "choices": [
+   "15",
+   "17",
+   "19",
+   "21",
+   "47.5"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ × 2.5 = 303.5 − 256 = 47.5\n□ = 47.5 ÷ 2.5 = 19"
+ },
+ {
+  "id": "tbk-shisoku-209",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 2/5 = 1/10",
+  "choices": [
+   "1/25",
+   "1/8",
+   "1/4",
+   "1/2",
+   "5/4"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ = 1/10 ÷ 2/5 = 1/10 × 5/2 = 1/4"
+ },
+ {
+  "id": "tbk-shisoku-210",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n24% × □ = 340.8",
+  "choices": [
+   "964",
+   "1078",
+   "1192",
+   "1306",
+   "1420"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "24% = 0.24 なので\n□ = 340.8 ÷ 0.24 = 1420"
+ },
+ {
+  "id": "tbk-shisoku-211",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n130.95 ÷ □ = 1.5",
+  "choices": [
+   "87.3",
+   "96",
+   "104.7",
+   "113.4",
+   "130.95"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "□ = 130.95 ÷ 1.5 = 87.3"
+ },
+ {
+  "id": "tbk-shisoku-212",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ + 94) × 3 = 960",
+  "choices": [
+   "190",
+   "208",
+   "226",
+   "244",
+   "320"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ + 94 = 960 ÷ 3 = 320\n□ = 320 − 94 = 226"
+ },
+ {
+  "id": "tbk-shisoku-213",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ − 82.9 = 5.1 × 5",
+  "choices": [
+   "86.8",
+   "97.6",
+   "108.4",
+   "119.2",
+   "130"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "右辺 5.1 × 5 = 25.5\n□ = 25.5 + 82.9 = 108.4"
+ },
+ {
+  "id": "tbk-shisoku-214",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 24 = 12 × 150",
+  "choices": [
+   "67",
+   "71",
+   "75",
+   "79",
+   "83"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "右辺を先に計算します。12 × 150 = 1800\n□ = 1800 ÷ 24 = 75"
+ },
+ {
+  "id": "tbk-shisoku-215",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n40 × 3 − □ = 306 ÷ 6",
+  "choices": [
+   "48",
+   "55",
+   "62",
+   "69",
+   "186"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "左の掛け算 40 × 3 = 120、右辺 306 ÷ 6 = 51\n□ = 120 − 51 = 69"
+ },
+ {
+  "id": "tbk-shisoku-216",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ + 26) × 6 = 762",
+  "choices": [
+   "89",
+   "101",
+   "113",
+   "125",
+   "153"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "□ + 26 = 762 ÷ 6 = 127\n□ = 127 − 26 = 101"
+ },
+ {
+  "id": "tbk-shisoku-217",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ ÷ 1.5 = 38",
+  "choices": [
+   "51",
+   "54",
+   "57",
+   "60",
+   "85.5"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ = 38 × 1.5 = 57"
+ },
+ {
+  "id": "tbk-shisoku-218",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ + 60) × 3 = 699",
+  "choices": [
+   "173",
+   "187",
+   "201",
+   "215",
+   "293"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "□ + 60 = 699 ÷ 3 = 233\n□ = 233 − 60 = 173"
+ },
+ {
+  "id": "tbk-shisoku-219",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n345.5 − □ × 2.5 = 268",
+  "choices": [
+   "19",
+   "23",
+   "27",
+   "31",
+   "77.5"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ × 2.5 = 345.5 − 268 = 77.5\n□ = 77.5 ÷ 2.5 = 31"
+ },
+ {
+  "id": "tbk-shisoku-220",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 20% = 148",
+  "choices": [
+   "622",
+   "681",
+   "740",
+   "799",
+   "858"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "20% = 0.2 なので\n□ = 148 ÷ 0.2 = 740"
+ },
+ {
+  "id": "tbk-shisoku-221",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n5% × □ = 16",
+  "choices": [
+   "320",
+   "352",
+   "384",
+   "416",
+   "448"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "5% = 0.05 なので\n□ = 16 ÷ 0.05 = 320"
+ },
+ {
+  "id": "tbk-shisoku-222",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n32 × 4 − □ = 40 ÷ 4",
+  "choices": [
+   "94",
+   "106",
+   "118",
+   "130",
+   "138"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "左の掛け算 32 × 4 = 128、右辺 40 ÷ 4 = 10\n□ = 128 − 10 = 118"
+ },
+ {
+  "id": "tbk-shisoku-223",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n108 ÷ □ = 4",
+  "choices": [
+   "23",
+   "24",
+   "25",
+   "26",
+   "27"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "□ = 108 ÷ 4 = 27"
+ },
+ {
+  "id": "tbk-shisoku-224",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 3 = 9 × 228",
+  "choices": [
+   "574",
+   "629",
+   "684",
+   "739",
+   "794"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "右辺を先に計算します。9 × 228 = 2052\n□ = 2052 ÷ 3 = 684"
+ },
+ {
+  "id": "tbk-shisoku-225",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n15% × □ = 30",
+  "choices": [
+   "152",
+   "176",
+   "200",
+   "224",
+   "450"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "15% = 0.15 なので\n□ = 30 ÷ 0.15 = 200"
+ },
+ {
+  "id": "tbk-shisoku-226",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n2748 ÷ □ = 6",
+  "choices": [
+   "412",
+   "435",
+   "458",
+   "481",
+   "504"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ = 2748 ÷ 6 = 458"
+ },
+ {
+  "id": "tbk-shisoku-227",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ ÷ 12 = 5.1",
+  "choices": [
+   "61.2",
+   "67.3",
+   "73.4",
+   "79.5",
+   "85.6"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "□ = 5.1 × 12 = 61.2"
+ },
+ {
+  "id": "tbk-shisoku-228",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n531 − □ × 3 = 174",
+  "choices": [
+   "101",
+   "107",
+   "113",
+   "119",
+   "235"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ × 3 = 531 − 174 = 357\n□ = 357 ÷ 3 = 119"
+ },
+ {
+  "id": "tbk-shisoku-229",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ − 89.7 = 0.6 × 6",
+  "choices": [
+   "93.3",
+   "102.6",
+   "111.9",
+   "121.2",
+   "130.5"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "右辺 0.6 × 6 = 3.6\n□ = 3.6 + 89.7 = 93.3"
+ },
+ {
+  "id": "tbk-shisoku-230",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ − 85) ÷ 2 = 3",
+  "choices": [
+   "77",
+   "84",
+   "88",
+   "91",
+   "98"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ − 85 = 3 × 2 = 6\n□ = 6 + 85 = 91"
+ },
+ {
+  "id": "tbk-shisoku-231",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ + 68) × 0.25 = 53.75",
+  "choices": [
+   "126",
+   "133",
+   "140",
+   "147",
+   "283"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ + 68 = 53.75 ÷ 0.25 = 215\n□ = 215 − 68 = 147"
+ },
+ {
+  "id": "tbk-shisoku-232",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n9/8 ÷ □ = 45/44",
+  "choices": [
+   "11/20",
+   "1",
+   "11/10",
+   "405/352",
+   "6/5"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ = 9/8 ÷ 45/44 = 9/8 × 44/45 = 11/10"
+ },
+ {
+  "id": "tbk-shisoku-233",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n12 × □ = 8 × 28.5",
+  "choices": [
+   "15",
+   "16",
+   "17",
+   "18",
+   "19"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "右辺を先に計算します。8 × 28.5 = 228\n□ = 228 ÷ 12 = 19"
+ },
+ {
+  "id": "tbk-shisoku-234",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ ÷ 6 = 65",
+  "choices": [
+   "390",
+   "429",
+   "468",
+   "507",
+   "546"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "□ = 65 × 6 = 390"
+ },
+ {
+  "id": "tbk-shisoku-235",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ − 6.62 = 5.4 × 0.5",
+  "choices": [
+   "9.17",
+   "9.22",
+   "9.27",
+   "9.32",
+   "9.37"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "右辺 5.4 × 0.5 = 2.7\n□ = 2.7 + 6.62 = 9.32"
+ },
+ {
+  "id": "tbk-shisoku-236",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n400.5 − □ × 1.5 = 228",
+  "choices": [
+   "115",
+   "124",
+   "133",
+   "142",
+   "172.5"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "□ × 1.5 = 400.5 − 228 = 172.5\n□ = 172.5 ÷ 1.5 = 115"
+ },
+ {
+  "id": "tbk-shisoku-237",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 15 = 0.8 × 1237.5",
+  "choices": [
+   "50",
+   "58",
+   "66",
+   "74",
+   "82"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "右辺を先に計算します。0.8 × 1237.5 = 990\n□ = 990 ÷ 15 = 66"
+ },
+ {
+  "id": "tbk-shisoku-238",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ ÷ 0.8 = 1028.75",
+  "choices": [
+   "658.4",
+   "823",
+   "864",
+   "905",
+   "946"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "□ = 1028.75 × 0.8 = 823"
+ },
+ {
+  "id": "tbk-shisoku-239",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n16 × 3 − □ = 280 ÷ 8",
+  "choices": [
+   "7",
+   "9",
+   "11",
+   "13",
+   "15"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "左の掛け算 16 × 3 = 48、右辺 280 ÷ 8 = 35\n□ = 48 − 35 = 13"
+ },
+ {
+  "id": "tbk-shisoku-240",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n11 × 9 − □ = 272 ÷ 8",
+  "choices": [
+   "62",
+   "65",
+   "68",
+   "71",
+   "173"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "左の掛け算 11 × 9 = 99、右辺 272 ÷ 8 = 34\n□ = 99 − 34 = 65"
+ },
+ {
+  "id": "tbk-shisoku-241",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n0.4 × □ = 5 × 66.24",
+  "choices": [
+   "331.2",
+   "828",
+   "911",
+   "994",
+   "1077"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "右辺を先に計算します。5 × 66.24 = 331.2\n□ = 331.2 ÷ 0.4 = 828"
+ },
+ {
+  "id": "tbk-shisoku-242",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n22 × 12 − □ = 24 ÷ 3",
+  "choices": [
+   "216",
+   "236",
+   "256",
+   "272",
+   "276"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "左の掛け算 22 × 12 = 264、右辺 24 ÷ 3 = 8\n□ = 264 − 8 = 256"
+ },
+ {
+  "id": "tbk-shisoku-243",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n259.6 − □ × 0.4 = 226",
+  "choices": [
+   "33.6",
+   "76",
+   "80",
+   "84",
+   "88"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ × 0.4 = 259.6 − 226 = 33.6\n□ = 33.6 ÷ 0.4 = 84"
+ },
+ {
+  "id": "tbk-shisoku-244",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 35% = 420",
+  "choices": [
+   "1056",
+   "1200",
+   "1344",
+   "1488",
+   "1632"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "35% = 0.35 なので\n□ = 420 ÷ 0.35 = 1200"
+ },
+ {
+  "id": "tbk-shisoku-245",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 12 = 6 × 162",
+  "choices": [
+   "63",
+   "69",
+   "75",
+   "81",
+   "87"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "右辺を先に計算します。6 × 162 = 972\n□ = 972 ÷ 12 = 81"
+ },
+ {
+  "id": "tbk-shisoku-246",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 12 = 20 × 17.4",
+  "choices": [
+   "26",
+   "27",
+   "28",
+   "29",
+   "30"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "右辺を先に計算します。20 × 17.4 = 348\n□ = 348 ÷ 12 = 29"
+ },
+ {
+  "id": "tbk-shisoku-247",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n120% × □ = 1032",
+  "choices": [
+   "817",
+   "860",
+   "903",
+   "946",
+   "1238.4"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "120% = 1.2 なので\n□ = 1032 ÷ 1.2 = 860"
+ },
+ {
+  "id": "tbk-shisoku-248",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ + 2/7 = 24/35",
+  "choices": [
+   "2/5",
+   "3/5",
+   "4/5",
+   "34/35",
+   "5/2"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "□ = 24/35 − 2/7。通分して計算すると 2/5"
+ },
+ {
+  "id": "tbk-shisoku-249",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n15% × □ = 4.2",
+  "choices": [
+   "19",
+   "22",
+   "25",
+   "28",
+   "63"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "15% = 0.15 なので\n□ = 4.2 ÷ 0.15 = 28"
+ },
+ {
+  "id": "tbk-shisoku-250",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n73 − □ × 1.5 = 31",
+  "choices": [
+   "26",
+   "28",
+   "30",
+   "32",
+   "42"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "□ × 1.5 = 73 − 31 = 42\n□ = 42 ÷ 1.5 = 28"
+ },
+ {
+  "id": "tbk-shisoku-251",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n421.6 ÷ □ = 8",
+  "choices": [
+   "52.7",
+   "58",
+   "63.3",
+   "68.6",
+   "73.9"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "□ = 421.6 ÷ 8 = 52.7"
+ },
+ {
+  "id": "tbk-shisoku-252",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ − 1.94 = 8.6 × 0.4",
+  "choices": [
+   "3.44",
+   "5.28",
+   "5.33",
+   "5.38",
+   "5.43"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "右辺 8.6 × 0.4 = 3.44\n□ = 3.44 + 1.94 = 5.38"
+ },
+ {
+  "id": "tbk-shisoku-253",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n7/5 ÷ □ = 28/25",
+  "choices": [
+   "5/8",
+   "5/4",
+   "3/2",
+   "196/125",
+   "5/2"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "□ = 7/5 ÷ 28/25 = 7/5 × 25/28 = 5/4"
+ },
+ {
+  "id": "tbk-shisoku-254",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n17 × 2.5 − □ = 150 ÷ 5",
+  "choices": [
+   "12.5",
+   "13.8",
+   "15.1",
+   "16.4",
+   "17.7"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "左の掛け算 17 × 2.5 = 42.5、右辺 150 ÷ 5 = 30\n□ = 42.5 − 30 = 12.5"
+ },
+ {
+  "id": "tbk-shisoku-255",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 0.8 = 2 × 13.12",
+  "choices": [
+   "26.24",
+   "32.8",
+   "36.1",
+   "39.4",
+   "42.7"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "右辺を先に計算します。2 × 13.12 = 26.24\n□ = 26.24 ÷ 0.8 = 32.8"
+ },
+ {
+  "id": "tbk-shisoku-256",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ − 89.4 = 4.3 × 2",
+  "choices": [
+   "78",
+   "88",
+   "98",
+   "108",
+   "118"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "右辺 4.3 × 2 = 8.6\n□ = 8.6 + 89.4 = 98"
+ },
+ {
+  "id": "tbk-shisoku-257",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n702.4 ÷ □ = 8",
+  "choices": [
+   "61.4",
+   "70.2",
+   "79",
+   "87.8",
+   "96.6"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ = 702.4 ÷ 8 = 87.8"
+ },
+ {
+  "id": "tbk-shisoku-258",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n366 − □ × 6 = 108",
+  "choices": [
+   "37",
+   "39",
+   "41",
+   "43",
+   "79"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ × 6 = 366 − 108 = 258\n□ = 258 ÷ 6 = 43"
+ },
+ {
+  "id": "tbk-shisoku-259",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n66.6 ÷ □ = 2",
+  "choices": [
+   "23.4",
+   "26.7",
+   "30",
+   "33.3",
+   "66.6"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ = 66.6 ÷ 2 = 33.3"
+ },
+ {
+  "id": "tbk-shisoku-260",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n5 × □ = 4 × 84",
+  "choices": [
+   "53.8",
+   "60.5",
+   "67.2",
+   "73.9",
+   "80.6"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "右辺を先に計算します。4 × 84 = 336\n□ = 336 ÷ 5 = 67.2"
+ },
+ {
+  "id": "tbk-shisoku-261",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 1/2 = 1/4",
+  "choices": [
+   "1/8",
+   "1/4",
+   "1/3",
+   "1/2",
+   "3/2"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ = 1/4 ÷ 1/2 = 1/4 × 2/1 = 1/2"
+ },
+ {
+  "id": "tbk-shisoku-262",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n361 − □ × 9 = 145",
+  "choices": [
+   "15",
+   "18",
+   "21",
+   "24",
+   "27"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ × 9 = 361 − 145 = 216\n□ = 216 ÷ 9 = 24"
+ },
+ {
+  "id": "tbk-shisoku-263",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ + 31) × 6 = 1746",
+  "choices": [
+   "260",
+   "286",
+   "291",
+   "312",
+   "338"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "□ + 31 = 1746 ÷ 6 = 291\n□ = 291 − 31 = 260"
+ },
+ {
+  "id": "tbk-shisoku-264",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n0.2 × □ = 0.8 × 18.5",
+  "choices": [
+   "60",
+   "67",
+   "74",
+   "81",
+   "88"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "右辺を先に計算します。0.8 × 18.5 = 14.8\n□ = 14.8 ÷ 0.2 = 74"
+ },
+ {
+  "id": "tbk-shisoku-265",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n28 × 3 − □ = 265 ÷ 5",
+  "choices": [
+   "15",
+   "19",
+   "23",
+   "27",
+   "31"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "左の掛け算 28 × 3 = 84、右辺 265 ÷ 5 = 53\n□ = 84 − 53 = 31"
+ },
+ {
+  "id": "tbk-shisoku-266",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 24% = 43.2",
+  "choices": [
+   "92",
+   "114",
+   "136",
+   "158",
+   "180"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "24% = 0.24 なので\n□ = 43.2 ÷ 0.24 = 180"
+ },
+ {
+  "id": "tbk-shisoku-267",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 60% = 552",
+  "choices": [
+   "331.2",
+   "736",
+   "828",
+   "920",
+   "1012"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "60% = 0.6 なので\n□ = 552 ÷ 0.6 = 920"
+ },
+ {
+  "id": "tbk-shisoku-268",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ + 3/4 = 41/44",
+  "choices": [
+   "1/11",
+   "1/6",
+   "2/11",
+   "13/11",
+   "37/22"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ = 41/44 − 3/4。通分して計算すると 2/11"
+ },
+ {
+  "id": "tbk-shisoku-269",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 4/3 = 1",
+  "choices": [
+   "1/2",
+   "3/4",
+   "1",
+   "4/3",
+   "7/4"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "□ = 1 ÷ 4/3 = 1 × 3/4 = 3/4"
+ },
+ {
+  "id": "tbk-shisoku-270",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n18 × □ = 12 × 136.5",
+  "choices": [
+   "86",
+   "91",
+   "96",
+   "101",
+   "106"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "右辺を先に計算します。12 × 136.5 = 1638\n□ = 1638 ÷ 18 = 91"
+ },
+ {
+  "id": "tbk-shisoku-271",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ + 4/3 = 71/33",
+  "choices": [
+   "8/11",
+   "3/4",
+   "9/11",
+   "10/11",
+   "115/33"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ = 71/33 − 4/3。通分して計算すると 9/11"
+ },
+ {
+  "id": "tbk-shisoku-272",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n861 ÷ □ = 1.5",
+  "choices": [
+   "460",
+   "517",
+   "574",
+   "631",
+   "861"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ = 861 ÷ 1.5 = 574"
+ },
+ {
+  "id": "tbk-shisoku-273",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n30% × □ = 123.6",
+  "choices": [
+   "379",
+   "412",
+   "445",
+   "478",
+   "511"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "30% = 0.3 なので\n□ = 123.6 ÷ 0.3 = 412"
+ },
+ {
+  "id": "tbk-shisoku-274",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n417 − □ × 7 = 53",
+  "choices": [
+   "48",
+   "52",
+   "56",
+   "60",
+   "64"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "□ × 7 = 417 − 53 = 364\n□ = 364 ÷ 7 = 52"
+ },
+ {
+  "id": "tbk-shisoku-275",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n40% × □ = 140.8",
+  "choices": [
+   "240",
+   "268",
+   "296",
+   "324",
+   "352"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "40% = 0.4 なので\n□ = 140.8 ÷ 0.4 = 352"
+ },
+ {
+  "id": "tbk-shisoku-276",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ ÷ 0.4 = 110",
+  "choices": [
+   "17.6",
+   "40",
+   "42",
+   "44",
+   "46"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ = 110 × 0.4 = 44"
+ },
+ {
+  "id": "tbk-shisoku-277",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ − 84) ÷ 2.5 = 31.2",
+  "choices": [
+   "115.2",
+   "162",
+   "181",
+   "200",
+   "219"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "□ − 84 = 31.2 × 2.5 = 78\n□ = 78 + 84 = 162"
+ },
+ {
+  "id": "tbk-shisoku-278",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n8/5 ÷ □ = 32/15",
+  "choices": [
+   "1/2",
+   "3/5",
+   "3/4",
+   "7/4",
+   "256/75"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ = 8/5 ÷ 32/15 = 8/5 × 15/32 = 3/4"
+ },
+ {
+  "id": "tbk-shisoku-279",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ + 87) × 0.5 = 103.5",
+  "choices": [
+   "90",
+   "100",
+   "110",
+   "120",
+   "207"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ + 87 = 103.5 ÷ 0.5 = 207\n□ = 207 − 87 = 120"
+ },
+ {
+  "id": "tbk-shisoku-280",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ − 8) ÷ 5 = 40.8",
+  "choices": [
+   "187",
+   "196",
+   "212",
+   "237",
+   "262"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ − 8 = 40.8 × 5 = 204\n□ = 204 + 8 = 212"
+ },
+ {
+  "id": "tbk-shisoku-281",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n359 − □ × 4 = 95",
+  "choices": [
+   "59",
+   "66",
+   "73",
+   "80",
+   "113.5"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "□ × 4 = 359 − 95 = 264\n□ = 264 ÷ 4 = 66"
+ },
+ {
+  "id": "tbk-shisoku-282",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ + 9/4 = 5/2",
+  "choices": [
+   "1/4",
+   "1/2",
+   "5/4",
+   "4",
+   "19/4"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "□ = 5/2 − 9/4。通分して計算すると 1/4"
+ },
+ {
+  "id": "tbk-shisoku-283",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ ÷ 1.25 = 59.2",
+  "choices": [
+   "47.36",
+   "53",
+   "60",
+   "67",
+   "74"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "□ = 59.2 × 1.25 = 74"
+ },
+ {
+  "id": "tbk-shisoku-284",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n273 ÷ □ = 15",
+  "choices": [
+   "14.6",
+   "16.4",
+   "18.2",
+   "20",
+   "21.8"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ = 273 ÷ 15 = 18.2"
+ },
+ {
+  "id": "tbk-shisoku-285",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n(□ + 91) × 1.5 = 165",
+  "choices": [
+   "16",
+   "17",
+   "18",
+   "19",
+   "20"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ + 91 = 165 ÷ 1.5 = 110\n□ = 110 − 91 = 19"
+ },
+ {
+  "id": "tbk-shisoku-286",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ × 0.4 = 0.8 × 33.5",
+  "choices": [
+   "26.8",
+   "53",
+   "60",
+   "67",
+   "74"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "右辺を先に計算します。0.8 × 33.5 = 26.8\n□ = 26.8 ÷ 0.4 = 67"
+ },
+ {
+  "id": "tbk-shisoku-287",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n9 × □ = 0.4 × 1948.5",
+  "choices": [
+   "77.9",
+   "86.6",
+   "95.3",
+   "104",
+   "112.7"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "右辺を先に計算します。0.4 × 1948.5 = 779.4\n□ = 779.4 ÷ 9 = 86.6"
+ },
+ {
+  "id": "tbk-shisoku-288",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n2/5 ÷ □ = 16/35",
+  "choices": [
+   "32/175",
+   "7/9",
+   "7/8",
+   "1",
+   "8/7"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ = 2/5 ÷ 16/35 = 2/5 × 35/16 = 7/8"
+ },
+ {
+  "id": "tbk-shisoku-289",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n120% × □ = 1224",
+  "choices": [
+   "918",
+   "969",
+   "1020",
+   "1071",
+   "1468.8"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "120% = 1.2 なので\n□ = 1224 ÷ 1.2 = 1020"
+ },
+ {
+  "id": "tbk-shisoku-290",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ − 3.2 = 1.5 × 5",
+  "choices": [
+   "4.3",
+   "10.7",
+   "11.8",
+   "12.9",
+   "14"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "右辺 1.5 × 5 = 7.5\n□ = 7.5 + 3.2 = 10.7"
+ },
+ {
+  "id": "tbk-shisoku-291",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n307 − □ × 8 = 43",
+  "choices": [
+   "24",
+   "27",
+   "30",
+   "33",
+   "43.75"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "□ × 8 = 307 − 43 = 264\n□ = 264 ÷ 8 = 33"
+ },
+ {
+  "id": "tbk-shisoku-292",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ + 9/8 = 49/24",
+  "choices": [
+   "11/12",
+   "12/11",
+   "11/6",
+   "23/12",
+   "19/6"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "□ = 49/24 − 9/8。通分して計算すると 11/12"
+ },
+ {
+  "id": "tbk-shisoku-293",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n9 × □ = 25 × 76.32",
+  "choices": [
+   "191",
+   "212",
+   "233",
+   "254",
+   "275"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "右辺を先に計算します。25 × 76.32 = 1908\n□ = 1908 ÷ 9 = 212"
+ },
+ {
+  "id": "tbk-shisoku-294",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n3 × □ = 4 × 19.5",
+  "choices": [
+   "24",
+   "26",
+   "28",
+   "30",
+   "32"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "右辺を先に計算します。4 × 19.5 = 78\n□ = 78 ÷ 3 = 26"
+ },
+ {
+  "id": "tbk-shisoku-295",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n408 − □ × 6 = 234",
+  "choices": [
+   "25",
+   "27",
+   "29",
+   "31",
+   "33"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ × 6 = 408 − 234 = 174\n□ = 174 ÷ 6 = 29"
+ },
+ {
+  "id": "tbk-shisoku-296",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n30% × □ = 51",
+  "choices": [
+   "170",
+   "187",
+   "204",
+   "221",
+   "238"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "30% = 0.3 なので\n□ = 51 ÷ 0.3 = 170"
+ },
+ {
+  "id": "tbk-shisoku-297",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n3/2 ÷ □ = 21/4",
+  "choices": [
+   "1/7",
+   "2/7",
+   "3/7",
+   "9/7",
+   "63/8"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "□ = 3/2 ÷ 21/4 = 3/2 × 4/21 = 2/7"
+ },
+ {
+  "id": "tbk-shisoku-298",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ + 2/3 = 35/12",
+  "choices": [
+   "2",
+   "9/4",
+   "13/4",
+   "43/12",
+   "9/2"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "□ = 35/12 − 2/3。通分して計算すると 9/4"
+ },
+ {
+  "id": "tbk-shisoku-299",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ + 3/10 = 14/5",
+  "choices": [
+   "5/4",
+   "5/3",
+   "5/2",
+   "31/10",
+   "7/2"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "□ = 14/5 − 3/10。通分して計算すると 5/2"
+ },
+ {
+  "id": "tbk-shisoku-300",
+  "domain": "shisoku",
+  "type": "single",
+  "question": "次の式の □ に入る数を求めなさい。\n□ − 27.9 = 4.2 × 4",
+  "choices": [
+   "16.8",
+   "44.7",
+   "49.2",
+   "53.7",
+   "58.2"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "右辺 4.2 × 4 = 16.8\n□ = 16.8 + 27.9 = 44.7"
+ }
+]

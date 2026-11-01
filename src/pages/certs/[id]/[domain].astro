@@ -1,0 +1,1065 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import { displayName, domainBreakdown, formatHours, getCert, getQuestions, lessonStats, steps, url } from '../../../lib/data';
+
+export async function getStaticPaths() {
+  const lessons = await getCollection('lessons');
+  return lessons.map((lesson) => ({
+    params: { id: lesson.data.cert, domain: lesson.data.domain },
+    props: { lesson },
+  }));
+}
+
+const { lesson } = Astro.props;
+const cert = getCert(lesson.data.cert)!;
+const domainIndex = cert.domains.findIndex((d) => d.id === lesson.data.domain);
+const domain = cert.domains[domainIndex];
+const lessons = await getCollection('lessons', (l) => l.data.cert === cert.id);
+const hasLesson = (id: string) => lessons.some((l) => l.data.domain === id);
+const prev = cert.domains.slice(0, domainIndex).reverse().find((d) => hasLesson(d.id));
+const next = cert.domains.slice(domainIndex + 1).find((d) => hasLesson(d.id));
+const qCount = getQuestions(cert.id).filter((q) => q.domain === domain.id).length;
+const { Content, headings } = await render(lesson);
+const study = domainBreakdown(cert, domain.id, lessonStats(lesson.body ?? ''));
+const shortName = displayName(cert);
+const step = steps.find((s) => s.id === cert.step)!;
+const canListen = cert.listen === true;
+// 読み上げはおよそ 1 分 300 文字（読む速さの 500 文字より遅い）
+const listenMinutes = Math.max(1, Math.round((study.readMinutes * 500) / 300));
+
+// 目次: h2 の下に h3 をぶら下げる
+const toc: { slug: string; text: string; children: { slug: string; text: string }[] }[] = [];
+for (const h of headings) {
+  if (h.depth === 2) toc.push({ slug: h.slug, text: h.text, children: [] });
+  else if (h.depth === 3 && toc.length) toc[toc.length - 1].children.push({ slug: h.slug, text: h.text });
+}
+const otherHours = study.otherMinutes ? Math.round(study.otherMinutes / 30) / 2 || 0.5 : 0;
+---
+
+<Base title={`${domain.name} - ${shortName}`} wide>
+  <div class="read-progress" aria-hidden="true"><span id="read-bar"></span></div>
+
+  <div class="layout" style={`--step-color: var(--step-${step.id})`}>
+    <div class="main-col">
+      <nav class="breadcrumb" aria-label="現在の位置">
+        <a href={url()}>ホーム</a><span aria-hidden="true">›</span><a href={url(`certs/${cert.id}/`)}>{shortName}</a>
+      </nav>
+
+      <header class="lesson-head">
+        <p class="eyebrow">
+          {cert.domains.length > 1 && `形式 ${domainIndex + 1} / ${cert.domains.length}`}
+          {domain.exam && ` ・ 本番 ${domain.exam.questions} 問・${domain.exam.minutes} 分`}
+        </p>
+        <h1>{domain.name}</h1>
+        <p class="small muted en">{domain.nameEn}</p>
+        <p class="lead">{lesson.data.summary}</p>
+        <ul class="facts small">
+          <li>読む時間 約 {study.readMinutes} 分</li>
+          {study.handsOnMinutes > 0 && <li>ハンズオン 約 {study.handsOnMinutes} 分</li>}
+          {study.questions > 0 && <li>練習問題 {study.questions} 問</li>}
+          {study.totalHours !== null && <li>目安 約 {formatHours(study.totalHours)}</li>}
+          <li class="done-badge" data-done-badge hidden>✓ 読了</li>
+        </ul>
+        {
+          canListen && (
+            <div class="listen-row">
+              <button class="btn btn-primary btn-sm" type="button" id="tts-start" hidden>
+                <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M8 5v14l11-7z" fill="currentColor" />
+                </svg>
+                聞く（約 {listenMinutes} 分）
+              </button>
+              <span class="small muted">本文を音声で読み上げます</span>
+            </div>
+          )
+        }
+        <details class="more">
+          <summary>学習時間の内訳{domain.objectives?.length ? '・よく出るパターン' : ''}</summary>
+          <div class="more-body small">
+            <ul>
+              <li>レッスンを読む: 約 {study.readMinutes} 分</li>
+              {study.handsOnMinutes > 0 && <li>やってみよう（ハンズオン）: 約 {study.handsOnMinutes} 分</li>}
+              {study.questions > 0 && <li>練習問題 {study.questions} 問: 約 {study.practiceMinutes} 分</li>}
+              {otherHours > 0 && <li>問題の 2 周目以降・復習・本番形式での時間を計った練習: 約 {formatHours(otherHours)}</li>}
+            </ul>
+            <p class="muted">科目全体の目安（{cert.study?.hours} 時間）を形式ごとに割り振った値です。</p>
+            {
+              domain.objectives && domain.objectives.length > 0 && (
+                <>
+                  <p class="more-title">よく出るパターン</p>
+                  <ol>
+                    {domain.objectives.map((o) => (
+                      <li>{o}</li>
+                    ))}
+                  </ol>
+                </>
+              )
+            }
+          </div>
+        </details>
+      </header>
+
+      <div class="resume" id="resume" role="status" hidden>
+        <p>前回は「<strong id="resume-label"></strong>」まで読みました。</p>
+        <div class="btn-row">
+          <a class="btn btn-primary btn-sm" id="resume-go" href="#">続きから読む</a>
+          <button class="btn btn-ghost btn-sm" type="button" id="resume-close">最初から読む</button>
+        </div>
+      </div>
+
+      <article class="lesson" id="lesson">
+        <Content />
+      </article>
+
+      <section class="card finish" data-cert={cert.id} data-domain={domain.id} aria-labelledby="finish-title">
+        <div data-finish-todo>
+          <h2 id="finish-title">お疲れさまでした</h2>
+          <p class="muted">読み終えたら記録しましょう。ホームの進み具合に反映されます。</p>
+          <div class="btn-row stack">
+            <button class="btn btn-primary" type="button" id="mark-done">✓ 読み終えた</button>
+          </div>
+        </div>
+        <div data-finish-done hidden>
+          <p class="finish-done-title"><span aria-hidden="true">✓</span> このレッスンは読了済みです</p>
+          <p class="muted">次は練習問題で理解を確かめましょう。</p>
+          <div class="btn-row stack">
+            {
+              qCount > 0 && (
+                <a class="btn btn-primary" href={url(`certs/${cert.id}/quiz/?domain=${domain.id}`)}>
+                  練習問題を解く
+                </a>
+              )
+            }
+            {
+              qCount > 0 && domain.exam && (
+                <a class="btn" href={url(`certs/${cert.id}/quiz/?mode=mock&domain=${domain.id}`)}>
+                  本番形式（{domain.exam.questions} 問・{domain.exam.minutes} 分）
+                </a>
+              )
+            }
+            <button class="btn btn-ghost" type="button" id="mark-undone">未読に戻す</button>
+          </div>
+        </div>
+      </section>
+
+      <nav class="pager" aria-label="前後のレッスン">
+        {
+          prev ? (
+            <a class="pager-link" href={url(`certs/${cert.id}/${prev.id}/`)}>
+              <span class="small muted">← 前のレッスン</span>
+              <span>{prev.name}</span>
+            </a>
+          ) : (
+            <span />
+          )
+        }
+        {
+          next && (
+            <a class="pager-link next" href={url(`certs/${cert.id}/${next.id}/`)}>
+              <span class="small muted">次のレッスン →</span>
+              <span>{next.name}</span>
+            </a>
+          )
+        }
+      </nav>
+    </div>
+
+    {
+      toc.length > 1 && (
+        <aside class="toc-col" aria-label="目次">
+          <nav class="toc" data-toc>
+            <p class="toc-title">このレッスンの内容</p>
+            <ol>
+              {toc.map((h) => (
+                <li data-section={h.slug}>
+                  <a href={`#${h.slug}`}>{h.text}</a>
+                  {h.children.length > 0 && (
+                    <ol class="toc-sub">
+                      {h.children.map((c) => (
+                        <li>
+                          <a href={`#${c.slug}`}>{c.text}</a>
+                        </li>
+                      ))}
+                    </ol>
+                  )}
+                </li>
+              ))}
+            </ol>
+            <p class="toc-foot small muted">
+              <span id="read-percent">0%</span> 読みました
+            </p>
+            {
+              qCount > 0 && (
+                <a class="btn btn-sm toc-quiz" href={url(`certs/${cert.id}/quiz/?domain=${domain.id}`)}>
+                  練習問題（{qCount} 問）
+                </a>
+              )
+            }
+          </nav>
+        </aside>
+      )
+    }
+  </div>
+
+  {
+    toc.length > 1 && (
+      <>
+        <button class="toc-fab" type="button" id="toc-open" aria-haspopup="dialog">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01" />
+          </svg>
+          目次
+        </button>
+        <dialog class="toc-sheet" id="toc-sheet" aria-labelledby="toc-sheet-title">
+          <div class="sheet-head">
+            <p id="toc-sheet-title" class="toc-title">このレッスンの内容</p>
+            <button class="btn btn-ghost btn-sm" type="button" id="toc-close">
+              閉じる
+            </button>
+          </div>
+          <nav class="toc" data-toc>
+            <ol>
+              {toc.map((h) => (
+                <li data-section={h.slug}>
+                  <a href={`#${h.slug}`}>{h.text}</a>
+                  {h.children.length > 0 && (
+                    <ol class="toc-sub">
+                      {h.children.map((c) => (
+                        <li>
+                          <a href={`#${c.slug}`}>{c.text}</a>
+                        </li>
+                      ))}
+                    </ol>
+                  )}
+                </li>
+              ))}
+            </ol>
+          </nav>
+          <div class="btn-row sheet-foot">
+            <a class="btn btn-sm" href="#main">ページの先頭へ</a>
+            {
+              qCount > 0 && (
+                <a class="btn btn-sm" href={url(`certs/${cert.id}/quiz/?domain=${domain.id}`)}>
+                  練習問題へ
+                </a>
+              )
+            }
+          </div>
+        </dialog>
+      </>
+    )
+  }
+
+  {
+    canListen && (
+      <div class="tts-player" id="tts-player" role="region" aria-label="読み上げ" hidden>
+        <div class="tts-top">
+          <div class="tts-meta">
+            <span class="tts-section" id="tts-section" />
+            <span class="tts-count" id="tts-count" aria-live="polite" />
+          </div>
+          <button class="tts-btn tts-close" type="button" id="tts-close" aria-label="読み上げを閉じる">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+              <path d="M6 6l12 12M18 6 6 18" />
+            </svg>
+          </button>
+        </div>
+        <div class="tts-progress" aria-hidden="true">
+          <span id="tts-bar" />
+        </div>
+        <div class="tts-controls">
+          <label class="tts-rate">
+            <span class="visually-hidden">読み上げの速さ</span>
+            <select id="tts-rate">
+              <option value="0.8">0.8 倍</option>
+              <option value="1">1.0 倍</option>
+              <option value="1.25">1.25 倍</option>
+              <option value="1.5">1.5 倍</option>
+              <option value="1.75">1.75 倍</option>
+              <option value="2">2.0 倍</option>
+            </select>
+          </label>
+          <button class="tts-btn" type="button" id="tts-prev" aria-label="前の段落へ">
+            <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M6 5h2v14H6zM20 5v14L9 12z" fill="currentColor" />
+            </svg>
+          </button>
+          <button class="tts-btn tts-main" type="button" id="tts-toggle" aria-label="一時停止">
+            <svg class="icon-pause" width="26" height="26" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M7 5h4v14H7zM13 5h4v14h-4z" fill="currentColor" />
+            </svg>
+            <svg class="icon-play" width="26" height="26" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M8 5v14l11-7z" fill="currentColor" />
+            </svg>
+          </button>
+          <button class="tts-btn" type="button" id="tts-next" aria-label="次の段落へ">
+            <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M16 5h2v14h-2zM4 5v14l11-7z" fill="currentColor" />
+            </svg>
+          </button>
+          <span class="tts-hint">本文をタップすると<br />そこから読みます</span>
+        </div>
+      </div>
+    )
+  }
+
+  <script>
+    import { getReadingPos, isLessonDone, loadProgress, setLessonDone, setReadingPos } from '../../../lib/storage';
+
+    const box = document.querySelector<HTMLElement>('[data-cert]')!;
+    const certId = box.dataset.cert!;
+    const domainId = box.dataset.domain!;
+    const key = `${certId}/${domainId}`;
+    const $ = (id: string) => document.getElementById(id);
+
+    // 読了の記録
+    function renderDone() {
+      const done = isLessonDone(loadProgress(), certId, domainId);
+      box.querySelector<HTMLElement>('[data-finish-todo]')!.hidden = done;
+      box.querySelector<HTMLElement>('[data-finish-done]')!.hidden = !done;
+      document.querySelector<HTMLElement>('[data-done-badge]')!.hidden = !done;
+    }
+    $('mark-done')?.addEventListener('click', () => {
+      setLessonDone(certId, domainId, true);
+      setReadingPos(key, null);
+      renderDone();
+      box.querySelector<HTMLElement>('[data-finish-done] .btn')?.focus();
+    });
+    $('mark-undone')?.addEventListener('click', () => {
+      setLessonDone(certId, domainId, false);
+      renderDone();
+      $('mark-done')?.focus();
+    });
+    renderDone();
+
+    // 見出しの位置から、今読んでいる章と読んだ割合を出す
+    const article = $('lesson')!;
+    const sections = [...article.querySelectorAll<HTMLElement>('h2[id], h3[id]')];
+    const tocLinks = [...document.querySelectorAll<HTMLAnchorElement>('[data-toc] a')];
+    const bar = $('read-bar');
+    const percentEl = $('read-percent');
+    let current = '';
+    let saveTimer: number | undefined;
+
+    function currentHeading(): HTMLElement | null {
+      const line = 120;
+      let found: HTMLElement | null = null;
+      for (const h of sections) {
+        if (h.getBoundingClientRect().top <= line) found = h;
+        else break;
+      }
+      return found;
+    }
+
+    function update() {
+      const rect = article.getBoundingClientRect();
+      const total = rect.height - window.innerHeight * 0.6;
+      const ratio = Math.min(1, Math.max(0, -rect.top / Math.max(1, total)));
+      if (bar) bar.style.width = `${ratio * 100}%`;
+      if (percentEl) percentEl.textContent = `${Math.round(ratio * 100)}%`;
+
+      const h = currentHeading();
+      const id = h?.id ?? '';
+      if (id === current) return;
+      current = id;
+      // 章（h2）と、その中の節（h3）の両方を強調する
+      const h2 = !h
+        ? null
+        : h.tagName === 'H2'
+          ? h
+          : sections
+              .slice(0, sections.indexOf(h))
+              .reverse()
+              .find((s) => s.tagName === 'H2');
+      for (const a of tocLinks) {
+        if (a.getAttribute('href') === `#${id}`) a.setAttribute('aria-current', 'location');
+        else a.removeAttribute('aria-current');
+      }
+      document.querySelectorAll<HTMLElement>('[data-toc] [data-section]').forEach((li) => {
+        li.classList.toggle('is-open', li.dataset.section === h2?.id);
+      });
+      // 読みかけの位置を覚えておく（最初の章では残さない）
+      window.clearTimeout(saveTimer);
+      saveTimer = window.setTimeout(() => {
+        if (!h || h === sections[0] || isLessonDone(loadProgress(), certId, domainId)) return;
+        setReadingPos(key, { heading: h.id, label: h.textContent?.trim() ?? '', at: new Date().toISOString() });
+      }, 800);
+    }
+
+    let ticking = false;
+    window.addEventListener(
+      'scroll',
+      () => {
+        if (ticking) return;
+        ticking = true;
+        requestAnimationFrame(() => {
+          update();
+          ticking = false;
+        });
+      },
+      { passive: true },
+    );
+    window.addEventListener('resize', update);
+    update();
+
+    // 前回の続き
+    const pos = getReadingPos(key);
+    const resume = $('resume');
+    if (pos && !location.hash && document.getElementById(pos.heading) && resume) {
+      $('resume-label')!.textContent = pos.label;
+      ($('resume-go') as HTMLAnchorElement).href = `#${pos.heading}`;
+      resume.hidden = false;
+      $('resume-go')!.addEventListener('click', () => (resume.hidden = true));
+      $('resume-close')!.addEventListener('click', () => {
+        resume.hidden = true;
+        setReadingPos(key, null);
+      });
+    }
+
+    // スマホ・タブレットの目次（下から出るシート）
+    const sheet = $('toc-sheet') as HTMLDialogElement | null;
+    $('toc-open')?.addEventListener('click', () => {
+      sheet?.showModal();
+      sheet?.querySelector<HTMLElement>('[aria-current]')?.scrollIntoView({ block: 'center' });
+    });
+    $('toc-close')?.addEventListener('click', () => sheet?.close());
+    sheet?.addEventListener('click', (e) => {
+      if (e.target === sheet) sheet.close();
+      if ((e.target as HTMLElement).closest('a')) sheet.close();
+    });
+  </script>
+  <script>
+    import { isListenSupported, LessonReader } from '../../../lib/listen';
+    import { loadListenPrefs, saveListenPrefs } from '../../../lib/storage';
+
+    const startBtn = document.getElementById('tts-start');
+    const player = document.getElementById('tts-player');
+    const article = document.getElementById('lesson');
+    if (startBtn && player && article && isListenSupported()) {
+      startBtn.hidden = false;
+      const $ = (id: string) => document.getElementById(id)!;
+      const toggleBtn = $('tts-toggle');
+      const rateSel = $('tts-rate') as HTMLSelectElement;
+      rateSel.value = String(loadListenPrefs().rate);
+      if (!rateSel.value) rateSel.value = '1';
+      let reader: LessonReader | null = null;
+
+      const getReader = () =>
+        (reader ??= new LessonReader(article, {
+          onChange: (s) => {
+            $('tts-section').textContent = s.section || 'はじめに';
+            $('tts-count').textContent = s.finished ? '最後まで聞きました' : `${s.index + 1} / ${s.total}`;
+            $('tts-bar').style.width = `${s.total ? ((s.finished ? s.total : s.index) / s.total) * 100 : 0}%`;
+            player.classList.toggle('is-playing', s.playing);
+            toggleBtn.setAttribute('aria-label', s.playing ? '一時停止' : '再生');
+          },
+        }));
+
+      const open = () => {
+        player.hidden = false;
+        document.body.classList.add('tts-open');
+        article.classList.add('tts-mode');
+      };
+      const close = () => {
+        reader?.stop();
+        player.hidden = true;
+        document.body.classList.remove('tts-open');
+        article.classList.remove('tts-mode');
+        startBtn.focus();
+      };
+
+      // 今見ているところから読み始める
+      startBtn.addEventListener('click', () => {
+        const r = getReader();
+        open();
+        r.play(r.firstVisibleIndex(80));
+      });
+      toggleBtn.addEventListener('click', () => getReader().toggle());
+      $('tts-prev').addEventListener('click', () => getReader().prev());
+      $('tts-next').addEventListener('click', () => getReader().next());
+      $('tts-close').addEventListener('click', close);
+      rateSel.addEventListener('change', () => {
+        const rate = Number(rateSel.value);
+        saveListenPrefs({ ...loadListenPrefs(), rate });
+        getReader().setRate(rate);
+      });
+      // 読み上げ中は、本文をタップするとそこから読む
+      article.addEventListener('click', (e) => {
+        if (!article.classList.contains('tts-mode') || !reader) return;
+        const target = e.target as HTMLElement;
+        if (target.closest('a, button, summary, input, label, select')) return;
+        if (window.getSelection()?.toString()) return;
+        const i = reader.indexOf(target);
+        if (i >= 0) reader.play(i);
+      });
+    }
+  </script>
+  <script>
+    import { renderDiagrams } from '../../../lib/diagrams';
+
+    // 見出しへのリンクで開いたとき、図が描かれてページが伸びると位置がずれるので合わせ直す
+    let moved = false;
+    for (const ev of ['wheel', 'touchmove', 'keydown']) addEventListener(ev, () => (moved = true), { once: true, passive: true });
+    renderDiagrams(document.querySelector('.lesson') ?? document).then(() => {
+      const id = decodeURIComponent(location.hash.slice(1));
+      if (!id || moved) return;
+      document.getElementById(id)?.scrollIntoView({ block: 'start' });
+    });
+  </script>
+</Base>
+
+<style>
+  .read-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    z-index: 40;
+    pointer-events: none;
+  }
+  .read-progress span {
+    display: block;
+    height: 100%;
+    width: 0;
+    background: var(--step-color, var(--accent));
+  }
+  .layout {
+    display: grid;
+    gap: 40px;
+  }
+  @media (min-width: 1080px) {
+    .layout {
+      grid-template-columns: minmax(0, 1fr) 260px;
+    }
+  }
+  .main-col {
+    min-width: 0;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .lesson-head h1 {
+    margin-bottom: 0;
+  }
+  .lesson-head .en {
+    margin: 0 0 12px;
+  }
+  .lead {
+    font-size: 1.05rem;
+    margin: 0 0 12px;
+  }
+  .facts {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .facts li {
+    background: var(--surface-2);
+    border-radius: 999px;
+    padding: 2px 10px;
+    color: var(--text-muted);
+  }
+  .facts .done-badge {
+    background: var(--success-soft);
+    color: var(--success);
+    font-weight: 700;
+  }
+  .more {
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    padding: 10px 0;
+  }
+  .more summary {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-muted);
+  }
+  .more-body ul,
+  .more-body ol {
+    padding-left: 1.4em;
+    margin: 8px 0;
+  }
+  .more-body li + li {
+    margin-top: 4px;
+  }
+  .more-body p {
+    margin: 4px 0;
+  }
+  .more-title {
+    font-weight: 700;
+    margin-top: 12px !important;
+  }
+  .resume {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px 16px;
+    margin-top: 16px;
+    padding: 12px 16px;
+    border-radius: var(--radius-sm);
+    background: var(--accent-soft);
+  }
+  .resume p {
+    margin: 0;
+  }
+
+  /* 本文: 読みやすい行の長さと行間 */
+  .lesson {
+    margin: 24px 0;
+    overflow-wrap: anywhere;
+    line-height: 1.9;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 24px 20px;
+  }
+  @media (min-width: 720px) {
+    .lesson {
+      padding: 32px 40px;
+    }
+  }
+  .lesson :global(h2) {
+    font-size: 1.3rem;
+    margin: 3rem 0 1rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+  }
+  .lesson :global(h2:first-child) {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+  }
+  .lesson :global(h3) {
+    font-size: 1.1rem;
+    margin: 2rem 0 0.6rem;
+  }
+  .lesson :global(h4) {
+    font-size: 1rem;
+    margin: 1.4rem 0 0.4rem;
+  }
+  .lesson :global(hr) {
+    border: 0;
+    margin: 2rem 0;
+  }
+  .lesson :global(table) {
+    display: block;
+    overflow-x: auto;
+    margin: 16px 0;
+    font-size: 0.92rem;
+    line-height: 1.6;
+  }
+  .lesson :global(blockquote) {
+    margin: 16px 0;
+    padding: 12px 16px;
+    background: var(--accent-soft);
+    border-left: 4px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+  }
+  .lesson :global(blockquote p) {
+    margin: 0;
+  }
+  .lesson :global(code) {
+    background: var(--surface-2);
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+  .lesson :global(ul.contains-task-list) {
+    list-style: none;
+    padding-left: 0;
+  }
+  .lesson :global(li + li) {
+    margin-top: 4px;
+  }
+  .lesson :global(figure.diagram) {
+    margin: 24px 0;
+    padding: 16px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow-x: auto;
+    text-align: center;
+  }
+  .lesson :global(figure.diagram svg) {
+    height: auto;
+  }
+  .lesson :global(.diagram-hint) {
+    position: sticky;
+    left: 0;
+    margin-top: 8px;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+  }
+  .lesson :global(pre:has(> code.language-mermaid)) {
+    min-height: 120px;
+    color: transparent;
+    background: var(--surface-2);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .lesson :global(.callout) {
+    margin: 24px 0;
+    padding: 14px 18px;
+    border-radius: 10px;
+    border-left: 4px solid var(--accent);
+    background: var(--accent-soft);
+    line-height: 1.8;
+  }
+  .lesson :global(.callout > :first-child) {
+    margin-top: 0;
+  }
+  .lesson :global(.callout > :last-child) {
+    margin-bottom: 0;
+  }
+  .lesson :global(.callout-title) {
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  .lesson :global(.callout.tip) {
+    border-color: var(--success);
+    background: var(--success-soft);
+  }
+  .lesson :global(.callout.tip .callout-title) {
+    color: var(--success);
+  }
+  .lesson :global(.callout.trap) {
+    border-color: var(--danger);
+    background: var(--danger-soft);
+  }
+  .lesson :global(.callout.trap .callout-title) {
+    color: var(--danger);
+  }
+  .lesson :global(.callout.why) {
+    border-color: var(--warning);
+    background: var(--warning-soft);
+  }
+  .lesson :global(.callout.handson) {
+    border-color: var(--step-4);
+    background: color-mix(in srgb, var(--step-4) 9%, var(--surface));
+  }
+  .lesson :global(.callout.example) {
+    border-color: var(--step-3);
+    background: color-mix(in srgb, var(--step-3) 8%, var(--surface));
+  }
+
+  /* 読み終えたときの案内 */
+  .finish {
+    border-top: 4px solid var(--success);
+  }
+  .finish h2 {
+    font-size: 1.15rem;
+    margin: 0 0 4px;
+  }
+  .finish p {
+    margin: 0 0 16px;
+  }
+  .finish-done-title {
+    font-weight: 700;
+    color: var(--success);
+    margin-bottom: 4px !important;
+  }
+  .pager {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 16px;
+  }
+  .pager-link {
+    display: grid;
+    padding: 12px 16px;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border);
+    background: var(--surface);
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 600;
+    line-height: 1.5;
+  }
+  .pager-link:hover {
+    border-color: var(--accent);
+    color: var(--text);
+  }
+  .pager-link.next {
+    text-align: right;
+    grid-column: 2;
+  }
+
+  /* 目次（共通） */
+  .toc-title {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    letter-spacing: 0.04em;
+    margin: 0 0 8px;
+  }
+  .toc ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .toc a {
+    display: block;
+    padding: 5px 10px;
+    border-left: 2px solid var(--border);
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+  .toc a:hover {
+    color: var(--text);
+    background: var(--surface-hover);
+  }
+  .toc a[aria-current] {
+    color: var(--accent);
+    border-left-color: var(--accent);
+    font-weight: 700;
+  }
+  .toc .toc-sub a {
+    padding-left: 22px;
+    font-size: 0.8rem;
+  }
+  .toc .toc-sub {
+    display: none;
+  }
+  .toc li.is-open > .toc-sub {
+    display: block;
+  }
+  .toc-foot {
+    margin: 12px 0 8px;
+  }
+
+  /* 目次（PC: 横に固定） */
+  .toc-col {
+    display: none;
+  }
+  @media (min-width: 1080px) {
+    .toc-col {
+      display: block;
+    }
+    .toc-col .toc {
+      position: sticky;
+      top: calc(var(--header-h) + 24px);
+      max-height: calc(100vh - var(--header-h) - 48px);
+      overflow-y: auto;
+      padding-right: 4px;
+    }
+    .toc-fab {
+      display: none !important;
+    }
+  }
+
+  /* 目次（スマホ・タブレット: ボタンから開く） */
+  .toc-fab {
+    position: fixed;
+    right: 16px;
+    bottom: 20px;
+    z-index: 25;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 16px;
+    min-height: 44px;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+    font: inherit;
+    font-size: 0.9rem;
+    font-weight: 700;
+    box-shadow: var(--shadow-md);
+    cursor: pointer;
+  }
+  @media (max-width: 719px) {
+    .toc-fab {
+      bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom) + 12px);
+    }
+  }
+  .toc-sheet {
+    border: 0;
+    padding: 16px 16px calc(16px + env(safe-area-inset-bottom));
+    margin: auto auto 0;
+    width: 100%;
+    max-width: 560px;
+    max-height: 80vh;
+    border-radius: 18px 18px 0 0;
+    background: var(--surface);
+    color: var(--text);
+    box-shadow: var(--shadow-md);
+  }
+  .toc-sheet[open] {
+    display: flex;
+    flex-direction: column;
+  }
+  /* 読み上げ */
+  .listen-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px 12px;
+    margin: 0 0 12px;
+  }
+  .listen-row:has(#tts-start[hidden]) {
+    display: none;
+  }
+  .tts-player {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 16px;
+    width: min(560px, calc(100% - 24px));
+    z-index: 35;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    box-shadow: var(--shadow-md);
+    padding: 10px 12px 12px 16px;
+  }
+  @media (max-width: 719px) {
+    .tts-player {
+      bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom) + 8px);
+    }
+  }
+  .tts-top {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .tts-meta {
+    flex: 1;
+    min-width: 0;
+    display: grid;
+    line-height: 1.4;
+  }
+  .tts-section {
+    font-weight: 700;
+    font-size: 0.85rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .tts-count {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .tts-progress {
+    height: 3px;
+    background: var(--surface-2);
+    border-radius: 999px;
+    overflow: hidden;
+    margin: 6px 0 8px;
+  }
+  .tts-progress span {
+    display: block;
+    height: 100%;
+    width: 0;
+    background: var(--step-color, var(--accent));
+    transition: width 0.3s ease;
+  }
+  .tts-controls {
+    display: grid;
+    grid-template-columns: 1fr auto auto auto 1fr;
+    align-items: center;
+    gap: 6px;
+  }
+  .tts-rate select {
+    min-height: 36px;
+    padding: 4px 8px;
+    font-size: 16px;
+  }
+  .tts-hint {
+    justify-self: end;
+    text-align: right;
+    font-size: 0.68rem;
+    line-height: 1.3;
+    color: var(--text-muted);
+  }
+  .tts-btn {
+    width: 44px;
+    height: 44px;
+    border: 0;
+    border-radius: 999px;
+    background: transparent;
+    color: var(--text);
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  .tts-btn:hover {
+    background: var(--surface-2);
+  }
+  .tts-main {
+    width: 54px;
+    height: 54px;
+    background: var(--accent);
+    color: var(--accent-text);
+  }
+  .tts-main:hover {
+    background: var(--accent-hover);
+  }
+  .tts-close {
+    width: 36px;
+    height: 36px;
+    color: var(--text-muted);
+  }
+  .tts-main .icon-play,
+  .tts-player.is-playing .tts-main .icon-pause {
+    display: block;
+  }
+  .tts-main .icon-pause,
+  .tts-player.is-playing .tts-main .icon-play {
+    display: none;
+  }
+  .lesson :global(.tts-active) {
+    background: color-mix(in srgb, var(--accent) 16%, transparent);
+    box-shadow: 0 0 0 6px color-mix(in srgb, var(--accent) 16%, transparent);
+    border-radius: 4px;
+  }
+  .lesson.tts-mode :global(:is(h2, h3, h4, p, li, tr)) {
+    cursor: pointer;
+  }
+  :global(body.tts-open main) {
+    padding-bottom: 180px;
+  }
+  :global(body.tts-open) .toc-fab {
+    bottom: 160px;
+  }
+  @media (max-width: 719px) {
+    :global(body.tts-open) .toc-fab {
+      bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom) + 150px);
+    }
+  }
+  .toc-sheet::backdrop {
+    background: rgb(0 0 0 / 40%);
+  }
+  .toc-sheet .toc {
+    overflow-y: auto;
+    flex: 1;
+  }
+  .toc-sheet .toc .toc-sub {
+    display: block;
+  }
+  .sheet-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4px;
+  }
+  .sheet-head .toc-title {
+    margin: 0;
+  }
+  .sheet-foot {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border);
+  }
+</style>

@@ -1,0 +1,90 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { certs, displayName, getQuestions, scoreLine, secondsPerQuestion, url } from '../../../lib/data';
+import type { Cert } from '../../../lib/types';
+import '../../../styles/quiz.css';
+
+export function getStaticPaths() {
+  return certs.filter((c) => getQuestions(c.id).length > 0).map((cert) => ({ params: { id: cert.id }, props: { cert } }));
+}
+
+const { cert } = Astro.props as { cert: Cert };
+const shortName = displayName(cert);
+const settings = {
+  certId: cert.id,
+  shortName,
+  dataUrl: url(`data/${cert.id}.json`),
+  domains: cert.domains.map((d) => ({ id: d.id, name: d.name, weight: d.weight, seconds: secondsPerQuestion(cert, d.id), exam: d.exam ?? null })),
+  exam: { questions: cert.exam.questions, minutes: cert.exam.minutes, format: cert.exam.format },
+  line: scoreLine(cert),
+  backHref: url(`certs/${cert.id}/`),
+};
+---
+
+<Base title={`演習 - ${shortName}`}>
+  <nav class="breadcrumb">
+    <a href={url()}>ホーム</a> › <a href={url(`certs/${cert.id}/`)}>{shortName}</a> › 演習
+  </nav>
+  <div id="quiz"><p class="muted">読み込み中…</p></div>
+  <script type="application/json" id="quiz-settings" set:html={JSON.stringify(settings)} />
+  <script>
+    import type { MockSpec, QuizPayload } from '../../../lib/types';
+    import { readJson } from '../../../lib/progress';
+    import { pickMockQuestions, pickPractice, runQuiz, type DomainInfo } from '../../../lib/quiz-runner';
+    import { loadProgress } from '../../../lib/storage';
+
+    /** 練習 1 回分の問題数 */
+    const PRACTICE_COUNT = 20;
+
+    const s = readJson<{
+      certId: string;
+      shortName: string;
+      dataUrl: string;
+      domains: (DomainInfo & { exam: MockSpec | null })[];
+      exam: { questions: number | null; minutes: number | null; format: string };
+      line: { value: number; label: string };
+      backHref: string;
+    }>('quiz-settings');
+    const root = document.getElementById('quiz')!;
+
+    async function main() {
+      let data: QuizPayload;
+      try {
+        const res = await fetch(s.dataUrl);
+        if (!res.ok) throw new Error(String(res.status));
+        data = (await res.json()) as QuizPayload;
+      } catch {
+        root.innerHTML = `<div class="card"><p>問題を読み込めませんでした。電波の良いところでもう一度開いてください。</p><a class="btn" href="${s.backHref}">戻る</a></div>`;
+        return;
+      }
+      const params = new URLSearchParams(location.search);
+      const mode = params.get('mode');
+      const domainId = params.get('domain');
+      const common = { root, passages: data.passages, domains: s.domains, backHref: s.backHref, backLabel: '科目のページに戻る' };
+      const domain = s.domains.find((d) => d.id === domainId);
+
+      if (mode === 'mock') {
+        // 形式を指定したときはその形式の本番どおり、なければ科目全体の本番どおり
+        const spec = domain?.exam ?? (s.exam.questions && s.exam.minutes ? { questions: s.exam.questions, minutes: s.exam.minutes } : null);
+        const pool = domain ? data.questions.filter((q) => q.domain === domain.id) : data.questions;
+        const examCount = spec?.questions ?? 20;
+        const count = Math.min(examCount, pool.length);
+        const minutes = Math.max(1, Math.round(((spec?.minutes ?? 20) * count * 10) / examCount) / 10);
+        const label = domain ? `${domain.name} 本番形式` : '模擬試験';
+        runQuiz({
+          ...common,
+          mode: 'mock',
+          questions: pickMockQuestions(pool, domain ? [domain] : s.domains, count),
+          title: `${label}（${count} 問・${minutes} 分）`,
+          mock: { certId: s.certId, domain: domain?.id, minutes, passingScore: s.line.value, scoreLabel: s.line.label },
+        });
+      } else {
+        const pool = domain ? data.questions.filter((q) => q.domain === domain.id) : data.questions;
+        const questions = pickPractice(pool, PRACTICE_COUNT, loadProgress().questions);
+        const name = domain ? `練習問題: ${domain.name}` : `全形式から演習: ${s.shortName}`;
+        runQuiz({ ...common, mode: 'practice', questions, title: questions.length < pool.length ? `${name}（${questions.length} 問）` : name });
+      }
+    }
+    main();
+  </script>
+</Base>

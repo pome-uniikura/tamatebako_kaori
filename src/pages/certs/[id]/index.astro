@@ -1,0 +1,549 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { certs, steps, url, certSummaries, getLessonKeys, domainStudyHours, formatHours, displayName, scoreLine } from '../../../lib/data';
+import type { Cert } from '../../../lib/types';
+
+export function getStaticPaths() {
+  return certs.map((cert) => ({ params: { id: cert.id }, props: { cert } }));
+}
+
+const { cert } = Astro.props as { cert: Cert };
+const step = steps.find((s) => s.id === cert.step)!;
+const lessonKeys = await getLessonKeys();
+const summary = certSummaries(lessonKeys).find((s) => s.id === cert.id)!;
+const hasQuestions = summary.questions.length > 0;
+const shortName = displayName(cert);
+const line = scoreLine(cert);
+const mixedMock = cert.exam.format === 'mixed' && cert.exam.questions !== null && cert.exam.minutes !== null;
+const domainNames = Object.fromEntries(cert.domains.map((d) => [d.id, d.name]));
+---
+
+<Base title={shortName}>
+  <nav class="breadcrumb" aria-label="現在の位置">
+    <a href={url()}>ホーム</a><span aria-hidden="true">›</span><span>{step.title}</span>
+  </nav>
+
+  <header class="cert-head" style={`--step-color: var(--step-${step.id})`}>
+    <h1>{shortName}</h1>
+    <p class="summary">{cert.summary}</p>
+  </header>
+
+  {
+    cert.status === 'outline' && (
+      <p class="notice">
+        この科目は<strong>概要のみ</strong>です。教材と練習問題は順次追加します。
+      </p>
+    )
+  }
+
+  <section class="card plan" aria-labelledby="plan-title" style={`--step-color: var(--step-${step.id})`}>
+    <h2 id="plan-title" class="visually-hidden">進み具合と受検の予定</h2>
+    <div class="plan-progress">
+      <p class="plan-percent"><strong id="overall-percent">0%</strong><span class="small muted"> 完了</span></p>
+      <div class="progress thick" aria-hidden="true"><span id="overall-bar"></span></div>
+      <p class="small muted" id="overall-detail"></p>
+    </div>
+
+    <div class="btn-row stack plan-actions" id="plan-actions">
+      {
+        hasQuestions && (
+          <>
+            {mixedMock && (
+              <a class="btn" href={url(`certs/${cert.id}/quiz/?mode=mock`)}>
+                本番形式（{cert.exam.questions} 問・{cert.exam.minutes} 分）
+              </a>
+            )}
+            <a class="btn" href={url(`certs/${cert.id}/quiz/?mode=all`)}>
+              全形式から練習
+            </a>
+          </>
+        )
+      }
+    </div>
+
+    <div class="weak" id="weak" hidden></div>
+
+    <div class="plan-dates">
+      <label class="field">
+        <span class="small muted">受検予定日</span>
+        <input type="date" id="target-date" />
+      </label>
+      <label class="field">
+        <span class="small muted">受検した日</span>
+        <input type="date" id="passed-date" />
+      </label>
+      <p class="small countdown" id="countdown" aria-live="polite"></p>
+    </div>
+
+    <div id="mock-history"></div>
+  </section>
+
+  <h2 class="section-title">出題形式</h2>
+  {
+    cert.exam.format === 'single' && (
+      <p class="small muted format-note">本番では、この中の<strong>どれか 1 つの形式だけ</strong>が出題されます（企業ごとに異なります）。最初の問題の形式が最後まで続きます。</p>
+    )
+  }
+  <ol class="list domains" style={`--step-color: var(--step-${step.id})`}>
+    {
+      cert.domains.map((d, i) => {
+        const hasLesson = lessonKeys.has(`${cert.id}/${d.id}`);
+        const qCount = summary.questions.filter((q) => q.domain === d.id).length;
+        const hours = domainStudyHours(cert, d.id);
+        return (
+          <li class:list={['domain', { 'row-link': hasLesson }]} data-domain={d.id}>
+            <span class="domain-no" data-mark aria-hidden="true">
+              {i + 1}
+            </span>
+            <div class="domain-main">
+              <div class="domain-title">
+                {hasLesson ? (
+                  <a class="stretched" href={url(`certs/${cert.id}/${d.id}/`)}>
+                    {d.name}
+                  </a>
+                ) : (
+                  <span>{d.name}</span>
+                )}
+                {d.exam ? (
+                  <span class="weight">
+                    {d.exam.questions} 問・{d.exam.minutes} 分
+                  </span>
+                ) : (
+                  cert.exam.format === 'mixed' && d.weight !== null && <span class="weight">出題の約 {d.weight}%</span>
+                )}
+              </div>
+              <p class="small muted domain-sub">
+                {d.nameEn}
+                {hours !== null && ` ・ 約 ${formatHours(hours)}`}
+              </p>
+              {(hasLesson || qCount > 0) && (
+                <div class="domain-status">
+                  <div class="progress" aria-hidden="true">
+                    <span data-bar />
+                  </div>
+                  <span class="small muted" data-status />
+                </div>
+              )}
+            </div>
+            {qCount > 0 && (
+              <div class="domain-actions above">
+                <a class="btn btn-sm" href={url(`certs/${cert.id}/quiz/?domain=${d.id}`)}>
+                  練習 {qCount} 問
+                </a>
+                {d.exam && (
+                  <a class="btn btn-sm btn-mock" href={url(`certs/${cert.id}/quiz/?mode=mock&domain=${d.id}`)}>
+                    本番形式
+                  </a>
+                )}
+              </div>
+            )}
+          </li>
+        );
+      })
+    }
+  </ol>
+
+  <h2 class="section-title">テストの概要</h2>
+  <section class="card exam" aria-label="テストの概要">
+    <div class="stats">
+      {
+        cert.exam.questions !== null && (
+          <div class="stat">
+            <span class="stat-label">問題数</span>
+            <span class="stat-value">{cert.exam.questions}<small>問</small></span>
+          </div>
+        )
+      }
+      {
+        cert.exam.minutes !== null && (
+          <div class="stat">
+            <span class="stat-label">制限時間</span>
+            <span class="stat-value">{cert.exam.minutes}<small>分</small></span>
+          </div>
+        )
+      }
+      {
+        cert.exam.format !== 'none' && (
+          <div class="stat">
+            <span class="stat-label">合格ライン</span>
+            <span class="stat-value">{cert.exam.passingNote ?? '非公開'}</span>
+          </div>
+        )
+      }
+      {
+        cert.exam.format !== 'none' && (
+          <div class="stat">
+            <span class="stat-label">このサイトの目安</span>
+            <span class="stat-value">{line.value}<small>%</small></span>
+          </div>
+        )
+      }
+      {cert.study && <div class="stat"><span class="stat-label">学習時間の目安</span><span class="stat-value">{cert.study.hours}<small>時間</small></span></div>}
+    </div>
+    {
+      cert.exam.format === 'single' && (
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">形式</th>
+                <th scope="col">問題数・時間</th>
+                <th scope="col">1 問あたり</th>
+              </tr>
+            </thead>
+            <tbody>
+              {cert.domains
+                .filter((d) => d.exam)
+                .map((d) => (
+                  <tr>
+                    <th scope="row">{d.name}</th>
+                    <td>
+                      {d.exam!.questions} 問・{d.exam!.minutes} 分{d.exam!.note && <span class="small muted"><br />{d.exam!.note}</span>}
+                    </td>
+                    <td>約 {Math.round((d.exam!.minutes * 60) / d.exam!.questions)} 秒</td>
+                  </tr>
+                ))}
+            </tbody>
+          </table>
+        </div>
+      )
+    }
+    <div class="table-wrap">
+      <table>
+        <tbody>
+          {
+            cert.exam.facts.map((f) => (
+              <tr>
+                <th scope="row">{f.label}</th>
+                <td>{f.value}</td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
+    <details class="exam-more">
+      <summary>注意点</summary>
+      {cert.study && <p class="small">学習時間の目安について: {cert.study.note}</p>}
+      <ul class="small notes">
+        {cert.exam.notes.map((n) => <li>{n}</li>)}
+      </ul>
+      <p class="small muted">情報の確認日: {cert.exam.checkedAt}</p>
+    </details>
+    {
+      cert.links.length > 0 && (
+        <ul class="links small">
+          {cert.links.map((l) => (
+            <li>
+              <a href={l.url} target="_blank" rel="noopener noreferrer">
+                {l.label}
+                <span class="visually-hidden">（新しいタブで開く）</span> ↗
+              </a>
+            </li>
+          ))}
+        </ul>
+      )
+    }
+  </section>
+
+  <script type="application/json" id="cert-names" set:html={JSON.stringify(domainNames)} />
+  <script type="application/json" id="cert-data" set:html={JSON.stringify(summary)} />
+  <script type="application/json" id="cert-line" set:html={JSON.stringify(line)} />
+  <script>
+    import type { CertSummary } from '../../../lib/data';
+    import { getReadingPos, loadProgress, setPlan } from '../../../lib/storage';
+    import { certProgress, daysLabel, daysUntil, domainAccuracy, nextAction, paceText, readJson, weakDomains } from '../../../lib/progress';
+
+    const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+    const cert = readJson<CertSummary>('cert-data');
+    const line = readJson<{ value: number; label: string }>('cert-line');
+    const domainNames = readJson<Record<string, string>>('cert-names');
+    const targetInput = document.getElementById('target-date') as HTMLInputElement;
+    const passedInput = document.getElementById('passed-date') as HTMLInputElement;
+    const $ = (id: string) => document.getElementById(id)!;
+    const escape = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
+
+    function render() {
+      const data = loadProgress();
+      const plan = data.plans[cert.id] ?? {};
+      targetInput.value = plan.targetDate ?? cert.suggestedTarget ?? '';
+      passedInput.value = plan.passedDate ?? '';
+
+      const p = certProgress(cert, data);
+      $('overall-percent').textContent = `${p.percent}%`;
+      $('overall-bar').style.width = `${p.percent}%`;
+      $('overall-detail').textContent = `レッスン ${p.lessonsDone}/${p.lessonsTotal} ・ 練習の目標 ${p.mastered}/${p.questionsTotal} 問 ・ 復習待ち ${p.reviewCount} 問`;
+
+      // 受験目標
+      const countdown = $('countdown');
+      if (plan.passedDate) countdown.textContent = '受検お疲れさまでした！';
+      else if (targetInput.value) {
+        const d = daysUntil(targetInput.value);
+        countdown.textContent = [`受検予定日まで${d >= 0 ? '' : '：'}${daysLabel(d)}`, paceText(cert.studyHours, p.percent, d)].filter(Boolean).join('。');
+      } else countdown.textContent = '受検予定日を決めると、1 日あたりのペースを計算します。';
+
+      // 次にやること（読みかけのレッスンを優先）
+      const actions = $('plan-actions');
+      actions.querySelector('[data-next]')?.remove();
+      const reading = cert.lessonDomains
+        .filter((d) => !data.lessons[`${cert.id}/${d}`])
+        .map((d) => ({ d, pos: getReadingPos(`${cert.id}/${d}`) }))
+        .find((r) => r.pos);
+      const next = nextAction(cert, data, base);
+      const primary = reading
+        ? {
+            label: `続きを読む: ${cert.domains.find((x) => x.id === reading.d)?.name ?? reading.d}`,
+            href: `${base}/certs/${cert.id}/${reading.d}/#${reading.pos!.heading}`,
+          }
+        : next;
+      if (primary && !plan.passedDate) {
+        const a = document.createElement('a');
+        a.className = 'btn btn-primary';
+        a.dataset.next = '';
+        a.href = primary.href;
+        a.textContent = primary.label;
+        actions.prepend(a);
+      }
+
+      // 苦手な範囲
+      const weak = weakDomains(cert, data, line.value);
+      const weakEl = $('weak');
+      weakEl.hidden = weak.length === 0;
+      weakEl.innerHTML = weak.length
+        ? `<p class="small weak-title">苦手な形式（正答率が${line.label} ${line.value}% 未満）</p><div class="btn-row">${weak
+            .slice(0, 3)
+            .map(
+              (d) =>
+                `<a class="btn btn-sm" href="${base}/certs/${cert.id}/quiz/?domain=${d.id}">${escape(d.name)} <span class="tag tag-danger">${d.acc.rate}%</span></a>`,
+            )
+            .join('')}</div>`
+        : '';
+
+      // 出題範囲ごとの状態
+      for (const d of cert.domains) {
+        const el = document.querySelector<HTMLElement>(`[data-domain="${d.id}"]`);
+        if (!el) continue;
+        const dp = certProgress(cert, data, d.id);
+        const acc = domainAccuracy(cert, data, d.id);
+        const parts: string[] = [];
+        if (dp.lessonsTotal) parts.push(dp.lessonsDone ? '読了' : 'レッスン未読');
+        const best = data.mocks.filter((m) => m.certId === cert.id && m.domain === d.id).map((m) => Math.round((m.score / m.total) * 100));
+        if (best.length) parts.push(`本番形式 最高 ${Math.max(...best)}%`);
+        if (dp.questionsTotal) parts.push(`正解 ${dp.mastered}/${dp.questionsTotal}`);
+        if (acc.rate !== null) parts.push(`正答率 ${acc.rate}%`);
+        const status = el.querySelector<HTMLElement>('[data-status]');
+        if (status) status.textContent = parts.join(' ・ ');
+        const bar = el.querySelector<HTMLElement>('[data-bar]');
+        if (bar) bar.style.width = `${dp.percent}%`;
+        el.dataset.state = dp.percent === 100 ? 'done' : dp.lessonsDone ? 'read' : 'todo';
+        el.classList.toggle('is-weak', acc.answered >= 5 && acc.rate !== null && acc.rate < line.value);
+      }
+
+      // 模擬試験の履歴
+      const mocks = data.mocks.filter((m) => m.certId === cert.id).slice(-5).reverse();
+      $('mock-history').innerHTML = mocks.length
+        ? `<p class="small muted mock-title">本番形式の結果（直近 ${mocks.length} 回）</p><ul class="mock-list">${mocks
+            .map((m) => {
+              const pct = Math.round((m.score / m.total) * 100);
+              const ok = pct >= line.value;
+              const name = m.domain ? `${escape(domainNames[m.domain] ?? m.domain)} ` : '';
+              return `<li><span class="tag ${ok ? 'tag-success' : 'tag-danger'}">${pct}%</span><span class="small muted">${name}${m.date.slice(5, 10).replace('-', '/')}</span></li>`;
+            })
+            .join('')}</ul>`
+        : '';
+    }
+
+    targetInput.addEventListener('change', () => {
+      setPlan(cert.id, { targetDate: targetInput.value });
+      render();
+    });
+    passedInput.addEventListener('change', () => {
+      setPlan(cert.id, { passedDate: passedInput.value });
+      render();
+    });
+    render();
+  </script>
+</Base>
+
+<style>
+  .cert-head h1 {
+    margin-bottom: 2px;
+  }
+  .official {
+    margin: 0 0 8px;
+  }
+  .summary {
+    margin: 0 0 20px;
+    max-width: 46em;
+  }
+  .plan {
+    display: grid;
+    gap: 16px;
+    border-top: 4px solid var(--step-color);
+  }
+  .plan-percent {
+    margin: 0 0 6px;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    font-variant-numeric: tabular-nums;
+  }
+  .plan-progress .progress > span {
+    background: var(--step-color);
+  }
+  .plan-progress p:last-child {
+    margin: 6px 0 0;
+  }
+  .weak {
+    padding: 12px 14px;
+    border-radius: var(--radius-sm);
+    background: var(--danger-soft);
+  }
+  .weak :global(.weak-title) {
+    margin: 0 0 8px;
+    font-weight: 700;
+    color: var(--danger);
+  }
+  .plan-dates {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+    align-items: flex-end;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+  }
+  .field {
+    display: grid;
+    gap: 2px;
+  }
+  .countdown {
+    flex: 1 1 100%;
+    margin: 0;
+  }
+  #mock-history:empty {
+    display: none;
+  }
+  #mock-history :global(.mock-title) {
+    margin: 0 0 6px;
+  }
+  #mock-history :global(.mock-list) {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  #mock-history :global(.mock-list li) {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+  }
+  .domain {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    gap: 12px;
+    align-items: center;
+    padding: 14px 16px;
+  }
+  .domain-no {
+    width: 28px;
+    height: 28px;
+    border-radius: 999px;
+    display: grid;
+    place-items: center;
+    font-size: 0.8rem;
+    font-weight: 700;
+    background: var(--surface-2);
+    color: var(--text-muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .domain[data-state='read'] .domain-no {
+    background: var(--accent-soft);
+    color: var(--accent);
+  }
+  .domain[data-state='done'] .domain-no {
+    background: var(--success);
+    color: var(--surface);
+  }
+  .domain-title {
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+    justify-content: space-between;
+    font-weight: 700;
+  }
+  .weight {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+  .domain-sub {
+    margin: 0;
+  }
+  .domain-status {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 6px;
+  }
+  .domain-status .progress {
+    width: 96px;
+    flex-shrink: 0;
+  }
+  .domain[data-state='done'] .progress > span {
+    background: var(--success);
+  }
+  .domain.is-weak [data-status] {
+    color: var(--danger);
+  }
+  .domain-status {
+    flex-wrap: wrap;
+    row-gap: 2px;
+  }
+  .domain-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: flex-end;
+  }
+  .btn-mock {
+    border-color: var(--step-color, var(--accent));
+    color: var(--step-color, var(--accent));
+  }
+  .format-note {
+    margin: -4px 2px 10px;
+  }
+  @media (max-width: 599px) {
+    .domain {
+      grid-template-columns: auto minmax(0, 1fr);
+      align-items: start;
+    }
+    .domain-actions {
+      grid-column: 2;
+      justify-content: flex-start;
+    }
+  }
+  .exam {
+    display: grid;
+    gap: 12px;
+  }
+  .exam-more summary {
+    font-weight: 600;
+    color: var(--text-muted);
+  }
+  .exam-more[open] summary {
+    margin-bottom: 8px;
+  }
+  .notes {
+    padding-left: 1.2em;
+  }
+  .links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 16px;
+  }
+</style>

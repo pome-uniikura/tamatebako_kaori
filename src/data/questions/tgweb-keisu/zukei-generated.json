@@ -1,0 +1,1502 @@
+[
+ {
+  "id": "tgk-tenkai-001",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の展開図を組み立てて立方体を作るとき、「B」の面と向かい合う面はどれか。",
+  "figure": {
+   "kind": "svg",
+   "title": "立方体の展開図",
+   "svg": "<svg viewBox=\"0 0 124 164\" width=\"124\" height=\"164\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"42\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">E</text><rect x=\"82\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">C</text><rect x=\"42\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">D</text><rect x=\"42\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">B</text><rect x=\"2\" y=\"122\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"142\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">F</text><rect x=\"42\" y=\"122\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"142\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">A</text></svg>",
+   "alt": "立方体の展開図。マスの並び: (2, 1) E、(3, 1) C、(2, 2) D、(2, 3) B、(1, 4) F、(2, 4) A"
+  },
+  "choices": [
+   "A",
+   "C",
+   "D",
+   "E",
+   "F"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "向かい合う面は、展開図の上で「1 つおきに一直線に並ぶ面」になります（間に 1 面はさむ）。一直線になっていないときは、面を回転させて移動し、一直線に並べ直して考えます。\nこの展開図では「B」と「E」が向かい合います。\n向かい合う面の組: E と B、A と D、C と F"
+ },
+ {
+  "id": "tgk-tenkai-002",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の展開図を組み立てて立方体を作るとき、向かい合う面の組み合わせとして正しいものはどれか。",
+  "figure": {
+   "kind": "svg",
+   "title": "立方体の展開図",
+   "svg": "<svg viewBox=\"0 0 124 164\" width=\"124\" height=\"164\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"42\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">F</text><rect x=\"82\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">C</text><rect x=\"42\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">D</text><rect x=\"42\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">B</text><rect x=\"2\" y=\"122\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"142\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">E</text><rect x=\"42\" y=\"122\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"142\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">A</text></svg>",
+   "alt": "立方体の展開図。マスの並び: (2, 1) F、(3, 1) C、(2, 2) D、(2, 3) B、(1, 4) E、(2, 4) A"
+  },
+  "choices": [
+   "A と D",
+   "A と B",
+   "E と F",
+   "B と D",
+   "D と E"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "向かい合う面の組は B と F、A と D、C と E です。\n展開図で一直線に 3 面並んでいるとき、両端の面が向かい合います。隣り合う面（辺を共有する面）は向かい合いません。"
+ },
+ {
+  "id": "tgk-tenkai-003",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の展開図を組み立てて立方体を作るとき、「E」の面と向かい合う面はどれか。",
+  "figure": {
+   "kind": "svg",
+   "title": "立方体の展開図",
+   "svg": "<svg viewBox=\"0 0 124 164\" width=\"124\" height=\"164\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"42\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">E</text><rect x=\"82\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">A</text><rect x=\"2\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">C</text><rect x=\"42\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">D</text><rect x=\"42\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">B</text><rect x=\"42\" y=\"122\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"142\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">F</text></svg>",
+   "alt": "立方体の展開図。マスの並び: (2, 1) E、(3, 1) A、(1, 2) C、(2, 2) D、(2, 3) B、(2, 4) F"
+  },
+  "choices": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "F"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "向かい合う面は、展開図の上で「1 つおきに一直線に並ぶ面」になります（間に 1 面はさむ）。一直線になっていないときは、面を回転させて移動し、一直線に並べ直して考えます。\nこの展開図では「E」と「B」が向かい合います。\n向かい合う面の組: E と B、F と D、A と C"
+ },
+ {
+  "id": "tgk-tenkai-004",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の展開図を組み立てて立方体を作るとき、「D」の面と向かい合う面はどれか。",
+  "figure": {
+   "kind": "svg",
+   "title": "立方体の展開図",
+   "svg": "<svg viewBox=\"0 0 164 124\" width=\"164\" height=\"124\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"82\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">E</text><rect x=\"122\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"142\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">F</text><rect x=\"42\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">C</text><rect x=\"82\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">B</text><rect x=\"2\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">A</text><rect x=\"42\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">D</text></svg>",
+   "alt": "立方体の展開図。マスの並び: (3, 1) E、(4, 1) F、(2, 2) C、(3, 2) B、(1, 3) A、(2, 3) D"
+  },
+  "choices": [
+   "A",
+   "B",
+   "C",
+   "E",
+   "F"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "向かい合う面は、展開図の上で「1 つおきに一直線に並ぶ面」になります（間に 1 面はさむ）。一直線になっていないときは、面を回転させて移動し、一直線に並べ直して考えます。\nこの展開図では「D」と「E」が向かい合います。\n向かい合う面の組: E と D、A と B、F と C"
+ },
+ {
+  "id": "tgk-tenkai-005",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の展開図を組み立てて立方体を作るとき、向かい合う面の組み合わせとして正しいものはどれか。",
+  "figure": {
+   "kind": "svg",
+   "title": "立方体の展開図",
+   "svg": "<svg viewBox=\"0 0 124 164\" width=\"124\" height=\"164\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"42\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">D</text><rect x=\"42\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">F</text><rect x=\"42\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">A</text><rect x=\"2\" y=\"122\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"142\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">B</text><rect x=\"42\" y=\"122\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"142\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">E</text><rect x=\"82\" y=\"122\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"142\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">C</text></svg>",
+   "alt": "立方体の展開図。マスの並び: (2, 1) D、(2, 2) F、(2, 3) A、(1, 4) B、(2, 4) E、(3, 4) C"
+  },
+  "choices": [
+   "A と F",
+   "D と F",
+   "B と E",
+   "C と D",
+   "B と C"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "向かい合う面の組は A と D、E と F、B と C です。\n展開図で一直線に 3 面並んでいるとき、両端の面が向かい合います。隣り合う面（辺を共有する面）は向かい合いません。"
+ },
+ {
+  "id": "tgk-tenkai-006",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の展開図を組み立てて立方体を作るとき、「F」の面と向かい合う面はどれか。",
+  "figure": {
+   "kind": "svg",
+   "title": "立方体の展開図",
+   "svg": "<svg viewBox=\"0 0 204 84\" width=\"204\" height=\"84\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"82\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">B</text><rect x=\"122\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"142\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">D</text><rect x=\"162\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"182\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">F</text><rect x=\"2\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">C</text><rect x=\"42\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">E</text><rect x=\"82\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">A</text></svg>",
+   "alt": "立方体の展開図。マスの並び: (3, 1) B、(4, 1) D、(5, 1) F、(1, 2) C、(2, 2) E、(3, 2) A"
+  },
+  "choices": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "向かい合う面は、展開図の上で「1 つおきに一直線に並ぶ面」になります（間に 1 面はさむ）。一直線になっていないときは、面を回転させて移動し、一直線に並べ直して考えます。\nこの展開図では「F」と「B」が向かい合います。\n向かい合う面の組: B と F、C と A、D と E"
+ },
+ {
+  "id": "tgk-tenkai-007",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の展開図を組み立てて立方体を作るとき、「B」の面と向かい合う面はどれか。",
+  "figure": {
+   "kind": "svg",
+   "title": "立方体の展開図",
+   "svg": "<svg viewBox=\"0 0 164 124\" width=\"164\" height=\"124\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">B</text><rect x=\"2\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">A</text><rect x=\"42\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">F</text><rect x=\"82\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">C</text><rect x=\"122\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"142\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">E</text><rect x=\"2\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">D</text></svg>",
+   "alt": "立方体の展開図。マスの並び: (1, 1) B、(1, 2) A、(2, 2) F、(3, 2) C、(4, 2) E、(1, 3) D"
+  },
+  "choices": [
+   "A",
+   "C",
+   "D",
+   "E",
+   "F"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "向かい合う面は、展開図の上で「1 つおきに一直線に並ぶ面」になります（間に 1 面はさむ）。一直線になっていないときは、面を回転させて移動し、一直線に並べ直して考えます。\nこの展開図では「B」と「D」が向かい合います。\n向かい合う面の組: B と D、C と A、F と E"
+ },
+ {
+  "id": "tgk-tenkai-008",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の展開図を組み立てて立方体を作るとき、「C」の面と向かい合う面はどれか。",
+  "figure": {
+   "kind": "svg",
+   "title": "立方体の展開図",
+   "svg": "<svg viewBox=\"0 0 164 124\" width=\"164\" height=\"124\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"42\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">D</text><rect x=\"2\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">C</text><rect x=\"42\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">B</text><rect x=\"82\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">E</text><rect x=\"122\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"142\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">A</text><rect x=\"2\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">F</text></svg>",
+   "alt": "立方体の展開図。マスの並び: (2, 1) D、(1, 2) C、(2, 2) B、(3, 2) E、(4, 2) A、(1, 3) F"
+  },
+  "choices": [
+   "A",
+   "B",
+   "D",
+   "E",
+   "F"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "向かい合う面は、展開図の上で「1 つおきに一直線に並ぶ面」になります（間に 1 面はさむ）。一直線になっていないときは、面を回転させて移動し、一直線に並べ直して考えます。\nこの展開図では「C」と「E」が向かい合います。\n向かい合う面の組: D と F、A と B、E と C"
+ },
+ {
+  "id": "tgk-tenkai-009",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の展開図を組み立てて立方体を作るとき、「F」の面と向かい合う面はどれか。",
+  "figure": {
+   "kind": "svg",
+   "title": "立方体の展開図",
+   "svg": "<svg viewBox=\"0 0 124 164\" width=\"124\" height=\"164\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">E</text><rect x=\"42\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">B</text><rect x=\"82\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">D</text><rect x=\"42\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">F</text><rect x=\"42\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">C</text><rect x=\"42\" y=\"122\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"142\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">A</text></svg>",
+   "alt": "立方体の展開図。マスの並び: (1, 1) E、(2, 1) B、(3, 1) D、(2, 2) F、(2, 3) C、(2, 4) A"
+  },
+  "choices": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "向かい合う面は、展開図の上で「1 つおきに一直線に並ぶ面」になります（間に 1 面はさむ）。一直線になっていないときは、面を回転させて移動し、一直線に並べ直して考えます。\nこの展開図では「F」と「A」が向かい合います。\n向かい合う面の組: E と D、A と F、B と C"
+ },
+ {
+  "id": "tgk-tenkai-010",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の展開図を組み立てて立方体を作るとき、「F」の面と向かい合う面はどれか。",
+  "figure": {
+   "kind": "svg",
+   "title": "立方体の展開図",
+   "svg": "<svg viewBox=\"0 0 164 124\" width=\"164\" height=\"124\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"82\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">A</text><rect x=\"122\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"142\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">B</text><rect x=\"2\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">C</text><rect x=\"42\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">F</text><rect x=\"82\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">E</text><rect x=\"42\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">D</text></svg>",
+   "alt": "立方体の展開図。マスの並び: (3, 1) A、(4, 1) B、(1, 2) C、(2, 2) F、(3, 2) E、(2, 3) D"
+  },
+  "choices": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "向かい合う面は、展開図の上で「1 つおきに一直線に並ぶ面」になります（間に 1 面はさむ）。一直線になっていないときは、面を回転させて移動し、一直線に並べ直して考えます。\nこの展開図では「F」と「B」が向かい合います。\n向かい合う面の組: A と D、C と E、B と F"
+ },
+ {
+  "id": "tgk-tenkai-011",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の展開図を組み立てて立方体を作るとき、「F」の面と向かい合う面はどれか。",
+  "figure": {
+   "kind": "svg",
+   "title": "立方体の展開図",
+   "svg": "<svg viewBox=\"0 0 124 164\" width=\"124\" height=\"164\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"42\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">D</text><rect x=\"42\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">C</text><rect x=\"82\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">B</text><rect x=\"2\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">E</text><rect x=\"42\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">F</text><rect x=\"42\" y=\"122\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"142\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">A</text></svg>",
+   "alt": "立方体の展開図。マスの並び: (2, 1) D、(2, 2) C、(3, 2) B、(1, 3) E、(2, 3) F、(2, 4) A"
+  },
+  "choices": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "向かい合う面は、展開図の上で「1 つおきに一直線に並ぶ面」になります（間に 1 面はさむ）。一直線になっていないときは、面を回転させて移動し、一直線に並べ直して考えます。\nこの展開図では「F」と「D」が向かい合います。\n向かい合う面の組: D と F、A と C、B と E"
+ },
+ {
+  "id": "tgk-tenkai-012",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の展開図を組み立てて立方体を作るとき、「D」の面と向かい合う面はどれか。",
+  "figure": {
+   "kind": "svg",
+   "title": "立方体の展開図",
+   "svg": "<svg viewBox=\"0 0 164 124\" width=\"164\" height=\"124\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"82\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">B</text><rect x=\"2\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">A</text><rect x=\"42\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">E</text><rect x=\"82\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">C</text><rect x=\"122\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"142\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">F</text><rect x=\"82\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">D</text></svg>",
+   "alt": "立方体の展開図。マスの並び: (3, 1) B、(1, 2) A、(2, 2) E、(3, 2) C、(4, 2) F、(3, 3) D"
+  },
+  "choices": [
+   "A",
+   "B",
+   "C",
+   "E",
+   "F"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "向かい合う面は、展開図の上で「1 つおきに一直線に並ぶ面」になります（間に 1 面はさむ）。一直線になっていないときは、面を回転させて移動し、一直線に並べ直して考えます。\nこの展開図では「D」と「B」が向かい合います。\n向かい合う面の組: B と D、A と C、F と E"
+ },
+ {
+  "id": "tgk-tenkai-013",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の展開図を組み立てて立方体を作るとき、「D」の面と向かい合う面はどれか。",
+  "figure": {
+   "kind": "svg",
+   "title": "立方体の展開図",
+   "svg": "<svg viewBox=\"0 0 164 124\" width=\"164\" height=\"124\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"82\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">A</text><rect x=\"2\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">F</text><rect x=\"42\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">C</text><rect x=\"82\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">E</text><rect x=\"122\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"142\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">D</text><rect x=\"82\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">B</text></svg>",
+   "alt": "立方体の展開図。マスの並び: (3, 1) A、(1, 2) F、(2, 2) C、(3, 2) E、(4, 2) D、(3, 3) B"
+  },
+  "choices": [
+   "A",
+   "B",
+   "C",
+   "E",
+   "F"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "向かい合う面は、展開図の上で「1 つおきに一直線に並ぶ面」になります（間に 1 面はさむ）。一直線になっていないときは、面を回転させて移動し、一直線に並べ直して考えます。\nこの展開図では「D」と「C」が向かい合います。\n向かい合う面の組: A と B、F と E、D と C"
+ },
+ {
+  "id": "tgk-tenkai-014",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の展開図を組み立てて立方体を作るとき、向かい合う面の組み合わせとして正しいものはどれか。",
+  "figure": {
+   "kind": "svg",
+   "title": "立方体の展開図",
+   "svg": "<svg viewBox=\"0 0 164 124\" width=\"164\" height=\"124\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">F</text><rect x=\"42\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">B</text><rect x=\"42\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">E</text><rect x=\"82\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">D</text><rect x=\"82\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">C</text><rect x=\"122\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"142\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">A</text></svg>",
+   "alt": "立方体の展開図。マスの並び: (1, 1) F、(2, 1) B、(2, 2) E、(3, 2) D、(3, 3) C、(4, 3) A"
+  },
+  "choices": [
+   "A と D",
+   "A と C",
+   "B と D",
+   "D と E",
+   "D と F"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "向かい合う面の組は D と F、A と E、B と C です。\n展開図で一直線に 3 面並んでいるとき、両端の面が向かい合います。隣り合う面（辺を共有する面）は向かい合いません。"
+ },
+ {
+  "id": "tgk-tenkai-015",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の展開図を組み立てて立方体を作るとき、「A」の面と向かい合う面はどれか。",
+  "figure": {
+   "kind": "svg",
+   "title": "立方体の展開図",
+   "svg": "<svg viewBox=\"0 0 84 204\" width=\"84\" height=\"204\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"42\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">A</text><rect x=\"42\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">C</text><rect x=\"2\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">B</text><rect x=\"42\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">D</text><rect x=\"2\" y=\"122\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"142\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">F</text><rect x=\"2\" y=\"162\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"182\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">E</text></svg>",
+   "alt": "立方体の展開図。マスの並び: (2, 1) A、(2, 2) C、(1, 3) B、(2, 3) D、(1, 4) F、(1, 5) E"
+  },
+  "choices": [
+   "B",
+   "C",
+   "D",
+   "E",
+   "F"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "向かい合う面は、展開図の上で「1 つおきに一直線に並ぶ面」になります（間に 1 面はさむ）。一直線になっていないときは、面を回転させて移動し、一直線に並べ直して考えます。\nこの展開図では「A」と「D」が向かい合います。\n向かい合う面の組: A と D、F と C、E と B"
+ },
+ {
+  "id": "tgk-tenkai-016",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の展開図を組み立てて立方体を作るとき、向かい合う面の組み合わせとして正しいものはどれか。",
+  "figure": {
+   "kind": "svg",
+   "title": "立方体の展開図",
+   "svg": "<svg viewBox=\"0 0 164 124\" width=\"164\" height=\"124\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"82\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">C</text><rect x=\"122\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"142\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">A</text><rect x=\"42\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">B</text><rect x=\"82\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">F</text><rect x=\"2\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">E</text><rect x=\"42\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">D</text></svg>",
+   "alt": "立方体の展開図。マスの並び: (3, 1) C、(4, 1) A、(2, 2) B、(3, 2) F、(1, 3) E、(2, 3) D"
+  },
+  "choices": [
+   "C と F",
+   "E と F",
+   "A と C",
+   "B と E",
+   "A と D"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "向かい合う面の組は C と D、E と F、A と B です。\n展開図で一直線に 3 面並んでいるとき、両端の面が向かい合います。隣り合う面（辺を共有する面）は向かい合いません。"
+ },
+ {
+  "id": "tgk-tenkai-017",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の展開図を組み立てて立方体を作るとき、「C」の面と向かい合う面はどれか。",
+  "figure": {
+   "kind": "svg",
+   "title": "立方体の展開図",
+   "svg": "<svg viewBox=\"0 0 204 84\" width=\"204\" height=\"84\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">E</text><rect x=\"42\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">B</text><rect x=\"82\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">A</text><rect x=\"82\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">C</text><rect x=\"122\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"142\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">F</text><rect x=\"162\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"182\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">D</text></svg>",
+   "alt": "立方体の展開図。マスの並び: (1, 1) E、(2, 1) B、(3, 1) A、(3, 2) C、(4, 2) F、(5, 2) D"
+  },
+  "choices": [
+   "A",
+   "B",
+   "D",
+   "E",
+   "F"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "向かい合う面は、展開図の上で「1 つおきに一直線に並ぶ面」になります（間に 1 面はさむ）。一直線になっていないときは、面を回転させて移動し、一直線に並べ直して考えます。\nこの展開図では「C」と「D」が向かい合います。\n向かい合う面の組: E と A、D と C、B と F"
+ },
+ {
+  "id": "tgk-tenkai-018",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の展開図を組み立てて立方体を作るとき、「E」の面と向かい合う面はどれか。",
+  "figure": {
+   "kind": "svg",
+   "title": "立方体の展開図",
+   "svg": "<svg viewBox=\"0 0 124 164\" width=\"124\" height=\"164\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"42\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">D</text><rect x=\"42\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">B</text><rect x=\"42\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">C</text><rect x=\"2\" y=\"122\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"142\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">F</text><rect x=\"42\" y=\"122\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"142\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">E</text><rect x=\"82\" y=\"122\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"142\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">A</text></svg>",
+   "alt": "立方体の展開図。マスの並び: (2, 1) D、(2, 2) B、(2, 3) C、(1, 4) F、(2, 4) E、(3, 4) A"
+  },
+  "choices": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "F"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "向かい合う面は、展開図の上で「1 つおきに一直線に並ぶ面」になります（間に 1 面はさむ）。一直線になっていないときは、面を回転させて移動し、一直線に並べ直して考えます。\nこの展開図では「E」と「B」が向かい合います。\n向かい合う面の組: D と C、E と B、A と F"
+ },
+ {
+  "id": "tgk-tenkai-019",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の展開図を組み立てて立方体を作るとき、「C」の面と向かい合う面はどれか。",
+  "figure": {
+   "kind": "svg",
+   "title": "立方体の展開図",
+   "svg": "<svg viewBox=\"0 0 124 164\" width=\"124\" height=\"164\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">B</text><rect x=\"42\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">D</text><rect x=\"42\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">E</text><rect x=\"42\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">A</text><rect x=\"82\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">F</text><rect x=\"82\" y=\"122\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"142\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">C</text></svg>",
+   "alt": "立方体の展開図。マスの並び: (1, 1) B、(2, 1) D、(2, 2) E、(2, 3) A、(3, 3) F、(3, 4) C"
+  },
+  "choices": [
+   "A",
+   "B",
+   "D",
+   "E",
+   "F"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "向かい合う面は、展開図の上で「1 つおきに一直線に並ぶ面」になります（間に 1 面はさむ）。一直線になっていないときは、面を回転させて移動し、一直線に並べ直して考えます。\nこの展開図では「C」と「E」が向かい合います。\n向かい合う面の組: B と F、C と E、D と A"
+ },
+ {
+  "id": "tgk-tenkai-020",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の展開図を組み立てて立方体を作るとき、「C」の面と向かい合う面はどれか。",
+  "figure": {
+   "kind": "svg",
+   "title": "立方体の展開図",
+   "svg": "<svg viewBox=\"0 0 124 164\" width=\"124\" height=\"164\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"42\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">C</text><rect x=\"2\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">A</text><rect x=\"42\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">F</text><rect x=\"42\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">B</text><rect x=\"82\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">D</text><rect x=\"42\" y=\"122\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"142\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">E</text></svg>",
+   "alt": "立方体の展開図。マスの並び: (2, 1) C、(1, 2) A、(2, 2) F、(2, 3) B、(3, 3) D、(2, 4) E"
+  },
+  "choices": [
+   "A",
+   "B",
+   "D",
+   "E",
+   "F"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "向かい合う面は、展開図の上で「1 つおきに一直線に並ぶ面」になります（間に 1 面はさむ）。一直線になっていないときは、面を回転させて移動し、一直線に並べ直して考えます。\nこの展開図では「C」と「B」が向かい合います。\n向かい合う面の組: C と B、E と F、D と A"
+ },
+ {
+  "id": "tgk-tenkai-021",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の展開図を組み立てて立方体を作るとき、「F」の面と向かい合う面はどれか。",
+  "figure": {
+   "kind": "svg",
+   "title": "立方体の展開図",
+   "svg": "<svg viewBox=\"0 0 164 124\" width=\"164\" height=\"124\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"122\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"142\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">A</text><rect x=\"42\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">D</text><rect x=\"82\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">F</text><rect x=\"122\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"142\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">B</text><rect x=\"2\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">C</text><rect x=\"42\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">E</text></svg>",
+   "alt": "立方体の展開図。マスの並び: (4, 1) A、(2, 2) D、(3, 2) F、(4, 2) B、(1, 3) C、(2, 3) E"
+  },
+  "choices": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "向かい合う面は、展開図の上で「1 つおきに一直線に並ぶ面」になります（間に 1 面はさむ）。一直線になっていないときは、面を回転させて移動し、一直線に並べ直して考えます。\nこの展開図では「F」と「C」が向かい合います。\n向かい合う面の組: A と E、D と B、C と F"
+ },
+ {
+  "id": "tgk-tenkai-022",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の展開図を組み立てて立方体を作るとき、「F」の面と向かい合う面はどれか。",
+  "figure": {
+   "kind": "svg",
+   "title": "立方体の展開図",
+   "svg": "<svg viewBox=\"0 0 164 124\" width=\"164\" height=\"124\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"122\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"142\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">B</text><rect x=\"2\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">C</text><rect x=\"42\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">D</text><rect x=\"82\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">A</text><rect x=\"122\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"142\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">E</text><rect x=\"2\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">F</text></svg>",
+   "alt": "立方体の展開図。マスの並び: (4, 1) B、(1, 2) C、(2, 2) D、(3, 2) A、(4, 2) E、(1, 3) F"
+  },
+  "choices": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "向かい合う面は、展開図の上で「1 つおきに一直線に並ぶ面」になります（間に 1 面はさむ）。一直線になっていないときは、面を回転させて移動し、一直線に並べ直して考えます。\nこの展開図では「F」と「B」が向かい合います。\n向かい合う面の組: B と F、D と E、C と A"
+ },
+ {
+  "id": "tgk-tenkai-023",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の展開図を組み立てて立方体を作るとき、「D」の面と向かい合う面はどれか。",
+  "figure": {
+   "kind": "svg",
+   "title": "立方体の展開図",
+   "svg": "<svg viewBox=\"0 0 164 124\" width=\"164\" height=\"124\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"82\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">F</text><rect x=\"2\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">B</text><rect x=\"42\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">A</text><rect x=\"82\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">C</text><rect x=\"122\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"142\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">D</text><rect x=\"122\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"142\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">E</text></svg>",
+   "alt": "立方体の展開図。マスの並び: (3, 1) F、(1, 2) B、(2, 2) A、(3, 2) C、(4, 2) D、(4, 3) E"
+  },
+  "choices": [
+   "A",
+   "B",
+   "C",
+   "E",
+   "F"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "向かい合う面は、展開図の上で「1 つおきに一直線に並ぶ面」になります（間に 1 面はさむ）。一直線になっていないときは、面を回転させて移動し、一直線に並べ直して考えます。\nこの展開図では「D」と「A」が向かい合います。\n向かい合う面の組: F と E、B と C、D と A"
+ },
+ {
+  "id": "tgk-tenkai-024",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の展開図を組み立てて立方体を作るとき、「B」の面と向かい合う面はどれか。",
+  "figure": {
+   "kind": "svg",
+   "title": "立方体の展開図",
+   "svg": "<svg viewBox=\"0 0 124 164\" width=\"124\" height=\"164\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">B</text><rect x=\"2\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">E</text><rect x=\"42\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">A</text><rect x=\"42\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">F</text><rect x=\"42\" y=\"122\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"142\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">D</text><rect x=\"82\" y=\"122\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"142\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">C</text></svg>",
+   "alt": "立方体の展開図。マスの並び: (1, 1) B、(1, 2) E、(2, 2) A、(2, 3) F、(2, 4) D、(3, 4) C"
+  },
+  "choices": [
+   "A",
+   "C",
+   "D",
+   "E",
+   "F"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "向かい合う面は、展開図の上で「1 つおきに一直線に並ぶ面」になります（間に 1 面はさむ）。一直線になっていないときは、面を回転させて移動し、一直線に並べ直して考えます。\nこの展開図では「B」と「F」が向かい合います。\n向かい合う面の組: B と F、C と E、A と D"
+ },
+ {
+  "id": "tgk-tenkai-025",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の展開図を組み立てて立方体を作るとき、「E」の面と向かい合う面はどれか。",
+  "figure": {
+   "kind": "svg",
+   "title": "立方体の展開図",
+   "svg": "<svg viewBox=\"0 0 124 164\" width=\"124\" height=\"164\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"42\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">B</text><rect x=\"42\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">C</text><rect x=\"2\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">D</text><rect x=\"42\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">F</text><rect x=\"82\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">E</text><rect x=\"2\" y=\"122\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"142\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">A</text></svg>",
+   "alt": "立方体の展開図。マスの並び: (2, 1) B、(2, 2) C、(1, 3) D、(2, 3) F、(3, 3) E、(1, 4) A"
+  },
+  "choices": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "F"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "向かい合う面は、展開図の上で「1 つおきに一直線に並ぶ面」になります（間に 1 面はさむ）。一直線になっていないときは、面を回転させて移動し、一直線に並べ直して考えます。\nこの展開図では「E」と「D」が向かい合います。\n向かい合う面の組: B と F、A と C、E と D"
+ },
+ {
+  "id": "tgk-tenkai-026",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の展開図を組み立てて立方体を作るとき、「C」の面と向かい合う面はどれか。",
+  "figure": {
+   "kind": "svg",
+   "title": "立方体の展開図",
+   "svg": "<svg viewBox=\"0 0 124 164\" width=\"124\" height=\"164\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"42\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">B</text><rect x=\"82\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">C</text><rect x=\"42\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">F</text><rect x=\"2\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">D</text><rect x=\"42\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">A</text><rect x=\"2\" y=\"122\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"142\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">E</text></svg>",
+   "alt": "立方体の展開図。マスの並び: (2, 1) B、(3, 1) C、(2, 2) F、(1, 3) D、(2, 3) A、(1, 4) E"
+  },
+  "choices": [
+   "A",
+   "B",
+   "D",
+   "E",
+   "F"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "向かい合う面は、展開図の上で「1 つおきに一直線に並ぶ面」になります（間に 1 面はさむ）。一直線になっていないときは、面を回転させて移動し、一直線に並べ直して考えます。\nこの展開図では「C」と「D」が向かい合います。\n向かい合う面の組: B と A、E と F、C と D"
+ },
+ {
+  "id": "tgk-tenkai-027",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の展開図を組み立てて立方体を作るとき、向かい合う面の組み合わせとして正しいものはどれか。",
+  "figure": {
+   "kind": "svg",
+   "title": "立方体の展開図",
+   "svg": "<svg viewBox=\"0 0 164 124\" width=\"164\" height=\"124\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"42\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">D</text><rect x=\"2\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">A</text><rect x=\"42\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">C</text><rect x=\"82\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">B</text><rect x=\"122\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"142\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">E</text><rect x=\"42\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">F</text></svg>",
+   "alt": "立方体の展開図。マスの並び: (2, 1) D、(1, 2) A、(2, 2) C、(3, 2) B、(4, 2) E、(2, 3) F"
+  },
+  "choices": [
+   "C と E",
+   "B と E",
+   "C と D",
+   "A と D",
+   "E と F"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "向かい合う面の組は D と F、C と E、A と B です。\n展開図で一直線に 3 面並んでいるとき、両端の面が向かい合います。隣り合う面（辺を共有する面）は向かい合いません。"
+ },
+ {
+  "id": "tgk-tenkai-028",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の展開図を組み立てて立方体を作るとき、向かい合う面の組み合わせとして正しいものはどれか。",
+  "figure": {
+   "kind": "svg",
+   "title": "立方体の展開図",
+   "svg": "<svg viewBox=\"0 0 124 164\" width=\"124\" height=\"164\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"42\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">D</text><rect x=\"82\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">B</text><rect x=\"42\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">F</text><rect x=\"42\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">E</text><rect x=\"2\" y=\"122\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"142\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">C</text><rect x=\"42\" y=\"122\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"142\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">A</text></svg>",
+   "alt": "立方体の展開図。マスの並び: (2, 1) D、(3, 1) B、(2, 2) F、(2, 3) E、(1, 4) C、(2, 4) A"
+  },
+  "choices": [
+   "A と B",
+   "A と F",
+   "A と D",
+   "A と C",
+   "E と F"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "向かい合う面の組は D と E、A と F、B と C です。\n展開図で一直線に 3 面並んでいるとき、両端の面が向かい合います。隣り合う面（辺を共有する面）は向かい合いません。"
+ },
+ {
+  "id": "tgk-tenkai-029",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の展開図を組み立てて立方体を作るとき、「E」の面と向かい合う面はどれか。",
+  "figure": {
+   "kind": "svg",
+   "title": "立方体の展開図",
+   "svg": "<svg viewBox=\"0 0 164 124\" width=\"164\" height=\"124\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"122\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"142\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">B</text><rect x=\"2\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">A</text><rect x=\"42\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">F</text><rect x=\"82\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">C</text><rect x=\"122\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"142\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">D</text><rect x=\"82\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">E</text></svg>",
+   "alt": "立方体の展開図。マスの並び: (4, 1) B、(1, 2) A、(2, 2) F、(3, 2) C、(4, 2) D、(3, 3) E"
+  },
+  "choices": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "F"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "向かい合う面は、展開図の上で「1 つおきに一直線に並ぶ面」になります（間に 1 面はさむ）。一直線になっていないときは、面を回転させて移動し、一直線に並べ直して考えます。\nこの展開図では「E」と「B」が向かい合います。\n向かい合う面の組: B と E、F と D、A と C"
+ },
+ {
+  "id": "tgk-tenkai-030",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の展開図を組み立てて立方体を作るとき、「F」の面と向かい合う面はどれか。",
+  "figure": {
+   "kind": "svg",
+   "title": "立方体の展開図",
+   "svg": "<svg viewBox=\"0 0 124 164\" width=\"124\" height=\"164\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"22\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">B</text><rect x=\"42\" y=\"2\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"22\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">D</text><rect x=\"42\" y=\"42\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"62\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">E</text><rect x=\"42\" y=\"82\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"102\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">A</text><rect x=\"42\" y=\"122\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"62\" y=\"142\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">C</text><rect x=\"82\" y=\"122\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><text x=\"102\" y=\"142\" text-anchor=\"middle\" dominant-baseline=\"central\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\">F</text></svg>",
+   "alt": "立方体の展開図。マスの並び: (1, 1) B、(2, 1) D、(2, 2) E、(2, 3) A、(2, 4) C、(3, 4) F"
+  },
+  "choices": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "向かい合う面は、展開図の上で「1 つおきに一直線に並ぶ面」になります（間に 1 面はさむ）。一直線になっていないときは、面を回転させて移動し、一直線に並べ直して考えます。\nこの展開図では「F」と「B」が向かい合います。\n向かい合う面の組: B と F、C と E、D と A"
+ },
+ {
+  "id": "tgk-hitofude-001",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の図形を一筆書きするとき、書き始めの点として正しいものはどれか（同じ線を 2 度通らず、すべての線を 1 回ずつ通る）。",
+  "figure": {
+   "kind": "svg",
+   "title": "図形",
+   "svg": "<svg viewBox=\"0 0 202 192\" width=\"202\" height=\"192\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"26\" y1=\"26\" x2=\"96\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"26\" x2=\"26\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"166\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"26\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"26\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"96\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"166\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"166\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"26\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"26\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"96\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"26\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><text x=\"35\" y=\"17\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">ア</text><circle cx=\"96\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><text x=\"105\" y=\"17\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">イ</text><circle cx=\"166\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><text x=\"175\" y=\"17\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">ウ</text><circle cx=\"26\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><text x=\"35\" y=\"87\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">エ</text><circle cx=\"96\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><text x=\"105\" y=\"87\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">オ</text><circle cx=\"166\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><text x=\"175\" y=\"87\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">カ</text><circle cx=\"26\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><text x=\"35\" y=\"157\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">キ</text><circle cx=\"96\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><text x=\"105\" y=\"157\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">ク</text><circle cx=\"166\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><text x=\"175\" y=\"157\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">ケ</text></svg>",
+   "alt": "点と線の図形。各点に集まる線の数: ア: 2 本、イ: 4 本、ウ: 3 本、エ: 4 本、オ: 5 本、カ: 4 本、キ: 2 本、ク: 4 本、ケ: 2 本"
+  },
+  "choices": [
+   "ア",
+   "エ",
+   "オ",
+   "カ",
+   "キ"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "各点に集まる線の数を数えます。\nア: 2 本、イ: 4 本、ウ: 3 本、エ: 4 本、オ: 5 本、カ: 4 本、キ: 2 本、ク: 4 本、ケ: 2 本\n線が奇数本集まる点（奇数点）は ウ と オ の 2 つです。奇数点が 2 つの図形は、一方の奇数点から書き始め、もう一方の奇数点で書き終わります。\nよって、書き始められるのは オ（選択肢の中で奇数点はこれだけ）。"
+ },
+ {
+  "id": "tgk-hitofude-002",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の図形は一筆書きできるか（同じ線を 2 度通らず、すべての線を 1 回ずつ通る）。",
+  "figure": {
+   "kind": "svg",
+   "title": "図形",
+   "svg": "<svg viewBox=\"0 0 202 192\" width=\"202\" height=\"192\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"26\" y1=\"26\" x2=\"96\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"26\" x2=\"26\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"166\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"26\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"96\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"166\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"166\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"26\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"26\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"96\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"26\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+   "alt": "点と線の図形。奇数本の線が集まる点の数: 0"
+  },
+  "choices": [
+   "書ける。どの点から書き始めてもよい",
+   "書ける。ただし書き始めは決まった 2 点のどちらか",
+   "書けない"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "線が奇数本集まる点（奇数点）を数えます。この図形の奇数点は 0 個です。\n・奇数点が 0 個 → 一筆書きでき、どこから書き始めてもよい\n・奇数点が 2 個 → 一筆書きできるが、奇数点から書き始めて、もう一方の奇数点で終わる\n・奇数点が 4 個以上 → 一筆書きできない\nよって「書ける。どの点から書き始めてもよい」。"
+ },
+ {
+  "id": "tgk-hitofude-003",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の図形を一筆書きするとき、書き始めの点として正しいものはどれか（同じ線を 2 度通らず、すべての線を 1 回ずつ通る）。",
+  "figure": {
+   "kind": "svg",
+   "title": "図形",
+   "svg": "<svg viewBox=\"0 0 202 192\" width=\"202\" height=\"192\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"26\" y1=\"26\" x2=\"96\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"26\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"96\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"166\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"166\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"26\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"26\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><text x=\"35\" y=\"17\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">ア</text><circle cx=\"96\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><text x=\"105\" y=\"17\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">イ</text><circle cx=\"26\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><text x=\"35\" y=\"87\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">ウ</text><circle cx=\"96\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><text x=\"105\" y=\"87\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">エ</text><circle cx=\"166\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><text x=\"175\" y=\"87\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">オ</text><circle cx=\"26\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><text x=\"35\" y=\"157\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">カ</text><circle cx=\"96\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><text x=\"105\" y=\"157\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">キ</text><circle cx=\"166\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><text x=\"175\" y=\"157\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">ク</text></svg>",
+   "alt": "点と線の図形。各点に集まる線の数: ア: 2 本、イ: 3 本、ウ: 2 本、エ: 4 本、オ: 3 本、カ: 2 本、キ: 2 本、ク: 2 本"
+  },
+  "choices": [
+   "ア",
+   "エ",
+   "オ",
+   "キ",
+   "ク"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "各点に集まる線の数を数えます。\nア: 2 本、イ: 3 本、ウ: 2 本、エ: 4 本、オ: 3 本、カ: 2 本、キ: 2 本、ク: 2 本\n線が奇数本集まる点（奇数点）は イ と オ の 2 つです。奇数点が 2 つの図形は、一方の奇数点から書き始め、もう一方の奇数点で書き終わります。\nよって、書き始められるのは オ（選択肢の中で奇数点はこれだけ）。"
+ },
+ {
+  "id": "tgk-hitofude-004",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の図形は一筆書きできるか（同じ線を 2 度通らず、すべての線を 1 回ずつ通る）。",
+  "figure": {
+   "kind": "svg",
+   "title": "図形",
+   "svg": "<svg viewBox=\"0 0 202 192\" width=\"202\" height=\"192\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"26\" y1=\"26\" x2=\"26\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"26\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"26\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"96\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"166\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"166\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"26\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"26\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+   "alt": "点と線の図形。奇数本の線が集まる点の数: 4"
+  },
+  "choices": [
+   "書ける。どの点から書き始めてもよい",
+   "書ける。ただし書き始めは決まった 2 点のどちらか",
+   "書けない"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "線が奇数本集まる点（奇数点）を数えます。この図形の奇数点は 4 個です。\n・奇数点が 0 個 → 一筆書きでき、どこから書き始めてもよい\n・奇数点が 2 個 → 一筆書きできるが、奇数点から書き始めて、もう一方の奇数点で終わる\n・奇数点が 4 個以上 → 一筆書きできない\nよって「書けない」。"
+ },
+ {
+  "id": "tgk-hitofude-005",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の図形を一筆書きするとき、書き始めの点として正しいものはどれか（同じ線を 2 度通らず、すべての線を 1 回ずつ通る）。",
+  "figure": {
+   "kind": "svg",
+   "title": "図形",
+   "svg": "<svg viewBox=\"0 0 202 192\" width=\"202\" height=\"192\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"26\" y1=\"26\" x2=\"96\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"26\" x2=\"26\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"166\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"26\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"26\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"166\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"26\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"96\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"26\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><text x=\"35\" y=\"17\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">ア</text><circle cx=\"96\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><text x=\"105\" y=\"17\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">イ</text><circle cx=\"166\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><text x=\"175\" y=\"17\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">ウ</text><circle cx=\"26\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><text x=\"35\" y=\"87\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">エ</text><circle cx=\"96\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><text x=\"105\" y=\"87\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">オ</text><circle cx=\"166\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><text x=\"175\" y=\"87\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">カ</text><circle cx=\"26\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><text x=\"35\" y=\"157\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">キ</text><circle cx=\"96\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><text x=\"105\" y=\"157\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">ク</text><circle cx=\"166\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><text x=\"175\" y=\"157\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">ケ</text></svg>",
+   "alt": "点と線の図形。各点に集まる線の数: ア: 2 本、イ: 4 本、ウ: 2 本、エ: 2 本、オ: 4 本、カ: 4 本、キ: 2 本、ク: 3 本、ケ: 1 本"
+  },
+  "choices": [
+   "イ",
+   "ウ",
+   "エ",
+   "オ",
+   "ケ"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "各点に集まる線の数を数えます。\nア: 2 本、イ: 4 本、ウ: 2 本、エ: 2 本、オ: 4 本、カ: 4 本、キ: 2 本、ク: 3 本、ケ: 1 本\n線が奇数本集まる点（奇数点）は ク と ケ の 2 つです。奇数点が 2 つの図形は、一方の奇数点から書き始め、もう一方の奇数点で書き終わります。\nよって、書き始められるのは ケ（選択肢の中で奇数点はこれだけ）。"
+ },
+ {
+  "id": "tgk-hitofude-006",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の図形は一筆書きできるか（同じ線を 2 度通らず、すべての線を 1 回ずつ通る）。",
+  "figure": {
+   "kind": "svg",
+   "title": "図形",
+   "svg": "<svg viewBox=\"0 0 202 192\" width=\"202\" height=\"192\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"26\" y1=\"26\" x2=\"96\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"26\" x2=\"26\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"26\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"166\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"26\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+   "alt": "点と線の図形。奇数本の線が集まる点の数: 0"
+  },
+  "choices": [
+   "書ける。どの点から書き始めてもよい",
+   "書ける。ただし書き始めは決まった 2 点のどちらか",
+   "書けない"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "線が奇数本集まる点（奇数点）を数えます。この図形の奇数点は 0 個です。\n・奇数点が 0 個 → 一筆書きでき、どこから書き始めてもよい\n・奇数点が 2 個 → 一筆書きできるが、奇数点から書き始めて、もう一方の奇数点で終わる\n・奇数点が 4 個以上 → 一筆書きできない\nよって「書ける。どの点から書き始めてもよい」。"
+ },
+ {
+  "id": "tgk-hitofude-007",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の図形を一筆書きするとき、書き始めの点として正しいものはどれか（同じ線を 2 度通らず、すべての線を 1 回ずつ通る）。",
+  "figure": {
+   "kind": "svg",
+   "title": "図形",
+   "svg": "<svg viewBox=\"0 0 202 192\" width=\"202\" height=\"192\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"26\" y1=\"26\" x2=\"96\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"26\" x2=\"26\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"166\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"26\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"96\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"166\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"26\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><text x=\"35\" y=\"17\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">ア</text><circle cx=\"96\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><text x=\"105\" y=\"17\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">イ</text><circle cx=\"166\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><text x=\"175\" y=\"17\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">ウ</text><circle cx=\"26\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><text x=\"35\" y=\"87\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">エ</text><circle cx=\"96\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><text x=\"105\" y=\"87\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">オ</text><circle cx=\"166\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><text x=\"175\" y=\"87\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">カ</text><circle cx=\"96\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><text x=\"105\" y=\"157\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">キ</text><circle cx=\"166\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><text x=\"175\" y=\"157\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">ク</text></svg>",
+   "alt": "点と線の図形。各点に集まる線の数: ア: 2 本、イ: 3 本、ウ: 2 本、エ: 2 本、オ: 4 本、カ: 3 本、キ: 2 本、ク: 2 本"
+  },
+  "choices": [
+   "ウ",
+   "エ",
+   "オ",
+   "カ",
+   "キ"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "各点に集まる線の数を数えます。\nア: 2 本、イ: 3 本、ウ: 2 本、エ: 2 本、オ: 4 本、カ: 3 本、キ: 2 本、ク: 2 本\n線が奇数本集まる点（奇数点）は イ と カ の 2 つです。奇数点が 2 つの図形は、一方の奇数点から書き始め、もう一方の奇数点で書き終わります。\nよって、書き始められるのは カ（選択肢の中で奇数点はこれだけ）。"
+ },
+ {
+  "id": "tgk-hitofude-008",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の図形は一筆書きできるか（同じ線を 2 度通らず、すべての線を 1 回ずつ通る）。",
+  "figure": {
+   "kind": "svg",
+   "title": "図形",
+   "svg": "<svg viewBox=\"0 0 202 192\" width=\"202\" height=\"192\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"26\" y1=\"26\" x2=\"26\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"166\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"26\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"26\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"96\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"26\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"26\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+   "alt": "点と線の図形。奇数本の線が集まる点の数: 6"
+  },
+  "choices": [
+   "書ける。どの点から書き始めてもよい",
+   "書ける。ただし書き始めは決まった 2 点のどちらか",
+   "書けない"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "線が奇数本集まる点（奇数点）を数えます。この図形の奇数点は 6 個です。\n・奇数点が 0 個 → 一筆書きでき、どこから書き始めてもよい\n・奇数点が 2 個 → 一筆書きできるが、奇数点から書き始めて、もう一方の奇数点で終わる\n・奇数点が 4 個以上 → 一筆書きできない\nよって「書けない」。"
+ },
+ {
+  "id": "tgk-hitofude-009",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の図形を一筆書きするとき、書き始めの点として正しいものはどれか（同じ線を 2 度通らず、すべての線を 1 回ずつ通る）。",
+  "figure": {
+   "kind": "svg",
+   "title": "図形",
+   "svg": "<svg viewBox=\"0 0 202 192\" width=\"202\" height=\"192\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"26\" y1=\"26\" x2=\"96\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"26\" x2=\"26\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"26\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"26\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"166\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"166\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"26\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><text x=\"35\" y=\"17\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">ア</text><circle cx=\"96\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><text x=\"105\" y=\"17\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">イ</text><circle cx=\"166\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><text x=\"175\" y=\"17\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">ウ</text><circle cx=\"26\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><text x=\"35\" y=\"87\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">エ</text><circle cx=\"166\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><text x=\"175\" y=\"87\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">オ</text><circle cx=\"26\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><text x=\"35\" y=\"157\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">カ</text><circle cx=\"96\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><text x=\"105\" y=\"157\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">キ</text><circle cx=\"166\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><text x=\"175\" y=\"157\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">ク</text></svg>",
+   "alt": "点と線の図形。各点に集まる線の数: ア: 2 本、イ: 2 本、ウ: 1 本、エ: 2 本、オ: 2 本、カ: 2 本、キ: 2 本、ク: 1 本"
+  },
+  "choices": [
+   "ウ",
+   "エ",
+   "オ",
+   "カ",
+   "キ"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "各点に集まる線の数を数えます。\nア: 2 本、イ: 2 本、ウ: 1 本、エ: 2 本、オ: 2 本、カ: 2 本、キ: 2 本、ク: 1 本\n線が奇数本集まる点（奇数点）は ウ と ク の 2 つです。奇数点が 2 つの図形は、一方の奇数点から書き始め、もう一方の奇数点で書き終わります。\nよって、書き始められるのは ウ（選択肢の中で奇数点はこれだけ）。"
+ },
+ {
+  "id": "tgk-hitofude-010",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の図形は一筆書きできるか（同じ線を 2 度通らず、すべての線を 1 回ずつ通る）。",
+  "figure": {
+   "kind": "svg",
+   "title": "図形",
+   "svg": "<svg viewBox=\"0 0 202 192\" width=\"202\" height=\"192\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"26\" y1=\"26\" x2=\"96\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"166\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"26\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"26\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"166\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"166\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"26\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"26\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+   "alt": "点と線の図形。奇数本の線が集まる点の数: 0"
+  },
+  "choices": [
+   "書ける。どの点から書き始めてもよい",
+   "書ける。ただし書き始めは決まった 2 点のどちらか",
+   "書けない"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "線が奇数本集まる点（奇数点）を数えます。この図形の奇数点は 0 個です。\n・奇数点が 0 個 → 一筆書きでき、どこから書き始めてもよい\n・奇数点が 2 個 → 一筆書きできるが、奇数点から書き始めて、もう一方の奇数点で終わる\n・奇数点が 4 個以上 → 一筆書きできない\nよって「書ける。どの点から書き始めてもよい」。"
+ },
+ {
+  "id": "tgk-hitofude-011",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の図形を一筆書きするとき、書き始めの点として正しいものはどれか（同じ線を 2 度通らず、すべての線を 1 回ずつ通る）。",
+  "figure": {
+   "kind": "svg",
+   "title": "図形",
+   "svg": "<svg viewBox=\"0 0 202 192\" width=\"202\" height=\"192\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"26\" y1=\"26\" x2=\"96\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"166\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"26\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"26\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"166\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"166\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"26\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><text x=\"35\" y=\"17\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">ア</text><circle cx=\"96\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><text x=\"105\" y=\"17\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">イ</text><circle cx=\"166\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><text x=\"175\" y=\"17\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">ウ</text><circle cx=\"26\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><text x=\"35\" y=\"87\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">エ</text><circle cx=\"96\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><text x=\"105\" y=\"87\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">オ</text><circle cx=\"166\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><text x=\"175\" y=\"87\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">カ</text><circle cx=\"26\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><text x=\"35\" y=\"157\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">キ</text><circle cx=\"96\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><text x=\"105\" y=\"157\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">ク</text><circle cx=\"166\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><text x=\"175\" y=\"157\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">ケ</text></svg>",
+   "alt": "点と線の図形。各点に集まる線の数: ア: 1 本、イ: 4 本、ウ: 2 本、エ: 2 本、オ: 3 本、カ: 2 本、キ: 2 本、ク: 4 本、ケ: 2 本"
+  },
+  "choices": [
+   "イ",
+   "ウ",
+   "エ",
+   "オ",
+   "ケ"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "各点に集まる線の数を数えます。\nア: 1 本、イ: 4 本、ウ: 2 本、エ: 2 本、オ: 3 本、カ: 2 本、キ: 2 本、ク: 4 本、ケ: 2 本\n線が奇数本集まる点（奇数点）は ア と オ の 2 つです。奇数点が 2 つの図形は、一方の奇数点から書き始め、もう一方の奇数点で書き終わります。\nよって、書き始められるのは オ（選択肢の中で奇数点はこれだけ）。"
+ },
+ {
+  "id": "tgk-hitofude-012",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の図形は一筆書きできるか（同じ線を 2 度通らず、すべての線を 1 回ずつ通る）。",
+  "figure": {
+   "kind": "svg",
+   "title": "図形",
+   "svg": "<svg viewBox=\"0 0 202 192\" width=\"202\" height=\"192\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"26\" y1=\"26\" x2=\"96\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"26\" x2=\"26\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"166\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"26\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"166\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"166\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"26\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+   "alt": "点と線の図形。奇数本の線が集まる点の数: 6"
+  },
+  "choices": [
+   "書ける。どの点から書き始めてもよい",
+   "書ける。ただし書き始めは決まった 2 点のどちらか",
+   "書けない"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "線が奇数本集まる点（奇数点）を数えます。この図形の奇数点は 6 個です。\n・奇数点が 0 個 → 一筆書きでき、どこから書き始めてもよい\n・奇数点が 2 個 → 一筆書きできるが、奇数点から書き始めて、もう一方の奇数点で終わる\n・奇数点が 4 個以上 → 一筆書きできない\nよって「書けない」。"
+ },
+ {
+  "id": "tgk-hitofude-013",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の図形を一筆書きするとき、書き始めの点として正しいものはどれか（同じ線を 2 度通らず、すべての線を 1 回ずつ通る）。",
+  "figure": {
+   "kind": "svg",
+   "title": "図形",
+   "svg": "<svg viewBox=\"0 0 202 192\" width=\"202\" height=\"192\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"26\" y1=\"26\" x2=\"96\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"26\" x2=\"26\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"166\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"96\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"166\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"26\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"26\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"26\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><text x=\"35\" y=\"17\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">ア</text><circle cx=\"96\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><text x=\"105\" y=\"17\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">イ</text><circle cx=\"166\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><text x=\"175\" y=\"17\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">ウ</text><circle cx=\"26\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><text x=\"35\" y=\"87\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">エ</text><circle cx=\"96\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><text x=\"105\" y=\"87\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">オ</text><circle cx=\"166\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><text x=\"175\" y=\"87\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">カ</text><circle cx=\"96\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><text x=\"105\" y=\"157\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">キ</text><circle cx=\"166\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><text x=\"175\" y=\"157\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">ク</text></svg>",
+   "alt": "点と線の図形。各点に集まる線の数: ア: 2 本、イ: 4 本、ウ: 2 本、エ: 3 本、オ: 5 本、カ: 2 本、キ: 2 本、ク: 2 本"
+  },
+  "choices": [
+   "イ",
+   "ウ",
+   "エ",
+   "カ",
+   "キ"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "各点に集まる線の数を数えます。\nア: 2 本、イ: 4 本、ウ: 2 本、エ: 3 本、オ: 5 本、カ: 2 本、キ: 2 本、ク: 2 本\n線が奇数本集まる点（奇数点）は エ と オ の 2 つです。奇数点が 2 つの図形は、一方の奇数点から書き始め、もう一方の奇数点で書き終わります。\nよって、書き始められるのは エ（選択肢の中で奇数点はこれだけ）。"
+ },
+ {
+  "id": "tgk-hitofude-014",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の図形は一筆書きできるか（同じ線を 2 度通らず、すべての線を 1 回ずつ通る）。",
+  "figure": {
+   "kind": "svg",
+   "title": "図形",
+   "svg": "<svg viewBox=\"0 0 202 192\" width=\"202\" height=\"192\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"26\" y1=\"26\" x2=\"96\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"26\" x2=\"26\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"166\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"26\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"96\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"166\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"166\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"26\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"26\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"96\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"26\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+   "alt": "点と線の図形。奇数本の線が集まる点の数: 0"
+  },
+  "choices": [
+   "書ける。どの点から書き始めてもよい",
+   "書ける。ただし書き始めは決まった 2 点のどちらか",
+   "書けない"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "線が奇数本集まる点（奇数点）を数えます。この図形の奇数点は 0 個です。\n・奇数点が 0 個 → 一筆書きでき、どこから書き始めてもよい\n・奇数点が 2 個 → 一筆書きできるが、奇数点から書き始めて、もう一方の奇数点で終わる\n・奇数点が 4 個以上 → 一筆書きできない\nよって「書ける。どの点から書き始めてもよい」。"
+ },
+ {
+  "id": "tgk-hitofude-015",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の図形を一筆書きするとき、書き始めの点として正しいものはどれか（同じ線を 2 度通らず、すべての線を 1 回ずつ通る）。",
+  "figure": {
+   "kind": "svg",
+   "title": "図形",
+   "svg": "<svg viewBox=\"0 0 202 192\" width=\"202\" height=\"192\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"26\" y1=\"26\" x2=\"96\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"166\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"26\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"96\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"166\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"166\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"26\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"26\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"96\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"26\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><text x=\"35\" y=\"17\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">ア</text><circle cx=\"96\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><text x=\"105\" y=\"17\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">イ</text><circle cx=\"166\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><text x=\"175\" y=\"17\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">ウ</text><circle cx=\"96\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><text x=\"105\" y=\"87\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">エ</text><circle cx=\"166\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><text x=\"175\" y=\"87\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">オ</text><circle cx=\"26\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><text x=\"35\" y=\"157\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">カ</text><circle cx=\"96\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><text x=\"105\" y=\"157\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">キ</text><circle cx=\"166\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><text x=\"175\" y=\"157\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">ク</text></svg>",
+   "alt": "点と線の図形。各点に集まる線の数: ア: 2 本、イ: 4 本、ウ: 2 本、エ: 5 本、オ: 5 本、カ: 2 本、キ: 4 本、ク: 2 本"
+  },
+  "choices": [
+   "ア",
+   "イ",
+   "オ",
+   "カ",
+   "ク"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "各点に集まる線の数を数えます。\nア: 2 本、イ: 4 本、ウ: 2 本、エ: 5 本、オ: 5 本、カ: 2 本、キ: 4 本、ク: 2 本\n線が奇数本集まる点（奇数点）は エ と オ の 2 つです。奇数点が 2 つの図形は、一方の奇数点から書き始め、もう一方の奇数点で書き終わります。\nよって、書き始められるのは オ（選択肢の中で奇数点はこれだけ）。"
+ },
+ {
+  "id": "tgk-hitofude-016",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の図形は一筆書きできるか（同じ線を 2 度通らず、すべての線を 1 回ずつ通る）。",
+  "figure": {
+   "kind": "svg",
+   "title": "図形",
+   "svg": "<svg viewBox=\"0 0 202 192\" width=\"202\" height=\"192\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"26\" y1=\"26\" x2=\"96\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"26\" x2=\"26\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"166\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"26\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"166\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"166\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"26\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"26\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"26\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+   "alt": "点と線の図形。奇数本の線が集まる点の数: 6"
+  },
+  "choices": [
+   "書ける。どの点から書き始めてもよい",
+   "書ける。ただし書き始めは決まった 2 点のどちらか",
+   "書けない"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "線が奇数本集まる点（奇数点）を数えます。この図形の奇数点は 6 個です。\n・奇数点が 0 個 → 一筆書きでき、どこから書き始めてもよい\n・奇数点が 2 個 → 一筆書きできるが、奇数点から書き始めて、もう一方の奇数点で終わる\n・奇数点が 4 個以上 → 一筆書きできない\nよって「書けない」。"
+ },
+ {
+  "id": "tgk-hitofude-017",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の図形は一筆書きできるか（同じ線を 2 度通らず、すべての線を 1 回ずつ通る）。",
+  "figure": {
+   "kind": "svg",
+   "title": "図形",
+   "svg": "<svg viewBox=\"0 0 202 192\" width=\"202\" height=\"192\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"26\" y1=\"26\" x2=\"96\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"26\" x2=\"26\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"26\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"26\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"96\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"26\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"26\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"26\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"26\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+   "alt": "点と線の図形。奇数本の線が集まる点の数: 2"
+  },
+  "choices": [
+   "書ける。どの点から書き始めてもよい",
+   "書ける。ただし書き始めは決まった 2 点のどちらか",
+   "書けない"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "線が奇数本集まる点（奇数点）を数えます。この図形の奇数点は 2 個です。\n・奇数点が 0 個 → 一筆書きでき、どこから書き始めてもよい\n・奇数点が 2 個 → 一筆書きできるが、奇数点から書き始めて、もう一方の奇数点で終わる\n・奇数点が 4 個以上 → 一筆書きできない\nよって「書ける。ただし書き始めは決まった 2 点のどちらか」。"
+ },
+ {
+  "id": "tgk-hitofude-018",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の図形は一筆書きできるか（同じ線を 2 度通らず、すべての線を 1 回ずつ通る）。",
+  "figure": {
+   "kind": "svg",
+   "title": "図形",
+   "svg": "<svg viewBox=\"0 0 202 192\" width=\"202\" height=\"192\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"26\" y1=\"26\" x2=\"96\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"26\" x2=\"26\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"166\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"26\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"26\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"96\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"166\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"166\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"96\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"26\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+   "alt": "点と線の図形。奇数本の線が集まる点の数: 0"
+  },
+  "choices": [
+   "書ける。どの点から書き始めてもよい",
+   "書ける。ただし書き始めは決まった 2 点のどちらか",
+   "書けない"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "線が奇数本集まる点（奇数点）を数えます。この図形の奇数点は 0 個です。\n・奇数点が 0 個 → 一筆書きでき、どこから書き始めてもよい\n・奇数点が 2 個 → 一筆書きできるが、奇数点から書き始めて、もう一方の奇数点で終わる\n・奇数点が 4 個以上 → 一筆書きできない\nよって「書ける。どの点から書き始めてもよい」。"
+ },
+ {
+  "id": "tgk-hitofude-019",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の図形は一筆書きできるか（同じ線を 2 度通らず、すべての線を 1 回ずつ通る）。",
+  "figure": {
+   "kind": "svg",
+   "title": "図形",
+   "svg": "<svg viewBox=\"0 0 202 192\" width=\"202\" height=\"192\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"26\" y1=\"26\" x2=\"26\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"166\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"26\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"26\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"96\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"166\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"166\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"26\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+   "alt": "点と線の図形。奇数本の線が集まる点の数: 2"
+  },
+  "choices": [
+   "書ける。どの点から書き始めてもよい",
+   "書ける。ただし書き始めは決まった 2 点のどちらか",
+   "書けない"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "線が奇数本集まる点（奇数点）を数えます。この図形の奇数点は 2 個です。\n・奇数点が 0 個 → 一筆書きでき、どこから書き始めてもよい\n・奇数点が 2 個 → 一筆書きできるが、奇数点から書き始めて、もう一方の奇数点で終わる\n・奇数点が 4 個以上 → 一筆書きできない\nよって「書ける。ただし書き始めは決まった 2 点のどちらか」。"
+ },
+ {
+  "id": "tgk-hitofude-020",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の図形は一筆書きできるか（同じ線を 2 度通らず、すべての線を 1 回ずつ通る）。",
+  "figure": {
+   "kind": "svg",
+   "title": "図形",
+   "svg": "<svg viewBox=\"0 0 202 192\" width=\"202\" height=\"192\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"96\" y1=\"26\" x2=\"166\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"26\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"26\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"166\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"26\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"26\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"96\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+   "alt": "点と線の図形。奇数本の線が集まる点の数: 6"
+  },
+  "choices": [
+   "書ける。どの点から書き始めてもよい",
+   "書ける。ただし書き始めは決まった 2 点のどちらか",
+   "書けない"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "線が奇数本集まる点（奇数点）を数えます。この図形の奇数点は 6 個です。\n・奇数点が 0 個 → 一筆書きでき、どこから書き始めてもよい\n・奇数点が 2 個 → 一筆書きできるが、奇数点から書き始めて、もう一方の奇数点で終わる\n・奇数点が 4 個以上 → 一筆書きできない\nよって「書けない」。"
+ },
+ {
+  "id": "tgk-hitofude-021",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の図形を一筆書きするとき、書き始めの点として正しいものはどれか（同じ線を 2 度通らず、すべての線を 1 回ずつ通る）。",
+  "figure": {
+   "kind": "svg",
+   "title": "図形",
+   "svg": "<svg viewBox=\"0 0 202 192\" width=\"202\" height=\"192\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"26\" y1=\"26\" x2=\"96\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"26\" x2=\"26\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"166\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"26\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"26\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"166\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"166\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"26\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"26\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><text x=\"35\" y=\"17\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">ア</text><circle cx=\"96\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><text x=\"105\" y=\"17\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">イ</text><circle cx=\"166\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><text x=\"175\" y=\"17\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">ウ</text><circle cx=\"26\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><text x=\"35\" y=\"87\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">エ</text><circle cx=\"96\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><text x=\"105\" y=\"87\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">オ</text><circle cx=\"166\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><text x=\"175\" y=\"87\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">カ</text><circle cx=\"26\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><text x=\"35\" y=\"157\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">キ</text><circle cx=\"96\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><text x=\"105\" y=\"157\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">ク</text><circle cx=\"166\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><text x=\"175\" y=\"157\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\">ケ</text></svg>",
+   "alt": "点と線の図形。各点に集まる線の数: ア: 2 本、イ: 2 本、ウ: 2 本、エ: 2 本、オ: 2 本、カ: 2 本、キ: 3 本、ク: 2 本、ケ: 1 本"
+  },
+  "choices": [
+   "ア",
+   "イ",
+   "ウ",
+   "オ",
+   "キ"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "各点に集まる線の数を数えます。\nア: 2 本、イ: 2 本、ウ: 2 本、エ: 2 本、オ: 2 本、カ: 2 本、キ: 3 本、ク: 2 本、ケ: 1 本\n線が奇数本集まる点（奇数点）は キ と ケ の 2 つです。奇数点が 2 つの図形は、一方の奇数点から書き始め、もう一方の奇数点で書き終わります。\nよって、書き始められるのは キ（選択肢の中で奇数点はこれだけ）。"
+ },
+ {
+  "id": "tgk-hitofude-022",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の図形は一筆書きできるか（同じ線を 2 度通らず、すべての線を 1 回ずつ通る）。",
+  "figure": {
+   "kind": "svg",
+   "title": "図形",
+   "svg": "<svg viewBox=\"0 0 202 192\" width=\"202\" height=\"192\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"26\" y1=\"26\" x2=\"96\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"26\" x2=\"26\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"166\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"26\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"26\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"166\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"26\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"96\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"26\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+   "alt": "点と線の図形。奇数本の線が集まる点の数: 0"
+  },
+  "choices": [
+   "書ける。どの点から書き始めてもよい",
+   "書ける。ただし書き始めは決まった 2 点のどちらか",
+   "書けない"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "線が奇数本集まる点（奇数点）を数えます。この図形の奇数点は 0 個です。\n・奇数点が 0 個 → 一筆書きでき、どこから書き始めてもよい\n・奇数点が 2 個 → 一筆書きできるが、奇数点から書き始めて、もう一方の奇数点で終わる\n・奇数点が 4 個以上 → 一筆書きできない\nよって「書ける。どの点から書き始めてもよい」。"
+ },
+ {
+  "id": "tgk-hitofude-023",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の図形は一筆書きできるか（同じ線を 2 度通らず、すべての線を 1 回ずつ通る）。",
+  "figure": {
+   "kind": "svg",
+   "title": "図形",
+   "svg": "<svg viewBox=\"0 0 202 192\" width=\"202\" height=\"192\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"26\" y1=\"26\" x2=\"96\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"26\" x2=\"26\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"166\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"26\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"26\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"166\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"166\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"26\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+   "alt": "点と線の図形。奇数本の線が集まる点の数: 2"
+  },
+  "choices": [
+   "書ける。どの点から書き始めてもよい",
+   "書ける。ただし書き始めは決まった 2 点のどちらか",
+   "書けない"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "線が奇数本集まる点（奇数点）を数えます。この図形の奇数点は 2 個です。\n・奇数点が 0 個 → 一筆書きでき、どこから書き始めてもよい\n・奇数点が 2 個 → 一筆書きできるが、奇数点から書き始めて、もう一方の奇数点で終わる\n・奇数点が 4 個以上 → 一筆書きできない\nよって「書ける。ただし書き始めは決まった 2 点のどちらか」。"
+ },
+ {
+  "id": "tgk-hitofude-024",
+  "domain": "zukei",
+  "type": "single",
+  "question": "次の図形は一筆書きできるか（同じ線を 2 度通らず、すべての線を 1 回ずつ通る）。",
+  "figure": {
+   "kind": "svg",
+   "title": "図形",
+   "svg": "<svg viewBox=\"0 0 202 192\" width=\"202\" height=\"192\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"26\" y1=\"26\" x2=\"26\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"166\" y2=\"26\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"96\" x2=\"96\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"96\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"26\" y1=\"166\" x2=\"96\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"26\" x2=\"166\" y2=\"96\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"96\" y1=\"96\" x2=\"166\" y2=\"166\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"26\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"96\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"96\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/><circle cx=\"166\" cy=\"166\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+   "alt": "点と線の図形。奇数本の線が集まる点の数: 6"
+  },
+  "choices": [
+   "書ける。どの点から書き始めてもよい",
+   "書ける。ただし書き始めは決まった 2 点のどちらか",
+   "書けない"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "線が奇数本集まる点（奇数点）を数えます。この図形の奇数点は 6 個です。\n・奇数点が 0 個 → 一筆書きでき、どこから書き始めてもよい\n・奇数点が 2 個 → 一筆書きできるが、奇数点から書き始めて、もう一方の奇数点で終わる\n・奇数点が 4 個以上 → 一筆書きできない\nよって「書けない」。"
+ },
+ {
+  "id": "tgk-dice-001",
+  "domain": "zukei",
+  "type": "single",
+  "question": "向かい合う面の目の和が 7 になるサイコロがある。上の面が 2、手前の面が 1、右の面が 4 になるように置き、左、手前、右、手前の順に 1 回ずつ転がした。このとき上の面の目はいくつか。",
+  "choices": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「上・手前・右」の 3 面だけを追いかけ、反対側は 7 から引いて求めます。\n最初: 上 2、手前 1、右 4\n左へ → 上 4、手前 1、右 5\n手前へ → 上 6、手前 4、右 5\n右へ → 上 2、手前 4、右 6\n手前へ → 上 3、手前 2、右 6\nよって上の面は 3。\n右へ転がすと「上の面が右へ」、奥へ転がすと「上の面が奥へ」移ります。"
+ },
+ {
+  "id": "tgk-dice-002",
+  "domain": "zukei",
+  "type": "single",
+  "question": "向かい合う面の目の和が 7 になるサイコロがある。上の面が 2、手前の面が 3、右の面が 1 になるように置き、手前、左、左の順に 1 回ずつ転がした。このとき手前の面の目はいくつか。",
+  "choices": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「上・手前・右」の 3 面だけを追いかけ、反対側は 7 から引いて求めます。\n最初: 上 2、手前 3、右 1\n手前へ → 上 4、手前 2、右 1\n左へ → 上 1、手前 2、右 3\n左へ → 上 3、手前 2、右 6\nよって手前の面は 2。\n右へ転がすと「上の面が右へ」、奥へ転がすと「上の面が奥へ」移ります。"
+ },
+ {
+  "id": "tgk-dice-003",
+  "domain": "zukei",
+  "type": "single",
+  "question": "向かい合う面の目の和が 7 になるサイコロがある。上の面が 5、手前の面が 6、右の面が 4 になるように置き、手前、右、右、右の順に 1 回ずつ転がした。このとき上の面の目はいくつか。",
+  "choices": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「上・手前・右」の 3 面だけを追いかけ、反対側は 7 から引いて求めます。\n最初: 上 5、手前 6、右 4\n手前へ → 上 1、手前 5、右 4\n右へ → 上 3、手前 5、右 1\n右へ → 上 6、手前 5、右 3\n右へ → 上 4、手前 5、右 6\nよって上の面は 4。\n右へ転がすと「上の面が右へ」、奥へ転がすと「上の面が奥へ」移ります。"
+ },
+ {
+  "id": "tgk-dice-004",
+  "domain": "zukei",
+  "type": "single",
+  "question": "向かい合う面の目の和が 7 になるサイコロがある。上の面が 6、手前の面が 5、右の面が 3 になるように置き、左、手前、手前、右の順に 1 回ずつ転がした。このとき上の面の目はいくつか。",
+  "choices": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "answer": [
+   5
+  ],
+  "explanation": "「上・手前・右」の 3 面だけを追いかけ、反対側は 7 から引いて求めます。\n最初: 上 6、手前 5、右 3\n左へ → 上 3、手前 5、右 1\n手前へ → 上 2、手前 3、右 1\n手前へ → 上 4、手前 2、右 1\n右へ → 上 6、手前 2、右 4\nよって上の面は 6。\n右へ転がすと「上の面が右へ」、奥へ転がすと「上の面が奥へ」移ります。"
+ },
+ {
+  "id": "tgk-dice-005",
+  "domain": "zukei",
+  "type": "single",
+  "question": "向かい合う面の目の和が 7 になるサイコロがある。上の面が 1、手前の面が 4、右の面が 5 になるように置き、左、奥、右の順に 1 回ずつ転がした。このとき手前の面の目はいくつか。",
+  "choices": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「上・手前・右」の 3 面だけを追いかけ、反対側は 7 から引いて求めます。\n最初: 上 1、手前 4、右 5\n左へ → 上 5、手前 4、右 6\n奥へ → 上 4、手前 2、右 6\n右へ → 上 1、手前 2、右 4\nよって手前の面は 2。\n右へ転がすと「上の面が右へ」、奥へ転がすと「上の面が奥へ」移ります。"
+ },
+ {
+  "id": "tgk-dice-006",
+  "domain": "zukei",
+  "type": "single",
+  "question": "向かい合う面の目の和が 7 になるサイコロがある。上の面が 2、手前の面が 1、右の面が 3 になるように置き、左、手前の順に 1 回ずつ転がした。このとき上の面の目はいくつか。",
+  "choices": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "answer": [
+   5
+  ],
+  "explanation": "「上・手前・右」の 3 面だけを追いかけ、反対側は 7 から引いて求めます。\n最初: 上 2、手前 1、右 3\n左へ → 上 3、手前 1、右 5\n手前へ → 上 6、手前 3、右 5\nよって上の面は 6。\n右へ転がすと「上の面が右へ」、奥へ転がすと「上の面が奥へ」移ります。"
+ },
+ {
+  "id": "tgk-dice-007",
+  "domain": "zukei",
+  "type": "single",
+  "question": "向かい合う面の目の和が 7 になるサイコロがある。上の面が 3、手前の面が 5、右の面が 1 になるように置き、奥、右、手前の順に 1 回ずつ転がした。このとき上の面の目はいくつか。",
+  "choices": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「上・手前・右」の 3 面だけを追いかけ、反対側は 7 から引いて求めます。\n最初: 上 3、手前 5、右 1\n奥へ → 上 5、手前 4、右 1\n右へ → 上 6、手前 4、右 5\n手前へ → 上 3、手前 6、右 5\nよって上の面は 3。\n右へ転がすと「上の面が右へ」、奥へ転がすと「上の面が奥へ」移ります。"
+ },
+ {
+  "id": "tgk-dice-008",
+  "domain": "zukei",
+  "type": "single",
+  "question": "向かい合う面の目の和が 7 になるサイコロがある。上の面が 5、手前の面が 6、右の面が 3 になるように置き、奥、奥の順に 1 回ずつ転がした。このとき上の面の目はいくつか。",
+  "choices": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「上・手前・右」の 3 面だけを追いかけ、反対側は 7 から引いて求めます。\n最初: 上 5、手前 6、右 3\n奥へ → 上 6、手前 2、右 3\n奥へ → 上 2、手前 1、右 3\nよって上の面は 2。\n右へ転がすと「上の面が右へ」、奥へ転がすと「上の面が奥へ」移ります。"
+ },
+ {
+  "id": "tgk-dice-009",
+  "domain": "zukei",
+  "type": "single",
+  "question": "向かい合う面の目の和が 7 になるサイコロがある。上の面が 5、手前の面が 4、右の面が 1 になるように置き、手前、左の順に 1 回ずつ転がした。このとき手前の面の目はいくつか。",
+  "choices": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「上・手前・右」の 3 面だけを追いかけ、反対側は 7 から引いて求めます。\n最初: 上 5、手前 4、右 1\n手前へ → 上 3、手前 5、右 1\n左へ → 上 1、手前 5、右 4\nよって手前の面は 5。\n右へ転がすと「上の面が右へ」、奥へ転がすと「上の面が奥へ」移ります。"
+ },
+ {
+  "id": "tgk-dice-010",
+  "domain": "zukei",
+  "type": "single",
+  "question": "向かい合う面の目の和が 7 になるサイコロがある。上の面が 6、手前の面が 5、右の面が 3 になるように置き、左、手前、手前、左の順に 1 回ずつ転がした。このとき上の面の目はいくつか。",
+  "choices": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「上・手前・右」の 3 面だけを追いかけ、反対側は 7 から引いて求めます。\n最初: 上 6、手前 5、右 3\n左へ → 上 3、手前 5、右 1\n手前へ → 上 2、手前 3、右 1\n手前へ → 上 4、手前 2、右 1\n左へ → 上 1、手前 2、右 3\nよって上の面は 1。\n右へ転がすと「上の面が右へ」、奥へ転がすと「上の面が奥へ」移ります。"
+ },
+ {
+  "id": "tgk-dice-011",
+  "domain": "zukei",
+  "type": "single",
+  "question": "向かい合う面の目の和が 7 になるサイコロがある。上の面が 3、手前の面が 2、右の面が 1 になるように置き、手前、右、手前の順に 1 回ずつ転がした。このとき上の面の目はいくつか。",
+  "choices": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「上・手前・右」の 3 面だけを追いかけ、反対側は 7 から引いて求めます。\n最初: 上 3、手前 2、右 1\n手前へ → 上 5、手前 3、右 1\n右へ → 上 6、手前 3、右 5\n手前へ → 上 4、手前 6、右 5\nよって上の面は 4。\n右へ転がすと「上の面が右へ」、奥へ転がすと「上の面が奥へ」移ります。"
+ },
+ {
+  "id": "tgk-dice-012",
+  "domain": "zukei",
+  "type": "single",
+  "question": "向かい合う面の目の和が 7 になるサイコロがある。上の面が 5、手前の面が 6、右の面が 3 になるように置き、手前、右の順に 1 回ずつ転がした。このとき上の面の目はいくつか。",
+  "choices": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「上・手前・右」の 3 面だけを追いかけ、反対側は 7 から引いて求めます。\n最初: 上 5、手前 6、右 3\n手前へ → 上 1、手前 5、右 3\n右へ → 上 4、手前 5、右 1\nよって上の面は 4。\n右へ転がすと「上の面が右へ」、奥へ転がすと「上の面が奥へ」移ります。"
+ },
+ {
+  "id": "tgk-dice-013",
+  "domain": "zukei",
+  "type": "single",
+  "question": "向かい合う面の目の和が 7 になるサイコロがある。上の面が 4、手前の面が 6、右の面が 2 になるように置き、奥、左の順に 1 回ずつ転がした。このとき上の面の目はいくつか。",
+  "choices": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「上・手前・右」の 3 面だけを追いかけ、反対側は 7 から引いて求めます。\n最初: 上 4、手前 6、右 2\n奥へ → 上 6、手前 3、右 2\n左へ → 上 2、手前 3、右 1\nよって上の面は 2。\n右へ転がすと「上の面が右へ」、奥へ転がすと「上の面が奥へ」移ります。"
+ },
+ {
+  "id": "tgk-dice-014",
+  "domain": "zukei",
+  "type": "single",
+  "question": "向かい合う面の目の和が 7 になるサイコロがある。上の面が 2、手前の面が 1、右の面が 3 になるように置き、左、奥、右の順に 1 回ずつ転がした。このとき上の面の目はいくつか。",
+  "choices": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「上・手前・右」の 3 面だけを追いかけ、反対側は 7 から引いて求めます。\n最初: 上 2、手前 1、右 3\n左へ → 上 3、手前 1、右 5\n奥へ → 上 1、手前 4、右 5\n右へ → 上 2、手前 4、右 1\nよって上の面は 2。\n右へ転がすと「上の面が右へ」、奥へ転がすと「上の面が奥へ」移ります。"
+ },
+ {
+  "id": "tgk-dice-015",
+  "domain": "zukei",
+  "type": "single",
+  "question": "向かい合う面の目の和が 7 になるサイコロがある。上の面が 2、手前の面が 3、右の面が 6 になるように置き、右、右、奥、左の順に 1 回ずつ転がした。このとき上の面の目はいくつか。",
+  "choices": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「上・手前・右」の 3 面だけを追いかけ、反対側は 7 から引いて求めます。\n最初: 上 2、手前 3、右 6\n右へ → 上 1、手前 3、右 2\n右へ → 上 5、手前 3、右 1\n奥へ → 上 3、手前 2、右 1\n左へ → 上 1、手前 2、右 4\nよって上の面は 1。\n右へ転がすと「上の面が右へ」、奥へ転がすと「上の面が奥へ」移ります。"
+ },
+ {
+  "id": "tgk-dice-016",
+  "domain": "zukei",
+  "type": "single",
+  "question": "向かい合う面の目の和が 7 になるサイコロがある。上の面が 6、手前の面が 2、右の面が 3 になるように置き、手前、手前の順に 1 回ずつ転がした。このとき手前の面の目はいくつか。",
+  "choices": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「上・手前・右」の 3 面だけを追いかけ、反対側は 7 から引いて求めます。\n最初: 上 6、手前 2、右 3\n手前へ → 上 5、手前 6、右 3\n手前へ → 上 1、手前 5、右 3\nよって手前の面は 5。\n右へ転がすと「上の面が右へ」、奥へ転がすと「上の面が奥へ」移ります。"
+ }
+]
