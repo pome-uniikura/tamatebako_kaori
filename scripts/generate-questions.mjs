@@ -1,7 +1,7 @@
 // 計算問題・図表問題・TG-WEB の図形などを自動で作る（npm run generate）
 // 乱数の種を固定しているので、何度実行しても同じ問題になる（問題 ID も変わらない）。
-// 手で書いた問題は別のファイル（*-manual.json など）に置き、このスクリプトでは上書きしない。
-import { mkdirSync, writeFileSync } from 'node:fs';
+// 手書きの問題は src/data/text/<科目>/<名前>.txt に書き、このスクリプトで JSON にする（書き方は scripts/gen/textq.mjs）。
+import { existsSync, mkdirSync, readdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { idMaker, makeRng } from './gen/lib.mjs';
 import { genShisoku } from './gen/shisoku.mjs';
@@ -9,6 +9,9 @@ import { genZuhyo } from './gen/zuhyo.mjs';
 import { genKuuran } from './gen/kuuran.mjs';
 import { genKeisan } from './gen/keisan.mjs';
 import { genAngou, genDice, genHitofude, genShugo, genSuiron, genTenkai } from './gen/tgweb.mjs';
+import { parseTextQuestions } from './gen/textq.mjs';
+import { genDouigo, genKotowaza, genTaigigo } from './gen/goi.mjs';
+import { genUsotsuki } from './gen/usotsuki.mjs';
 
 const root = new URL('..', import.meta.url).pathname;
 const qDir = join(root, 'src/data/questions');
@@ -63,8 +66,23 @@ write(
 write('tgweb-keisu', 'angou-generated', genAngou(makeRng(401), { count: 40, id: idMaker('tgk-angou'), domain: 'angou' }));
 write('tgweb-keisu', 'shugo-generated', genShugo(makeRng(402), { count: 60, id: idMaker('tgk-shugo'), domain: 'shugo' }));
 write('tgweb-keisu', 'suiron-generated', genSuiron(makeRng(403), { count: 50, id: idMaker('tgk-suiron'), domain: 'suiron' }));
+write('tgweb-keisu', 'suiron-usotsuki', genUsotsuki(makeRng(407), { id: idMaker('tgk-uso'), domain: 'suiron' }));
 write('tgweb-keisu', 'zukei-generated', [
   ...genTenkai(makeRng(404), { count: 30, id: idMaker('tgk-tenkai'), domain: 'zukei' }),
   ...genHitofude(makeRng(405), { count: 24, id: idMaker('tgk-hitofude'), domain: 'zukei' }),
   ...genDice(makeRng(406), { count: 16, id: idMaker('tgk-dice'), domain: 'zukei' }),
 ]);
+
+// TG-WEB 新型 言語（語彙の一覧から作る）
+write('tgweb-new-gengo', 'douigo-generated', genDouigo(makeRng(501), { id: idMaker('tng-douigo'), domain: 'douigo' }));
+write('tgweb-new-gengo', 'taigigo-generated', genTaigigo(makeRng(502), { id: idMaker('tng-taigigo'), domain: 'taigigo' }));
+write('tgweb-new-gengo', 'kotowaza-generated', genKotowaza(makeRng(503), { id: idMaker('tng-kotowaza'), domain: 'kotowaza' }));
+
+// 手書きの問題（src/data/text/<科目>/<名前>.txt → src/data/questions/<科目>/<名前>.json）
+const textDir = join(root, 'src/data/text');
+for (const cert of existsSync(textDir) ? readdirSync(textDir) : []) {
+  for (const file of readdirSync(join(textDir, cert)).filter((f) => f.endsWith('.txt'))) {
+    const data = parseTextQuestions(join(textDir, cert, file));
+    write(cert, file.replace(/\.txt$/, ''), data.passages.length ? data : data.questions);
+  }
+}

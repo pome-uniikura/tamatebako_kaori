@@ -1,0 +1,156 @@
+// 玉手箱 英語 論理的読解（GAB 形式）。すべてオリジナルの英文
+@domain eng-gab
+@prefix tbe-gab
+@choices eng-gab
+@lang en
+@mix on
+
+### Flexible Working Hours
+Many companies now allow employees to choose when they start and finish work, as long as they are present during a set of "core hours" in the middle of the day. Supporters say that flexible hours reduce stress, because staff can avoid the morning rush and fit work around family commitments. Some managers, however, worry that it becomes harder to arrange meetings when people keep different schedules. In a recent survey at one firm, most employees said they preferred flexible hours, although a small number reported that they found it difficult to separate work from their private lives.
+
+Q: Employees with flexible hours can still be required to be at work during certain hours.
+A: A
+E: 本文に "as long as they are present during a set of 'core hours'" とあり、コアタイムには出社が必要です。正しいといえます（True）。
+
+Q: All of the employees in the survey preferred flexible working hours.
+A: B
+E: 本文は "most employees" が好んだとしています。"All"（全員）は本文と矛盾します（False）。
+
+Q: Flexible working hours increase a company's profits.
+A: C
+E: 利益については何も書かれていません。判断できません（Cannot say）。
+
+### Urban Beekeeping
+Beekeeping is becoming popular in cities. Hives are now kept on the roofs of offices, hotels and apartment buildings. City bees often have access to a wide variety of flowers in parks and gardens, and some beekeepers claim that urban honey has a richer flavour than honey from the countryside. Experts warn, however, that too many hives in a small area can leave bees without enough food. They also point out that keeping bees requires regular care and some training, and is not as simple as many beginners expect.
+
+Q: Bees kept in cities may be able to visit many different kinds of flowers.
+A: A
+E: "City bees often have access to a wide variety of flowers" とあるので、正しいといえます（True）。
+
+Q: Experts believe that there is no limit to the number of hives a small area can support.
+A: B
+E: 専門家は "too many hives in a small area can leave bees without enough food" と警告しています。本文と矛盾します（False）。
+
+Q: Most urban beekeepers sell their honey to local shops.
+A: C
+E: はちみつを売るかどうかについては書かれていません。判断できません（Cannot say）。
+
+### Online Reviews
+Before buying a product or booking a hotel, many people read online reviews written by other customers. Reviews can be helpful because they describe real experiences rather than advertising claims. However, not all reviews can be trusted. Some businesses have been found to post positive reviews about themselves, or to pay others to do so. In addition, customers who had a very good or very bad experience are more likely to write a review than those whose experience was average. As a result, reviews may not represent the views of typical customers.
+
+Q: Customers with an average experience are less likely to write a review than those with an extreme experience.
+A: A
+E: "customers who had a very good or very bad experience are more likely to write a review than those whose experience was average" と同じ内容です（True）。
+
+Q: Online reviews always represent the opinions of typical customers.
+A: B
+E: 本文の結論は "reviews may not represent the views of typical customers" です。"always" は本文と矛盾します（False）。
+
+Q: Hotel reviews are more reliable than reviews of other products.
+A: C
+E: ホテルとほかの商品のレビューの信頼性は比べられていません。判断できません（Cannot say）。
+
+### The Four-Day Week
+Several companies have experimented with a four-day working week, in which staff work fewer hours for the same pay. In many of these trials, employees reported feeling less tired and more satisfied with their jobs. Some firms also found that productivity stayed the same or even rose, as staff focused more carefully on their tasks. Critics argue that the model does not suit every industry. Hospitals and shops, for example, must remain open every day, which makes it harder to give all staff an extra day off.
+
+Q: In the trials described, employees were paid less for working fewer days.
+A: B
+E: "work fewer hours for the same pay" とあり、給料は同じです。本文と矛盾します（False）。
+
+Q: Some companies found that productivity did not fall during the trial.
+A: A
+E: "productivity stayed the same or even rose" とあるので、正しいといえます（True）。
+
+Q: Most companies that tried the four-day week decided to keep it permanently.
+A: C
+E: 試行の後に続けたかどうかは書かれていません。判断できません（Cannot say）。
+
+### Plastic Bags
+In many countries, shops now charge customers a small fee for plastic bags. The aim is to encourage people to bring their own bags and to reduce plastic waste. In places where the fee was introduced, the number of plastic bags handed out fell sharply within a year. Some researchers point out, however, that reusable bags must be used many times before they become better for the environment than a single plastic bag, because they require more energy and materials to produce.
+
+Q: The purpose of the fee is to reduce plastic waste.
+A: A
+E: "The aim is to encourage people to bring their own bags and to reduce plastic waste" とあるので、正しいといえます（True）。
+
+Q: According to the passage, a reusable bag is better for the environment than a plastic bag even if it is used only once.
+A: B
+E: 再利用できる袋は "must be used many times before they become better for the environment" とあります。1 回だけで環境に良いという内容は本文と矛盾します（False）。
+
+Q: The fee for plastic bags is the same in every country.
+A: C
+E: 料金の額や国ごとの違いは書かれていません。判断できません（Cannot say）。
+
+### Learning by Teaching
+Teachers have long observed that one of the best ways to understand a subject is to teach it to someone else. When students prepare to explain a topic, they must organise their knowledge and identify gaps in their own understanding. Studies have found that students who expected to teach material to others remembered it better than those who studied only to take a test. The effect appears to be strongest when students actually give the explanation, rather than simply preparing for it.
+
+Q: Preparing to teach a topic can help students find what they do not understand.
+A: A
+E: "they must organise their knowledge and identify gaps in their own understanding" とあるので、正しいといえます（True）。
+
+Q: According to the studies, students who studied for a test remembered the material better than those who expected to teach it.
+A: B
+E: 教えるつもりで学んだ学生のほうがよく覚えていた、とあります。本文と逆です（False）。
+
+Q: Learning by teaching works better for science subjects than for languages.
+A: C
+E: 教科ごとの違いは書かれていません。判断できません（Cannot say）。
+
+### Night Trains
+After decades of decline, overnight train services are returning in parts of Europe. Travellers who are concerned about the environmental impact of flying are choosing trains for journeys of up to around 1,000 kilometres. A night train also saves the cost of a hotel, since passengers sleep on board. Operating these services is expensive, though, because sleeping carriages carry fewer passengers than ordinary seats, and some routes depend on financial support from governments.
+
+Q: Sleeping carriages carry fewer passengers than carriages with ordinary seats.
+A: A
+E: "sleeping carriages carry fewer passengers than ordinary seats" とあるので、正しいといえます（True）。
+
+Q: Night train services in Europe have been growing steadily for decades.
+A: B
+E: "After decades of decline"（何十年も減ってきた後で）とあります。ずっと増えてきたという内容は本文と矛盾します（False）。
+
+Q: Night trains are cheaper than flying on every route.
+A: C
+E: ホテル代が節約できるとは書かれていますが、航空運賃との比較はありません。判断できません（Cannot say）。
+
+### Coffee and Sleep
+Caffeine, the substance in coffee that helps people feel alert, works by blocking a chemical in the brain that builds up during the day and makes us feel sleepy. The effects of caffeine can last for several hours. For this reason, sleep specialists often advise people to avoid coffee in the afternoon and evening. Sensitivity to caffeine varies from person to person, however. Some people can drink coffee after dinner and sleep well, while others find that a single cup in the morning affects their sleep.
+
+Q: The effects of caffeine may continue for several hours.
+A: A
+E: "The effects of caffeine can last for several hours" とあるので、正しいといえます（True）。
+
+Q: Everyone reacts to caffeine in the same way.
+A: B
+E: "Sensitivity to caffeine varies from person to person" とあります。本文と矛盾します（False）。
+
+Q: Tea contains less caffeine than coffee.
+A: C
+E: 紅茶については書かれていません。判断できません（Cannot say）。
+
+### Remote Medical Consultations
+Video consultations allow patients to speak to a doctor without visiting a clinic. They are particularly useful for people who live far from a hospital or who have difficulty travelling. Doctors can review symptoms, discuss test results and renew prescriptions online. However, some conditions cannot be properly assessed without a physical examination. Doctors therefore recommend video consultations as a supplement to, not a replacement for, face-to-face care.
+
+Q: Doctors recommend that video consultations should completely replace visits to a clinic.
+A: B
+E: "as a supplement to, not a replacement for, face-to-face care" とあり、置き換えではなく補うものとされています。本文と矛盾します（False）。
+
+Q: Prescriptions can be renewed during an online consultation.
+A: A
+E: "renew prescriptions online" とあるので、正しいといえます（True）。
+
+Q: Video consultations are cheaper for patients than visits to a clinic.
+A: C
+E: 費用については書かれていません。判断できません（Cannot say）。
+
+### Company Mentoring
+Many organisations run mentoring programmes in which experienced employees support newer colleagues. A mentor can offer advice on career decisions, introduce the newcomer to useful contacts and help them understand the unwritten rules of the workplace. Research suggests that employees who have a mentor are more likely to stay with their company. Mentoring can also benefit the mentors themselves, who often report that the experience helps them develop their own leadership skills.
+
+Q: Mentors may also gain something from the mentoring relationship.
+A: A
+E: "Mentoring can also benefit the mentors themselves" とあるので、正しいといえます（True）。
+
+Q: Employees who have a mentor are more likely to leave their company.
+A: B
+E: メンターがいる社員は "more likely to stay with their company" とあります。本文と逆です（False）。
+
+Q: Mentors usually receive extra pay for supporting new colleagues.
+A: C
+E: メンターへの報酬については書かれていません。判断できません（Cannot say）。

@@ -1,0 +1,265 @@
+// 玉手箱 英語 長文読解（IMAGES 形式）。すべてオリジナルの英文
+@domain eng-images
+@prefix tbe-img
+@shuffle on
+@lang en
+
+### The Value of Failure in Start-ups
+In the world of technology start-ups, failure is often described as a valuable experience. Investors sometimes prefer to support entrepreneurs who have previously run a company that did not succeed, believing that they have learned lessons that first-time founders have not. A founder who has failed may be better at noticing early warning signs, such as rising costs or falling customer interest.
+
+However, failure is only valuable if people reflect on it honestly. An entrepreneur who blames bad luck or difficult market conditions, without examining their own decisions, is likely to repeat the same mistakes. For this reason, some experienced investors ask founders to explain in detail why their previous business failed before deciding whether to support a new one.
+
+Q: According to the passage, why do some investors support entrepreneurs who have failed before?
+- *They believe such entrepreneurs have learned useful lessons.
+- They expect such entrepreneurs to ask for less money.
+- They think failure is a sign of bad luck rather than poor decisions.
+- They are required to do so by law.
+E: 本文に "believing that they have learned lessons that first-time founders have not" とあります。
+
+Q: What does the writer say makes failure valuable?
+- *Reflecting honestly on what went wrong.
+- Starting a new company immediately.
+- Avoiding difficult market conditions.
+- Receiving support from many investors.
+E: 第 2 段落の "failure is only valuable if people reflect on it honestly" が答えです。
+
+Q: The word "examining" in the second paragraph is closest in meaning to
+- *looking at carefully
+- ignoring
+- repeating
+- celebrating
+E: examine は「よく調べる・検討する」という意味です。"without examining their own decisions"（自分の判断を振り返らずに）という文脈からも判断できます。
+
+### Shared Bicycles
+Bicycle-sharing schemes allow people to rent a bike for a short trip and return it at a different location. In many cities, they have become a popular way to travel short distances, especially for journeys that are too long to walk but too short to justify taking a taxi. Users unlock the bikes with a smartphone app and pay according to how long they ride.
+
+The schemes have faced problems, however. In some cities, bikes were left blocking pavements or were damaged, and operators had to spend large sums collecting and repairing them. To deal with this, several cities now require bikes to be returned to designated parking areas, and users who leave bikes elsewhere are charged an extra fee.
+
+Q: What kind of journey are shared bicycles especially popular for, according to the passage?
+- *Trips that are too long to walk but too short for a taxi.
+- Long journeys between different cities.
+- Trips to work in bad weather.
+- Journeys that are cheaper by taxi.
+E: "especially for journeys that are too long to walk but too short to justify taking a taxi" とあります。
+
+Q: How have some cities responded to the problems described?
+- *By requiring bikes to be returned to designated areas.
+- By banning bicycle-sharing schemes completely.
+- By making the bikes free to use.
+- By asking users to repair the bikes themselves.
+E: 第 2 段落に "several cities now require bikes to be returned to designated parking areas" とあります。
+
+Q: Which of the following is stated in the passage?
+- *Users pay according to the length of time they ride.
+- Most users ride the bikes every day.
+- The bikes can only be used during the day.
+- Operators make large profits from extra fees.
+E: "pay according to how long they ride" とあります。ほかの選択肢は本文に書かれていません。
+
+### Reading on Screens
+More and more reading now takes place on screens rather than on paper. Screens offer clear advantages: thousands of books can be stored on a single device, text size can be adjusted, and new material can be downloaded instantly.
+
+Some studies, however, suggest that readers understand long and complex texts slightly better on paper. Researchers believe one reason may be that people tend to read more quickly and less carefully on screens, skimming the text rather than reading every line. Interestingly, the difference seems to disappear when readers are given plenty of time and are told that they will be tested on the content. This suggests that the way we read may matter more than what we read on.
+
+Q: What is the main point of the passage?
+- *How carefully we read may be more important than whether we use paper or a screen.
+- Paper books will soon disappear completely.
+- Reading on screens is always harmful to understanding.
+- Screens are better than paper for every kind of text.
+E: 最後の一文 "the way we read may matter more than what we read on" が文章の要点です。
+
+Q: According to researchers, why might people understand long texts less well on screens?
+- *They tend to skim rather than read every line.
+- Screens make the text too small to read.
+- Digital books contain more mistakes.
+- Screens cannot store long texts.
+E: "people tend to read more quickly and less carefully on screens, skimming the text" とあります。
+
+Q: Which is NOT mentioned as an advantage of screens?
+- *They are cheaper than paper books.
+- Many books can be stored on one device.
+- The size of the text can be changed.
+- New material can be obtained immediately.
+E: 画面の利点として、保存できる量・文字の大きさ・すぐに入手できることは挙げられていますが、値段については書かれていません。
+
+### Community Gardens
+Community gardens are shared spaces where local residents grow vegetables, fruit and flowers. In addition to providing fresh food, they offer opportunities for neighbours to meet and work together. Many gardeners say that the social contact is as important to them as the harvest.
+
+Setting up a community garden is not always easy. Organisers must find suitable land, secure permission from its owner and agree on rules for sharing tasks such as watering and weeding. Gardens that last for many years usually have a small group of committed volunteers who take responsibility for these practical matters.
+
+Q: According to the passage, what do many gardeners value as much as the harvest?
+- *The chance to meet and work with neighbours.
+- The money they save on food.
+- The exercise they get from gardening.
+- The opportunity to sell their vegetables.
+E: "the social contact is as important to them as the harvest" とあります。
+
+Q: What do long-lasting community gardens usually have?
+- *A small group of committed volunteers.
+- Financial support from the government.
+- A large number of professional gardeners.
+- Land owned by the gardeners themselves.
+E: 第 2 段落の最後に "usually have a small group of committed volunteers" とあります。
+
+Q: The word "secure" in the second paragraph is closest in meaning to
+- *obtain
+- protect
+- refuse
+- lock
+E: secure permission は「許可を得る」という意味です。文脈から「得る（obtain）」が最も近い意味です。secure には「守る」という意味もありますが、ここでは当てはまりません。
+
+### Multilingual Customer Service
+As companies sell products around the world, many now provide customer service in several languages. Customers are generally more satisfied when they can explain a problem in their own language, and they are more likely to buy from the same company again.
+
+Providing this service is costly. Companies must hire staff who speak different languages or use translation technology. Automatic translation has improved greatly, but it can still misunderstand technical terms or the emotional tone of a complaint. For this reason, many firms use automatic translation for simple questions and pass more complicated cases to human staff.
+
+Q: According to the passage, what happens when customers can use their own language?
+- *They are generally more satisfied.
+- They complain more often.
+- They expect lower prices.
+- They prefer automatic translation.
+E: "Customers are generally more satisfied when they can explain a problem in their own language" とあります。
+
+Q: Why do many firms pass complicated cases to human staff?
+- *Automatic translation can still misunderstand technical terms or emotional tone.
+- Human staff are cheaper than translation technology.
+- Customers refuse to use automatic translation.
+- Automatic translation cannot handle simple questions.
+E: 機械翻訳は "can still misunderstand technical terms or the emotional tone of a complaint" ため、複雑な案件は人に回すと説明されています。
+
+Q: What is the writer's overall view of automatic translation?
+- *It is useful but not yet able to replace human staff in every case.
+- It is too inaccurate to be used at all.
+- It has completely replaced human translators.
+- It is more expensive than hiring staff.
+E: "has improved greatly, but ..." と、進歩を認めつつ限界も指摘し、簡単な質問には使い、複雑な案件は人が対応するとしています。
+
+### Noise in Open-Plan Offices
+Open-plan offices, in which employees work in a large shared space without walls, were designed to encourage communication and teamwork. They also allow companies to fit more desks into a smaller area, which reduces costs.
+
+However, many employees find open-plan offices noisy and distracting. Some studies have found that, after moving to an open-plan layout, workers actually spoke to each other face to face less often and sent more emails instead, perhaps because they wanted to avoid disturbing their colleagues. In response, some companies have added quiet rooms where staff can concentrate or make private phone calls.
+
+Q: What was one of the original purposes of open-plan offices?
+- *To encourage communication between employees.
+- To give each employee more space.
+- To reduce the number of emails.
+- To make offices quieter.
+E: "were designed to encourage communication and teamwork" とあります。
+
+Q: What did some studies find after companies moved to open-plan offices?
+- *Workers talked face to face less often.
+- Workers stopped sending emails.
+- Workers became less distracted.
+- Workers asked for larger desks.
+E: "workers actually spoke to each other face to face less often and sent more emails instead" とあります。
+
+Q: The word "actually" in the second paragraph suggests that the result was
+- *the opposite of what was expected
+- exactly what was planned
+- not important
+- impossible to measure
+E: 会話を増やすための設計だったのに、実際には会話が減ったという「予想と反対の結果」を、actually（実は）が示しています。
+
+### The Science of Habits
+Habits are actions that we perform automatically, often without thinking. Psychologists explain that a habit usually has three parts: a cue that triggers the behaviour, the behaviour itself, and a reward that makes us want to repeat it. For example, feeling tired in the afternoon (the cue) may lead us to buy a snack (the behaviour), which gives us a burst of energy (the reward).
+
+To change a habit, experts suggest keeping the same cue and reward but replacing the behaviour. Someone who snacks when tired could take a short walk instead, which can also provide a feeling of renewed energy. Simply trying to resist the habit through willpower alone is often less effective.
+
+Q: According to the passage, what are the three parts of a habit?
+- *A cue, a behaviour and a reward.
+- A goal, a plan and a result.
+- A thought, a feeling and an action.
+- A problem, a solution and a test.
+E: "a cue that triggers the behaviour, the behaviour itself, and a reward" とあります。
+
+Q: What do experts suggest to change a habit?
+- *Replace the behaviour while keeping the cue and reward.
+- Remove the cue completely.
+- Rely only on willpower.
+- Change the reward to something unpleasant.
+E: "keeping the same cue and reward but replacing the behaviour" とあります。
+
+Q: In the example, what is the reward?
+- *A burst of energy.
+- Feeling tired in the afternoon.
+- Buying a snack.
+- Taking a short walk.
+E: 例の中で (the reward) と書かれているのは "gives us a burst of energy" の部分です。
+
+### Recycling Electronic Waste
+Old mobile phones, computers and other electronic devices contain valuable metals such as gold, silver and copper. Recovering these metals through recycling can reduce the need for mining, which often causes serious environmental damage.
+
+Yet only a small share of electronic waste is collected for recycling. Many people keep old devices in drawers because they worry about personal data stored on them, or simply do not know where to take them. Some manufacturers now offer to collect old devices and erase the data free of charge, hoping to increase the amount of material they can recover.
+
+Q: According to the passage, why can recycling electronic devices benefit the environment?
+- *It can reduce the need for mining.
+- It makes devices last longer.
+- It reduces the amount of electricity used.
+- It prevents people from buying new devices.
+E: "can reduce the need for mining, which often causes serious environmental damage" とあります。
+
+Q: Which reason for keeping old devices is mentioned in the passage?
+- *Concern about personal data.
+- The high cost of recycling.
+- The value of the metals inside.
+- Plans to repair them later.
+E: "because they worry about personal data stored on them" とあります。
+
+Q: Why do some manufacturers offer free collection and data erasure?
+- *To increase the amount of material they can recover.
+- To sell more new devices to customers.
+- Because the law requires them to.
+- To reduce the price of their products.
+E: "hoping to increase the amount of material they can recover" とあります。
+
+### Working From Cafés
+For many freelancers, cafés have become a second office. They offer a change of scenery, a steady supply of coffee and, often, free wireless internet. Some people find that the background noise of a café actually helps them concentrate, as it masks more distracting sounds.
+
+Café owners have mixed feelings about this trend. Customers who stay for hours while buying only one drink take up tables that could be used by others. Some cafés have responded by limiting internet access to two hours, while others have created special areas for laptop users, charging a small fee for a seat with a power socket.
+
+Q: According to the passage, why might some people concentrate better in a café?
+- *Background noise can hide more distracting sounds.
+- Cafés are quieter than offices.
+- Coffee makes them work faster.
+- Other customers help them with their work.
+E: "the background noise of a café actually helps them concentrate, as it masks more distracting sounds" とあります。
+
+Q: What problem do café owners have with some customers?
+- *They stay for a long time but buy little.
+- They make too much noise.
+- They do not use the internet.
+- They refuse to pay for coffee.
+E: "Customers who stay for hours while buying only one drink take up tables" とあります。
+
+Q: Which response by cafés is mentioned in the passage?
+- *Charging a fee for a seat with a power socket.
+- Banning laptops completely.
+- Closing earlier in the evening.
+- Raising the price of coffee.
+E: "charging a small fee for a seat with a power socket" とあります。
+
+### Volunteer Tourism
+Volunteer tourism combines travel with unpaid work, such as teaching English, building houses or protecting wildlife. Participants often say the experience is more meaningful than an ordinary holiday, because they feel they are contributing to the places they visit.
+
+Critics warn that good intentions are not always enough. Short-term volunteers without proper skills may take jobs that local workers could do, or may need so much supervision that they create extra work for the host organisation. To avoid these problems, experts advise choosing programmes that match volunteers' skills with clearly defined local needs and that last long enough to make a real difference.
+
+Q: Why do participants often find volunteer tourism meaningful?
+- *They feel they are contributing to the places they visit.
+- They are paid for their work.
+- It is cheaper than an ordinary holiday.
+- They can learn a new language quickly.
+E: "they feel they are contributing to the places they visit" とあります。
+
+Q: What concern do critics raise?
+- *Unskilled short-term volunteers may create extra work for host organisations.
+- Volunteers usually stay too long.
+- Host organisations refuse to accept volunteers.
+- Volunteer tourism is too expensive for most people.
+E: "may need so much supervision that they create extra work for the host organisation" とあります。
+
+Q: What do experts advise?
+- *Choosing programmes that match volunteers' skills with local needs.
+- Avoiding volunteer tourism altogether.
+- Volunteering only in wildlife protection.
+- Joining programmes that last no more than a week.
+E: "choosing programmes that match volunteers' skills with clearly defined local needs" とあります。期間については「十分な長さ」を勧めており、短期を勧めてはいません。

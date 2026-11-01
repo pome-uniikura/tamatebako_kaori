@@ -1,0 +1,576 @@
+{
+ "passages": [
+  {
+   "id": "tbe-gab-p01",
+   "text": "Many companies now allow employees to choose when they start and finish work, as long as they are present during a set of \"core hours\" in the middle of the day. Supporters say that flexible hours reduce stress, because staff can avoid the morning rush and fit work around family commitments. Some managers, however, worry that it becomes harder to arrange meetings when people keep different schedules. In a recent survey at one firm, most employees said they preferred flexible hours, although a small number reported that they found it difficult to separate work from their private lives.",
+   "title": "Flexible Working Hours",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-p02",
+   "text": "Beekeeping is becoming popular in cities. Hives are now kept on the roofs of offices, hotels and apartment buildings. City bees often have access to a wide variety of flowers in parks and gardens, and some beekeepers claim that urban honey has a richer flavour than honey from the countryside. Experts warn, however, that too many hives in a small area can leave bees without enough food. They also point out that keeping bees requires regular care and some training, and is not as simple as many beginners expect.",
+   "title": "Urban Beekeeping",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-p03",
+   "text": "Before buying a product or booking a hotel, many people read online reviews written by other customers. Reviews can be helpful because they describe real experiences rather than advertising claims. However, not all reviews can be trusted. Some businesses have been found to post positive reviews about themselves, or to pay others to do so. In addition, customers who had a very good or very bad experience are more likely to write a review than those whose experience was average. As a result, reviews may not represent the views of typical customers.",
+   "title": "Online Reviews",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-p04",
+   "text": "Several companies have experimented with a four-day working week, in which staff work fewer hours for the same pay. In many of these trials, employees reported feeling less tired and more satisfied with their jobs. Some firms also found that productivity stayed the same or even rose, as staff focused more carefully on their tasks. Critics argue that the model does not suit every industry. Hospitals and shops, for example, must remain open every day, which makes it harder to give all staff an extra day off.",
+   "title": "The Four-Day Week",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-p05",
+   "text": "In many countries, shops now charge customers a small fee for plastic bags. The aim is to encourage people to bring their own bags and to reduce plastic waste. In places where the fee was introduced, the number of plastic bags handed out fell sharply within a year. Some researchers point out, however, that reusable bags must be used many times before they become better for the environment than a single plastic bag, because they require more energy and materials to produce.",
+   "title": "Plastic Bags",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-p06",
+   "text": "Teachers have long observed that one of the best ways to understand a subject is to teach it to someone else. When students prepare to explain a topic, they must organise their knowledge and identify gaps in their own understanding. Studies have found that students who expected to teach material to others remembered it better than those who studied only to take a test. The effect appears to be strongest when students actually give the explanation, rather than simply preparing for it.",
+   "title": "Learning by Teaching",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-p07",
+   "text": "After decades of decline, overnight train services are returning in parts of Europe. Travellers who are concerned about the environmental impact of flying are choosing trains for journeys of up to around 1,000 kilometres. A night train also saves the cost of a hotel, since passengers sleep on board. Operating these services is expensive, though, because sleeping carriages carry fewer passengers than ordinary seats, and some routes depend on financial support from governments.",
+   "title": "Night Trains",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-p08",
+   "text": "Caffeine, the substance in coffee that helps people feel alert, works by blocking a chemical in the brain that builds up during the day and makes us feel sleepy. The effects of caffeine can last for several hours. For this reason, sleep specialists often advise people to avoid coffee in the afternoon and evening. Sensitivity to caffeine varies from person to person, however. Some people can drink coffee after dinner and sleep well, while others find that a single cup in the morning affects their sleep.",
+   "title": "Coffee and Sleep",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-p09",
+   "text": "Video consultations allow patients to speak to a doctor without visiting a clinic. They are particularly useful for people who live far from a hospital or who have difficulty travelling. Doctors can review symptoms, discuss test results and renew prescriptions online. However, some conditions cannot be properly assessed without a physical examination. Doctors therefore recommend video consultations as a supplement to, not a replacement for, face-to-face care.",
+   "title": "Remote Medical Consultations",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-p10",
+   "text": "Many organisations run mentoring programmes in which experienced employees support newer colleagues. A mentor can offer advice on career decisions, introduce the newcomer to useful contacts and help them understand the unwritten rules of the workplace. Research suggests that employees who have a mentor are more likely to stay with their company. Mentoring can also benefit the mentors themselves, who often report that the experience helps them develop their own leadership skills.",
+   "title": "Company Mentoring",
+   "lang": "en"
+  }
+ ],
+ "questions": [
+  {
+   "id": "tbe-gab-01",
+   "domain": "eng-gab",
+   "type": "single",
+   "question": "Employees with flexible hours can still be required to be at work during certain hours.",
+   "choices": [
+    "True（本文から考えて明らかに正しい）",
+    "False（本文から考えて明らかに誤っている）",
+    "Cannot say（本文だけでは判断できない）"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "本文に \"as long as they are present during a set of 'core hours'\" とあり、コアタイムには出社が必要です。正しいといえます（True）。",
+   "passage": "tbe-gab-p01",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-02",
+   "domain": "eng-gab",
+   "type": "single",
+   "question": "All of the employees in the survey preferred flexible working hours.",
+   "choices": [
+    "True（本文から考えて明らかに正しい）",
+    "False（本文から考えて明らかに誤っている）",
+    "Cannot say（本文だけでは判断できない）"
+   ],
+   "answer": [
+    1
+   ],
+   "explanation": "本文は \"most employees\" が好んだとしています。\"All\"（全員）は本文と矛盾します（False）。",
+   "passage": "tbe-gab-p01",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-03",
+   "domain": "eng-gab",
+   "type": "single",
+   "question": "Flexible working hours increase a company's profits.",
+   "choices": [
+    "True（本文から考えて明らかに正しい）",
+    "False（本文から考えて明らかに誤っている）",
+    "Cannot say（本文だけでは判断できない）"
+   ],
+   "answer": [
+    2
+   ],
+   "explanation": "利益については何も書かれていません。判断できません（Cannot say）。",
+   "passage": "tbe-gab-p01",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-05",
+   "domain": "eng-gab",
+   "type": "single",
+   "question": "Experts believe that there is no limit to the number of hives a small area can support.",
+   "choices": [
+    "True（本文から考えて明らかに正しい）",
+    "False（本文から考えて明らかに誤っている）",
+    "Cannot say（本文だけでは判断できない）"
+   ],
+   "answer": [
+    1
+   ],
+   "explanation": "専門家は \"too many hives in a small area can leave bees without enough food\" と警告しています。本文と矛盾します（False）。",
+   "passage": "tbe-gab-p02",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-04",
+   "domain": "eng-gab",
+   "type": "single",
+   "question": "Bees kept in cities may be able to visit many different kinds of flowers.",
+   "choices": [
+    "True（本文から考えて明らかに正しい）",
+    "False（本文から考えて明らかに誤っている）",
+    "Cannot say（本文だけでは判断できない）"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"City bees often have access to a wide variety of flowers\" とあるので、正しいといえます（True）。",
+   "passage": "tbe-gab-p02",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-06",
+   "domain": "eng-gab",
+   "type": "single",
+   "question": "Most urban beekeepers sell their honey to local shops.",
+   "choices": [
+    "True（本文から考えて明らかに正しい）",
+    "False（本文から考えて明らかに誤っている）",
+    "Cannot say（本文だけでは判断できない）"
+   ],
+   "answer": [
+    2
+   ],
+   "explanation": "はちみつを売るかどうかについては書かれていません。判断できません（Cannot say）。",
+   "passage": "tbe-gab-p02",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-07",
+   "domain": "eng-gab",
+   "type": "single",
+   "question": "Customers with an average experience are less likely to write a review than those with an extreme experience.",
+   "choices": [
+    "True（本文から考えて明らかに正しい）",
+    "False（本文から考えて明らかに誤っている）",
+    "Cannot say（本文だけでは判断できない）"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"customers who had a very good or very bad experience are more likely to write a review than those whose experience was average\" と同じ内容です（True）。",
+   "passage": "tbe-gab-p03",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-09",
+   "domain": "eng-gab",
+   "type": "single",
+   "question": "Hotel reviews are more reliable than reviews of other products.",
+   "choices": [
+    "True（本文から考えて明らかに正しい）",
+    "False（本文から考えて明らかに誤っている）",
+    "Cannot say（本文だけでは判断できない）"
+   ],
+   "answer": [
+    2
+   ],
+   "explanation": "ホテルとほかの商品のレビューの信頼性は比べられていません。判断できません（Cannot say）。",
+   "passage": "tbe-gab-p03",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-08",
+   "domain": "eng-gab",
+   "type": "single",
+   "question": "Online reviews always represent the opinions of typical customers.",
+   "choices": [
+    "True（本文から考えて明らかに正しい）",
+    "False（本文から考えて明らかに誤っている）",
+    "Cannot say（本文だけでは判断できない）"
+   ],
+   "answer": [
+    1
+   ],
+   "explanation": "本文の結論は \"reviews may not represent the views of typical customers\" です。\"always\" は本文と矛盾します（False）。",
+   "passage": "tbe-gab-p03",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-11",
+   "domain": "eng-gab",
+   "type": "single",
+   "question": "Some companies found that productivity did not fall during the trial.",
+   "choices": [
+    "True（本文から考えて明らかに正しい）",
+    "False（本文から考えて明らかに誤っている）",
+    "Cannot say（本文だけでは判断できない）"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"productivity stayed the same or even rose\" とあるので、正しいといえます（True）。",
+   "passage": "tbe-gab-p04",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-10",
+   "domain": "eng-gab",
+   "type": "single",
+   "question": "In the trials described, employees were paid less for working fewer days.",
+   "choices": [
+    "True（本文から考えて明らかに正しい）",
+    "False（本文から考えて明らかに誤っている）",
+    "Cannot say（本文だけでは判断できない）"
+   ],
+   "answer": [
+    1
+   ],
+   "explanation": "\"work fewer hours for the same pay\" とあり、給料は同じです。本文と矛盾します（False）。",
+   "passage": "tbe-gab-p04",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-12",
+   "domain": "eng-gab",
+   "type": "single",
+   "question": "Most companies that tried the four-day week decided to keep it permanently.",
+   "choices": [
+    "True（本文から考えて明らかに正しい）",
+    "False（本文から考えて明らかに誤っている）",
+    "Cannot say（本文だけでは判断できない）"
+   ],
+   "answer": [
+    2
+   ],
+   "explanation": "試行の後に続けたかどうかは書かれていません。判断できません（Cannot say）。",
+   "passage": "tbe-gab-p04",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-14",
+   "domain": "eng-gab",
+   "type": "single",
+   "question": "According to the passage, a reusable bag is better for the environment than a plastic bag even if it is used only once.",
+   "choices": [
+    "True（本文から考えて明らかに正しい）",
+    "False（本文から考えて明らかに誤っている）",
+    "Cannot say（本文だけでは判断できない）"
+   ],
+   "answer": [
+    1
+   ],
+   "explanation": "再利用できる袋は \"must be used many times before they become better for the environment\" とあります。1 回だけで環境に良いという内容は本文と矛盾します（False）。",
+   "passage": "tbe-gab-p05",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-13",
+   "domain": "eng-gab",
+   "type": "single",
+   "question": "The purpose of the fee is to reduce plastic waste.",
+   "choices": [
+    "True（本文から考えて明らかに正しい）",
+    "False（本文から考えて明らかに誤っている）",
+    "Cannot say（本文だけでは判断できない）"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"The aim is to encourage people to bring their own bags and to reduce plastic waste\" とあるので、正しいといえます（True）。",
+   "passage": "tbe-gab-p05",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-15",
+   "domain": "eng-gab",
+   "type": "single",
+   "question": "The fee for plastic bags is the same in every country.",
+   "choices": [
+    "True（本文から考えて明らかに正しい）",
+    "False（本文から考えて明らかに誤っている）",
+    "Cannot say（本文だけでは判断できない）"
+   ],
+   "answer": [
+    2
+   ],
+   "explanation": "料金の額や国ごとの違いは書かれていません。判断できません（Cannot say）。",
+   "passage": "tbe-gab-p05",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-17",
+   "domain": "eng-gab",
+   "type": "single",
+   "question": "According to the studies, students who studied for a test remembered the material better than those who expected to teach it.",
+   "choices": [
+    "True（本文から考えて明らかに正しい）",
+    "False（本文から考えて明らかに誤っている）",
+    "Cannot say（本文だけでは判断できない）"
+   ],
+   "answer": [
+    1
+   ],
+   "explanation": "教えるつもりで学んだ学生のほうがよく覚えていた、とあります。本文と逆です（False）。",
+   "passage": "tbe-gab-p06",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-16",
+   "domain": "eng-gab",
+   "type": "single",
+   "question": "Preparing to teach a topic can help students find what they do not understand.",
+   "choices": [
+    "True（本文から考えて明らかに正しい）",
+    "False（本文から考えて明らかに誤っている）",
+    "Cannot say（本文だけでは判断できない）"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"they must organise their knowledge and identify gaps in their own understanding\" とあるので、正しいといえます（True）。",
+   "passage": "tbe-gab-p06",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-18",
+   "domain": "eng-gab",
+   "type": "single",
+   "question": "Learning by teaching works better for science subjects than for languages.",
+   "choices": [
+    "True（本文から考えて明らかに正しい）",
+    "False（本文から考えて明らかに誤っている）",
+    "Cannot say（本文だけでは判断できない）"
+   ],
+   "answer": [
+    2
+   ],
+   "explanation": "教科ごとの違いは書かれていません。判断できません（Cannot say）。",
+   "passage": "tbe-gab-p06",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-20",
+   "domain": "eng-gab",
+   "type": "single",
+   "question": "Night train services in Europe have been growing steadily for decades.",
+   "choices": [
+    "True（本文から考えて明らかに正しい）",
+    "False（本文から考えて明らかに誤っている）",
+    "Cannot say（本文だけでは判断できない）"
+   ],
+   "answer": [
+    1
+   ],
+   "explanation": "\"After decades of decline\"（何十年も減ってきた後で）とあります。ずっと増えてきたという内容は本文と矛盾します（False）。",
+   "passage": "tbe-gab-p07",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-21",
+   "domain": "eng-gab",
+   "type": "single",
+   "question": "Night trains are cheaper than flying on every route.",
+   "choices": [
+    "True（本文から考えて明らかに正しい）",
+    "False（本文から考えて明らかに誤っている）",
+    "Cannot say（本文だけでは判断できない）"
+   ],
+   "answer": [
+    2
+   ],
+   "explanation": "ホテル代が節約できるとは書かれていますが、航空運賃との比較はありません。判断できません（Cannot say）。",
+   "passage": "tbe-gab-p07",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-19",
+   "domain": "eng-gab",
+   "type": "single",
+   "question": "Sleeping carriages carry fewer passengers than carriages with ordinary seats.",
+   "choices": [
+    "True（本文から考えて明らかに正しい）",
+    "False（本文から考えて明らかに誤っている）",
+    "Cannot say（本文だけでは判断できない）"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"sleeping carriages carry fewer passengers than ordinary seats\" とあるので、正しいといえます（True）。",
+   "passage": "tbe-gab-p07",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-24",
+   "domain": "eng-gab",
+   "type": "single",
+   "question": "Tea contains less caffeine than coffee.",
+   "choices": [
+    "True（本文から考えて明らかに正しい）",
+    "False（本文から考えて明らかに誤っている）",
+    "Cannot say（本文だけでは判断できない）"
+   ],
+   "answer": [
+    2
+   ],
+   "explanation": "紅茶については書かれていません。判断できません（Cannot say）。",
+   "passage": "tbe-gab-p08",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-22",
+   "domain": "eng-gab",
+   "type": "single",
+   "question": "The effects of caffeine may continue for several hours.",
+   "choices": [
+    "True（本文から考えて明らかに正しい）",
+    "False（本文から考えて明らかに誤っている）",
+    "Cannot say（本文だけでは判断できない）"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"The effects of caffeine can last for several hours\" とあるので、正しいといえます（True）。",
+   "passage": "tbe-gab-p08",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-23",
+   "domain": "eng-gab",
+   "type": "single",
+   "question": "Everyone reacts to caffeine in the same way.",
+   "choices": [
+    "True（本文から考えて明らかに正しい）",
+    "False（本文から考えて明らかに誤っている）",
+    "Cannot say（本文だけでは判断できない）"
+   ],
+   "answer": [
+    1
+   ],
+   "explanation": "\"Sensitivity to caffeine varies from person to person\" とあります。本文と矛盾します（False）。",
+   "passage": "tbe-gab-p08",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-25",
+   "domain": "eng-gab",
+   "type": "single",
+   "question": "Doctors recommend that video consultations should completely replace visits to a clinic.",
+   "choices": [
+    "True（本文から考えて明らかに正しい）",
+    "False（本文から考えて明らかに誤っている）",
+    "Cannot say（本文だけでは判断できない）"
+   ],
+   "answer": [
+    1
+   ],
+   "explanation": "\"as a supplement to, not a replacement for, face-to-face care\" とあり、置き換えではなく補うものとされています。本文と矛盾します（False）。",
+   "passage": "tbe-gab-p09",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-26",
+   "domain": "eng-gab",
+   "type": "single",
+   "question": "Prescriptions can be renewed during an online consultation.",
+   "choices": [
+    "True（本文から考えて明らかに正しい）",
+    "False（本文から考えて明らかに誤っている）",
+    "Cannot say（本文だけでは判断できない）"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"renew prescriptions online\" とあるので、正しいといえます（True）。",
+   "passage": "tbe-gab-p09",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-27",
+   "domain": "eng-gab",
+   "type": "single",
+   "question": "Video consultations are cheaper for patients than visits to a clinic.",
+   "choices": [
+    "True（本文から考えて明らかに正しい）",
+    "False（本文から考えて明らかに誤っている）",
+    "Cannot say（本文だけでは判断できない）"
+   ],
+   "answer": [
+    2
+   ],
+   "explanation": "費用については書かれていません。判断できません（Cannot say）。",
+   "passage": "tbe-gab-p09",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-29",
+   "domain": "eng-gab",
+   "type": "single",
+   "question": "Employees who have a mentor are more likely to leave their company.",
+   "choices": [
+    "True（本文から考えて明らかに正しい）",
+    "False（本文から考えて明らかに誤っている）",
+    "Cannot say（本文だけでは判断できない）"
+   ],
+   "answer": [
+    1
+   ],
+   "explanation": "メンターがいる社員は \"more likely to stay with their company\" とあります。本文と逆です（False）。",
+   "passage": "tbe-gab-p10",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-30",
+   "domain": "eng-gab",
+   "type": "single",
+   "question": "Mentors usually receive extra pay for supporting new colleagues.",
+   "choices": [
+    "True（本文から考えて明らかに正しい）",
+    "False（本文から考えて明らかに誤っている）",
+    "Cannot say（本文だけでは判断できない）"
+   ],
+   "answer": [
+    2
+   ],
+   "explanation": "メンターへの報酬については書かれていません。判断できません（Cannot say）。",
+   "passage": "tbe-gab-p10",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-gab-28",
+   "domain": "eng-gab",
+   "type": "single",
+   "question": "Mentors may also gain something from the mentoring relationship.",
+   "choices": [
+    "True（本文から考えて明らかに正しい）",
+    "False（本文から考えて明らかに誤っている）",
+    "Cannot say（本文だけでは判断できない）"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"Mentoring can also benefit the mentors themselves\" とあるので、正しいといえます（True）。",
+   "passage": "tbe-gab-p10",
+   "lang": "en"
+  }
+ ]
+}

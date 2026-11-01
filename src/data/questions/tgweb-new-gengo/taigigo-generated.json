@@ -1,0 +1,2042 @@
+[
+ {
+  "id": "tng-taigigo-001",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「増加」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "減少",
+   "肉体",
+   "喪失",
+   "希薄",
+   "客観"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「増加」（ふえる）の対義語は「減少」（へる）です。"
+ },
+ {
+  "id": "tng-taigigo-002",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「減少」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "増加",
+   "拒否",
+   "故意",
+   "豊作",
+   "栄転"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「減少」（へる）の対義語は「増加」（ふえる）です。"
+ },
+ {
+  "id": "tng-taigigo-003",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「拡大」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "絶対",
+   "縮小",
+   "受動",
+   "理論",
+   "希薄"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「拡大」（広げて大きくする）の対義語は「縮小」（小さくする）です。"
+ },
+ {
+  "id": "tng-taigigo-004",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「縮小」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "服従",
+   "拡大",
+   "華美",
+   "承諾",
+   "終了"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「縮小」（小さくする）の対義語は「拡大」（広げて大きくする）です。"
+ },
+ {
+  "id": "tng-taigigo-005",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「上昇」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "好況",
+   "抽象",
+   "一時",
+   "厳格",
+   "下降"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「上昇」（上へあがる）の対義語は「下降」（下へさがる）です。"
+ },
+ {
+  "id": "tng-taigigo-006",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「下降」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "客観",
+   "尊敬",
+   "安全",
+   "鈍感",
+   "上昇"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「下降」（下へさがる）の対義語は「上昇」（上へあがる）です。"
+ },
+ {
+  "id": "tng-taigigo-007",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「肯定」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "否定",
+   "暗黒",
+   "義務",
+   "支出",
+   "生産"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「肯定」（そうだと認める）の対義語は「否定」（打ち消す）です。"
+ },
+ {
+  "id": "tng-taigigo-008",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「否定」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "上昇",
+   "肯定",
+   "能動",
+   "曖昧",
+   "客観"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「否定」（打ち消す）の対義語は「肯定」（そうだと認める）です。"
+ },
+ {
+  "id": "tng-taigigo-009",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「具体」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "実践",
+   "明確",
+   "結合",
+   "抽象",
+   "分離"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「具体」（形や内容がはっきりしている）の対義語は「抽象」（共通する性質を抜き出して考える）です。"
+ },
+ {
+  "id": "tng-taigigo-010",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「抽象」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "具体",
+   "質素",
+   "尊敬",
+   "悲観",
+   "理想"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「抽象」（共通する性質を抜き出して考える）の対義語は「具体」（形や内容がはっきりしている）です。"
+ },
+ {
+  "id": "tng-taigigo-011",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「主観」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "精神",
+   "客観",
+   "理想",
+   "形式",
+   "複雑"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「主観」（自分ひとりの見方）の対義語は「客観」（だれから見ても同じ見方）です。"
+ },
+ {
+  "id": "tng-taigigo-012",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「客観」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "鈍感",
+   "暗黒",
+   "緊張",
+   "主観",
+   "進化"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「客観」（だれから見ても同じ見方）の対義語は「主観」（自分ひとりの見方）です。"
+ },
+ {
+  "id": "tng-taigigo-013",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「需要」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "増加",
+   "尊敬",
+   "供給",
+   "拒否",
+   "恒久"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「需要」（買い求めようとすること）の対義語は「供給」（売るために出すこと）です。"
+ },
+ {
+  "id": "tng-taigigo-014",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「供給」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "原因",
+   "創造",
+   "需要",
+   "喪失",
+   "過失"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「供給」（売るために出すこと）の対義語は「需要」（買い求めようとすること）です。"
+ },
+ {
+  "id": "tng-taigigo-015",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「収入」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "抽象",
+   "獲得",
+   "暗黒",
+   "否定",
+   "支出"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「収入」（入ってくるお金）の対義語は「支出」（出ていくお金）です。"
+ },
+ {
+  "id": "tng-taigigo-016",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「支出」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "分析",
+   "濃厚",
+   "勤勉",
+   "直接",
+   "収入"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「支出」（出ていくお金）の対義語は「収入」（入ってくるお金）です。"
+ },
+ {
+  "id": "tng-taigigo-017",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「生産」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "架空",
+   "復路",
+   "曖昧",
+   "消費",
+   "精神"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「生産」（物を作り出す）の対義語は「消費」（使ってなくす）です。"
+ },
+ {
+  "id": "tng-taigigo-018",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「消費」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "一時",
+   "模倣",
+   "悲観",
+   "実践",
+   "生産"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「消費」（使ってなくす）の対義語は「生産」（物を作り出す）です。"
+ },
+ {
+  "id": "tng-taigigo-019",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「楽観」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "好況",
+   "悲観",
+   "実在",
+   "相違",
+   "特殊"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「楽観」（物事をよい方に考える）の対義語は「悲観」（悪い方に考える）です。"
+ },
+ {
+  "id": "tng-taigigo-020",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「悲観」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "厳格",
+   "楽観",
+   "間接",
+   "軽蔑",
+   "左遷"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「悲観」（悪い方に考える）の対義語は「楽観」（物事をよい方に考える）です。"
+ },
+ {
+  "id": "tng-taigigo-021",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「権利」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "軽蔑",
+   "実践",
+   "義務",
+   "客観",
+   "集合"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「権利」（してよいこと）の対義語は「義務」（しなければならないこと）です。"
+ },
+ {
+  "id": "tng-taigigo-022",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「義務」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "理想",
+   "緊張",
+   "原則",
+   "危険",
+   "権利"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「義務」（しなければならないこと）の対義語は「権利」（してよいこと）です。"
+ },
+ {
+  "id": "tng-taigigo-023",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「原因」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "下降",
+   "解散",
+   "結果",
+   "華美",
+   "集合"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「原因」（物事を引き起こすもと）の対義語は「結果」（それによって起きたこと）です。"
+ },
+ {
+  "id": "tng-taigigo-024",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「結果」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "自立",
+   "原因",
+   "栄転",
+   "保守",
+   "支配"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「結果」（それによって起きたこと）の対義語は「原因」（物事を引き起こすもと）です。"
+ },
+ {
+  "id": "tng-taigigo-025",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「理想」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "一致",
+   "楽観",
+   "例外",
+   "現実",
+   "慎重"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「理想」（最もよいと考える状態）の対義語は「現実」（実際の状態）です。"
+ },
+ {
+  "id": "tng-taigigo-026",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「現実」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "拒否",
+   "寛大",
+   "理想",
+   "劣勢",
+   "厳格"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「現実」（実際の状態）の対義語は「理想」（最もよいと考える状態）です。"
+ },
+ {
+  "id": "tng-taigigo-027",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「理論」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "慎重",
+   "具体",
+   "尊敬",
+   "相対",
+   "実践"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「理論」（筋道立てた考え）の対義語は「実践」（実際に行うこと）です。"
+ },
+ {
+  "id": "tng-taigigo-028",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「実践」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "緊張",
+   "軽蔑",
+   "分離",
+   "輸入",
+   "理論"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「実践」（実際に行うこと）の対義語は「理論」（筋道立てた考え）です。"
+ },
+ {
+  "id": "tng-taigigo-029",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「能動」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "安全",
+   "受動",
+   "光明",
+   "退化",
+   "野党"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「能動」（自分から働きかける）の対義語は「受動」（他から働きかけを受ける）です。"
+ },
+ {
+  "id": "tng-taigigo-030",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「受動」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "能動",
+   "義務",
+   "内容",
+   "単純",
+   "寛大"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「受動」（他から働きかけを受ける）の対義語は「能動」（自分から働きかける）です。"
+ },
+ {
+  "id": "tng-taigigo-031",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「絶対」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "客観",
+   "獲得",
+   "相対",
+   "往路",
+   "勤勉"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「絶対」（比べるものがない）の対義語は「相対」（他との関係で成り立つ）です。"
+ },
+ {
+  "id": "tng-taigigo-032",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「相対」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "寛大",
+   "保守",
+   "主観",
+   "絶対",
+   "優勢"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「相対」（他との関係で成り立つ）の対義語は「絶対」（比べるものがない）です。"
+ },
+ {
+  "id": "tng-taigigo-033",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「保守」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "光明",
+   "一致",
+   "革新",
+   "供給",
+   "損失"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「保守」（これまでのやり方を守る）の対義語は「革新」（新しく改める）です。"
+ },
+ {
+  "id": "tng-taigigo-034",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「革新」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "保守",
+   "厳格",
+   "光明",
+   "承諾",
+   "下降"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「革新」（新しく改める）の対義語は「保守」（これまでのやり方を守る）です。"
+ },
+ {
+  "id": "tng-taigigo-035",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「創造」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "軽率",
+   "楽観",
+   "濃厚",
+   "尊敬",
+   "模倣"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「創造」（新しく作り出す）の対義語は「模倣」（まねをする）です。"
+ },
+ {
+  "id": "tng-taigigo-036",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「模倣」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "肯定",
+   "創造",
+   "質素",
+   "供給",
+   "進化"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「模倣」（まねをする）の対義語は「創造」（新しく作り出す）です。"
+ },
+ {
+  "id": "tng-taigigo-037",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「直接」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "与党",
+   "軽率",
+   "敏感",
+   "間接",
+   "一時"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「直接」（間に何もはさまない）の対義語は「間接」（間に何かをはさむ）です。"
+ },
+ {
+  "id": "tng-taigigo-038",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「間接」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "直接",
+   "光明",
+   "左遷",
+   "獲得",
+   "総合"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「間接」（間に何かをはさむ）の対義語は「直接」（間に何もはさまない）です。"
+ },
+ {
+  "id": "tng-taigigo-039",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「総合」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "分析",
+   "依存",
+   "原則",
+   "利益",
+   "復路"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「総合」（まとめて一つにする）の対義語は「分析」（細かく分けて調べる）です。"
+ },
+ {
+  "id": "tng-taigigo-040",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「分析」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "上昇",
+   "服従",
+   "曖昧",
+   "総合",
+   "原因"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「分析」（細かく分けて調べる）の対義語は「総合」（まとめて一つにする）です。"
+ },
+ {
+  "id": "tng-taigigo-041",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「一般」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "被害",
+   "終了",
+   "特殊",
+   "厳格",
+   "希薄"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「一般」（広く全体に通じる）の対義語は「特殊」（特別なもの）です。"
+ },
+ {
+  "id": "tng-taigigo-042",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「特殊」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "質素",
+   "供給",
+   "一般",
+   "危険",
+   "上昇"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「特殊」（特別なもの）の対義語は「一般」（広く全体に通じる）です。"
+ },
+ {
+  "id": "tng-taigigo-043",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「原則」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "例外",
+   "主観",
+   "保守",
+   "湿潤",
+   "与党"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「原則」（基本となる決まり）の対義語は「例外」（決まりに当てはまらないもの）です。"
+ },
+ {
+  "id": "tng-taigigo-044",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「例外」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "原則",
+   "好況",
+   "集合",
+   "原因",
+   "収入"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「例外」（決まりに当てはまらないもの）の対義語は「原則」（基本となる決まり）です。"
+ },
+ {
+  "id": "tng-taigigo-045",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「慎重」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "義務",
+   "鈍感",
+   "輸入",
+   "軽率",
+   "優勢"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「慎重」（注意深く行う）の対義語は「軽率」（よく考えずに行う）です。"
+ },
+ {
+  "id": "tng-taigigo-046",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「軽率」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "慎重",
+   "怠惰",
+   "総合",
+   "故意",
+   "消費"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「軽率」（よく考えずに行う）の対義語は「慎重」（注意深く行う）です。"
+ },
+ {
+  "id": "tng-taigigo-047",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「寛大」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "与党",
+   "厳格",
+   "能動",
+   "悲観",
+   "曖昧"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「寛大」（心が広く人を責めない）の対義語は「厳格」（きびしい）です。"
+ },
+ {
+  "id": "tng-taigigo-048",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「厳格」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "豊作",
+   "左遷",
+   "恒久",
+   "承諾",
+   "寛大"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「厳格」（きびしい）の対義語は「寛大」（心が広く人を責めない）です。"
+ },
+ {
+  "id": "tng-taigigo-049",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「故意」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "過失",
+   "暗黒",
+   "損失",
+   "加害",
+   "抽象"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「故意」（わざとする）の対義語は「過失」（不注意によるあやまち）です。"
+ },
+ {
+  "id": "tng-taigigo-050",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「過失」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "権利",
+   "故意",
+   "現実",
+   "寛大",
+   "肉体"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「過失」（不注意によるあやまち）の対義語は「故意」（わざとする）です。"
+ },
+ {
+  "id": "tng-taigigo-051",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「必然」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "華美",
+   "支出",
+   "加害",
+   "偶然",
+   "復路"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「必然」（必ずそうなる）の対義語は「偶然」（たまたまそうなる）です。"
+ },
+ {
+  "id": "tng-taigigo-052",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「偶然」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "利益",
+   "必然",
+   "消費",
+   "実在",
+   "模倣"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「偶然」（たまたまそうなる）の対義語は「必然」（必ずそうなる）です。"
+ },
+ {
+  "id": "tng-taigigo-053",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「勤勉」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "希薄",
+   "必然",
+   "怠惰",
+   "特殊",
+   "分離"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「勤勉」（まじめに励む）の対義語は「怠惰」（なまける）です。"
+ },
+ {
+  "id": "tng-taigigo-054",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「怠惰」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "勤勉",
+   "主観",
+   "理論",
+   "客観",
+   "一時"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「怠惰」（なまける）の対義語は「勤勉」（まじめに励む）です。"
+ },
+ {
+  "id": "tng-taigigo-055",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「単純」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "上昇",
+   "華美",
+   "厳格",
+   "模倣",
+   "複雑"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「単純」（仕組みがこみいっていない）の対義語は「複雑」（こみいっている）です。"
+ },
+ {
+  "id": "tng-taigigo-056",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「複雑」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "緊張",
+   "単純",
+   "絶対",
+   "例外",
+   "偶然"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「複雑」（こみいっている）の対義語は「単純」（仕組みがこみいっていない）です。"
+ },
+ {
+  "id": "tng-taigigo-057",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「進化」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "革新",
+   "与党",
+   "怠惰",
+   "総合",
+   "退化"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「進化」（より進んだ状態に変わる）の対義語は「退化」（機能が衰える）です。"
+ },
+ {
+  "id": "tng-taigigo-058",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「退化」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "進化",
+   "華美",
+   "偶然",
+   "相違",
+   "否定"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「退化」（機能が衰える）の対義語は「進化」（より進んだ状態に変わる）です。"
+ },
+ {
+  "id": "tng-taigigo-059",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「輸入」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "輸出",
+   "利益",
+   "原則",
+   "分析",
+   "抽象"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「輸入」（外国から買い入れる）の対義語は「輸出」（外国へ売り出す）です。"
+ },
+ {
+  "id": "tng-taigigo-060",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「輸出」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "輸入",
+   "寛大",
+   "総合",
+   "直接",
+   "劣勢"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「輸出」（外国へ売り出す）の対義語は「輸入」（外国から買い入れる）です。"
+ },
+ {
+  "id": "tng-taigigo-061",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「形式」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "内容",
+   "分析",
+   "希薄",
+   "栄転",
+   "肯定"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「形式」（外から見た形）の対義語は「内容」（中身）です。"
+ },
+ {
+  "id": "tng-taigigo-062",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「内容」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "自立",
+   "縮小",
+   "形式",
+   "軽蔑",
+   "上昇"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「内容」（中身）の対義語は「形式」（外から見た形）です。"
+ },
+ {
+  "id": "tng-taigigo-063",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「質素」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "与党",
+   "緊張",
+   "華美",
+   "濃厚",
+   "実践"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「質素」（飾らず控えめ）の対義語は「華美」（はなやかで派手）です。"
+ },
+ {
+  "id": "tng-taigigo-064",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「華美」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "質素",
+   "絶対",
+   "主観",
+   "緊張",
+   "下降"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「華美」（はなやかで派手）の対義語は「質素」（飾らず控えめ）です。"
+ },
+ {
+  "id": "tng-taigigo-065",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「承諾」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "拡大",
+   "湿潤",
+   "拒否",
+   "原則",
+   "左遷"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「承諾」（引き受ける）の対義語は「拒否」（断る）です。"
+ },
+ {
+  "id": "tng-taigigo-066",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「拒否」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "権利",
+   "鈍感",
+   "相違",
+   "承諾",
+   "精神"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「拒否」（断る）の対義語は「承諾」（引き受ける）です。"
+ },
+ {
+  "id": "tng-taigigo-067",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「栄転」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "複雑",
+   "乾燥",
+   "消費",
+   "軽蔑",
+   "左遷"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「栄転」（よい地位に移る）の対義語は「左遷」（低い地位に移される）です。"
+ },
+ {
+  "id": "tng-taigigo-068",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「左遷」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "乾燥",
+   "結合",
+   "単純",
+   "栄転",
+   "減少"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「左遷」（低い地位に移される）の対義語は「栄転」（よい地位に移る）です。"
+ },
+ {
+  "id": "tng-taigigo-069",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「優勢」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "尊敬",
+   "解散",
+   "勤勉",
+   "劣勢",
+   "形式"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「優勢」（勢いが相手より強い）の対義語は「劣勢」（弱い）です。"
+ },
+ {
+  "id": "tng-taigigo-070",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「劣勢」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "優勢",
+   "依存",
+   "増加",
+   "革新",
+   "復路"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「劣勢」（弱い）の対義語は「優勢」（勢いが相手より強い）です。"
+ },
+ {
+  "id": "tng-taigigo-071",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「精神」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "安全",
+   "損失",
+   "鈍感",
+   "肉体",
+   "不況"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「精神」（心の働き）の対義語は「肉体」（からだ）です。"
+ },
+ {
+  "id": "tng-taigigo-072",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「肉体」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "内容",
+   "精神",
+   "一時",
+   "自然",
+   "濃厚"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「肉体」（からだ）の対義語は「精神」（心の働き）です。"
+ },
+ {
+  "id": "tng-taigigo-073",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「好況」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "不況",
+   "恒久",
+   "華美",
+   "特殊",
+   "模倣"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「好況」（景気がよい）の対義語は「不況」（景気が悪い）です。"
+ },
+ {
+  "id": "tng-taigigo-074",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「不況」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "緊張",
+   "生産",
+   "進化",
+   "好況",
+   "模倣"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「不況」（景気が悪い）の対義語は「好況」（景気がよい）です。"
+ },
+ {
+  "id": "tng-taigigo-075",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「集合」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "希薄",
+   "解散",
+   "質素",
+   "具体",
+   "拡大"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「集合」（集まる）の対義語は「解散」（集まっていたものが別れる）です。"
+ },
+ {
+  "id": "tng-taigigo-076",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「解散」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "過失",
+   "華美",
+   "集合",
+   "不況",
+   "湿潤"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「解散」（集まっていたものが別れる）の対義語は「集合」（集まる）です。"
+ },
+ {
+  "id": "tng-taigigo-077",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「結合」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "分離",
+   "光明",
+   "客観",
+   "終了",
+   "下降"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「結合」（結びついて一つになる）の対義語は「分離」（離れる）です。"
+ },
+ {
+  "id": "tng-taigigo-078",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「分離」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "肯定",
+   "収入",
+   "結合",
+   "軽率",
+   "単純"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「分離」（離れる）の対義語は「結合」（結びついて一つになる）です。"
+ },
+ {
+  "id": "tng-taigigo-079",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「依存」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "精神",
+   "自然",
+   "自立",
+   "鈍感",
+   "恒久"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「依存」（他に頼る）の対義語は「自立」（他に頼らず独り立ちする）です。"
+ },
+ {
+  "id": "tng-taigigo-080",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「自立」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "依存",
+   "獲得",
+   "内容",
+   "結合",
+   "損失"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「自立」（他に頼らず独り立ちする）の対義語は「依存」（他に頼る）です。"
+ },
+ {
+  "id": "tng-taigigo-081",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「暗黒」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "消費",
+   "依存",
+   "光明",
+   "実在",
+   "減少"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「暗黒」（真っ暗なこと）の対義語は「光明」（明るい希望）です。"
+ },
+ {
+  "id": "tng-taigigo-082",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「光明」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "劣勢",
+   "義務",
+   "暗黒",
+   "明確",
+   "理想"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「光明」（明るい希望）の対義語は「暗黒」（真っ暗なこと）です。"
+ },
+ {
+  "id": "tng-taigigo-083",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「緊張」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "増加",
+   "形式",
+   "実在",
+   "慎重",
+   "弛緩"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「緊張」（心や体が張りつめる）の対義語は「弛緩」（ゆるむ）です。"
+ },
+ {
+  "id": "tng-taigigo-084",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「弛緩」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "必然",
+   "緊張",
+   "生産",
+   "拡大",
+   "間接"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「弛緩」（ゆるむ）の対義語は「緊張」（心や体が張りつめる）です。"
+ },
+ {
+  "id": "tng-taigigo-085",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「与党」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "野党",
+   "不況",
+   "質素",
+   "収入",
+   "悲観"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「与党」（政権を担う政党）の対義語は「野党」（政権を担っていない政党）です。"
+ },
+ {
+  "id": "tng-taigigo-086",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「野党」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "獲得",
+   "需要",
+   "与党",
+   "鈍感",
+   "軽率"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「野党」（政権を担っていない政党）の対義語は「与党」（政権を担う政党）です。"
+ },
+ {
+  "id": "tng-taigigo-087",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「尊敬」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "凶作",
+   "豊作",
+   "軽蔑",
+   "客観",
+   "結合"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「尊敬」（うやまう）の対義語は「軽蔑」（見下す）です。"
+ },
+ {
+  "id": "tng-taigigo-088",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「軽蔑」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "鈍感",
+   "拡大",
+   "暗黒",
+   "退化",
+   "尊敬"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「軽蔑」（見下す）の対義語は「尊敬」（うやまう）です。"
+ },
+ {
+  "id": "tng-taigigo-089",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「敏感」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "華美",
+   "解散",
+   "鈍感",
+   "下降",
+   "乾燥"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「敏感」（感じ方がするどい）の対義語は「鈍感」（にぶい）です。"
+ },
+ {
+  "id": "tng-taigigo-090",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「鈍感」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "原則",
+   "尊敬",
+   "保守",
+   "敏感",
+   "必然"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「鈍感」（にぶい）の対義語は「敏感」（感じ方がするどい）です。"
+ },
+ {
+  "id": "tng-taigigo-091",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「往路」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "生産",
+   "喪失",
+   "必然",
+   "理論",
+   "復路"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「往路」（行きの道）の対義語は「復路」（帰りの道）です。"
+ },
+ {
+  "id": "tng-taigigo-092",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「復路」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "能動",
+   "結合",
+   "暗黒",
+   "理論",
+   "往路"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「復路」（帰りの道）の対義語は「往路」（行きの道）です。"
+ },
+ {
+  "id": "tng-taigigo-093",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「加害」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "輸入",
+   "軽率",
+   "損失",
+   "被害",
+   "偶然"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「加害」（害を与える）の対義語は「被害」（害を受ける）です。"
+ },
+ {
+  "id": "tng-taigigo-094",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「被害」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "例外",
+   "客観",
+   "終了",
+   "加害",
+   "曖昧"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「被害」（害を受ける）の対義語は「加害」（害を与える）です。"
+ },
+ {
+  "id": "tng-taigigo-095",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「開始」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "肯定",
+   "終了",
+   "凶作",
+   "鈍感",
+   "乾燥"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「開始」（始める）の対義語は「終了」（終わる）です。"
+ },
+ {
+  "id": "tng-taigigo-096",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「終了」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "義務",
+   "開始",
+   "一般",
+   "楽観",
+   "不況"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「終了」（終わる）の対義語は「開始」（始める）です。"
+ },
+ {
+  "id": "tng-taigigo-097",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「濃厚」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "複雑",
+   "希薄",
+   "一時",
+   "肯定",
+   "輸出"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「濃厚」（こい）の対義語は「希薄」（うすい）です。"
+ },
+ {
+  "id": "tng-taigigo-098",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「希薄」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "一時",
+   "与党",
+   "濃厚",
+   "支出",
+   "厳格"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「希薄」（うすい）の対義語は「濃厚」（こい）です。"
+ },
+ {
+  "id": "tng-taigigo-099",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「獲得」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "厳格",
+   "供給",
+   "実践",
+   "生産",
+   "喪失"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「獲得」（手に入れる）の対義語は「喪失」（失う）です。"
+ },
+ {
+  "id": "tng-taigigo-100",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「喪失」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "自立",
+   "受動",
+   "獲得",
+   "加害",
+   "創造"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「喪失」（失う）の対義語は「獲得」（手に入れる）です。"
+ },
+ {
+  "id": "tng-taigigo-101",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「安全」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "劣勢",
+   "危険",
+   "拒否",
+   "形式",
+   "好況"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「安全」（危なくない）の対義語は「危険」（危ない）です。"
+ },
+ {
+  "id": "tng-taigigo-102",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「危険」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "支出",
+   "損失",
+   "安全",
+   "光明",
+   "劣勢"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「危険」（危ない）の対義語は「安全」（危なくない）です。"
+ },
+ {
+  "id": "tng-taigigo-103",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「一時」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "質素",
+   "否定",
+   "寛大",
+   "上昇",
+   "恒久"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「一時」（しばらくの間）の対義語は「恒久」（いつまでも変わらない）です。"
+ },
+ {
+  "id": "tng-taigigo-104",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「恒久」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "支出",
+   "縮小",
+   "与党",
+   "一時",
+   "曖昧"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「恒久」（いつまでも変わらない）の対義語は「一時」（しばらくの間）です。"
+ },
+ {
+  "id": "tng-taigigo-105",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「曖昧」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "敏感",
+   "終了",
+   "明確",
+   "不況",
+   "華美"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「曖昧」（はっきりしない）の対義語は「明確」（はっきりしている）です。"
+ },
+ {
+  "id": "tng-taigigo-106",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「明確」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "依存",
+   "縮小",
+   "義務",
+   "被害",
+   "曖昧"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「明確」（はっきりしている）の対義語は「曖昧」（はっきりしない）です。"
+ },
+ {
+  "id": "tng-taigigo-107",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「一致」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "解散",
+   "必然",
+   "安全",
+   "相違",
+   "曖昧"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「一致」（同じになる）の対義語は「相違」（違う）です。"
+ },
+ {
+  "id": "tng-taigigo-108",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「相違」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "野党",
+   "劣勢",
+   "絶対",
+   "一致",
+   "希薄"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「相違」（違う）の対義語は「一致」（同じになる）です。"
+ },
+ {
+  "id": "tng-taigigo-109",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「乾燥」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "依存",
+   "加害",
+   "湿潤",
+   "客観",
+   "利益"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「乾燥」（かわいている）の対義語は「湿潤」（しめっている）です。"
+ },
+ {
+  "id": "tng-taigigo-110",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「湿潤」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "承諾",
+   "模倣",
+   "暗黒",
+   "下降",
+   "乾燥"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「湿潤」（しめっている）の対義語は「乾燥」（かわいている）です。"
+ },
+ {
+  "id": "tng-taigigo-111",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「豊作」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "凶作",
+   "原因",
+   "軽率",
+   "寛大",
+   "能動"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「豊作」（作物がよく実る）の対義語は「凶作」（ひどく実らない）です。"
+ },
+ {
+  "id": "tng-taigigo-112",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「凶作」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "敏感",
+   "左遷",
+   "消費",
+   "豊作",
+   "悲観"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「凶作」（ひどく実らない）の対義語は「豊作」（作物がよく実る）です。"
+ },
+ {
+  "id": "tng-taigigo-113",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「自然」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "偶然",
+   "現実",
+   "人工",
+   "損失",
+   "終了"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「自然」（人の手が加わらない）の対義語は「人工」（人の手で作る）です。"
+ },
+ {
+  "id": "tng-taigigo-114",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「人工」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "優勢",
+   "集合",
+   "自然",
+   "退化",
+   "解散"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「人工」（人の手で作る）の対義語は「自然」（人の手が加わらない）です。"
+ },
+ {
+  "id": "tng-taigigo-115",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「支配」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "例外",
+   "服従",
+   "乾燥",
+   "減少",
+   "間接"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「支配」（従わせる）の対義語は「服従」（従う）です。"
+ },
+ {
+  "id": "tng-taigigo-116",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「服従」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "権利",
+   "支配",
+   "光明",
+   "減少",
+   "原因"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「服従」（従う）の対義語は「支配」（従わせる）です。"
+ },
+ {
+  "id": "tng-taigigo-117",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「実在」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "否定",
+   "退化",
+   "架空",
+   "凶作",
+   "義務"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「実在」（実際に存在する）の対義語は「架空」（想像で作られた）です。"
+ },
+ {
+  "id": "tng-taigigo-118",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「架空」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "実在",
+   "抽象",
+   "客観",
+   "一時",
+   "分離"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「架空」（想像で作られた）の対義語は「実在」（実際に存在する）です。"
+ },
+ {
+  "id": "tng-taigigo-119",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「利益」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "間接",
+   "分離",
+   "損失",
+   "豊作",
+   "客観"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「利益」（もうけ）の対義語は「損失」（損）です。"
+ },
+ {
+  "id": "tng-taigigo-120",
+  "domain": "taigigo",
+  "type": "single",
+  "question": "「損失」の対義語として最も適切なものはどれか。",
+  "choices": [
+   "利益",
+   "濃厚",
+   "野党",
+   "総合",
+   "凶作"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「損失」（損）の対義語は「利益」（もうけ）です。"
+ }
+]

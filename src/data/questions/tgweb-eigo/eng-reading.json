@@ -1,0 +1,511 @@
+{
+ "passages": [
+  {
+   "id": "tge-read-p01",
+   "text": "Over the past decade, an increasing number of companies have built teams whose members never meet in person. Software makes it possible to share documents, hold video meetings and track progress from anywhere in the world. ( 1 ), businesses can hire the most suitable people regardless of where they live.\n\nRemote teams, however, face particular challenges. Without casual conversations in corridors or at lunch, team members may find it hard to build trust. Misunderstandings can also arise more easily in written messages, which lack the tone of voice and facial expressions that help us ( 2 ) what others mean.\n\nSuccessful remote teams tend to set clear rules about how and when to communicate. Some schedule short video calls simply to chat about non-work topics, which helps colleagues get to know each other. Managers also [ emphasise ] the results that employees achieve rather than the number of hours they appear to be online.",
+   "title": "Passage 1: The Rise of Remote Teams",
+   "lang": "en"
+  },
+  {
+   "id": "tge-read-p02",
+   "text": "Food labels provide information about the ingredients and nutritional content of products. In many countries, manufacturers are required by law to list the ingredients in order of weight, ( 1 ) the ingredient present in the largest amount comes first. Labels must also show common allergens, such as nuts and milk, so that people with allergies can avoid them.\n\nDespite this information, many shoppers find labels difficult to use. The text is often small, and terms such as \"low fat\" or \"natural\" can be ( 2 ). A product described as low in fat, for example, may still contain a large amount of sugar.\n\nTo make labels easier to understand, some governments have introduced a system of coloured symbols on the front of packages. Green, amber and red symbols show at a glance whether a product is low, medium or high in fat, sugar and salt. Studies suggest that such symbols help shoppers make healthier choices, especially when they are in a hurry.",
+   "title": "Passage 2: Food Labels",
+   "lang": "en"
+  },
+  {
+   "id": "tge-read-p03",
+   "text": "Many adults believe that it is too late to learn a musical instrument if they did not start as children. It is true that children often pick up new skills quickly. ( 1 ), adults have advantages of their own. They can understand music theory more easily, set clear goals and organise their practice time effectively.\n\nThe biggest challenge for adult learners is often finding time. Work and family responsibilities can make regular practice difficult. Teachers recommend short daily sessions rather than one long session at the weekend, since regular practice helps the brain ( 2 ) new movements.\n\nAdult learners also tend to be harder on themselves. They may feel embarrassed when they make mistakes, especially in front of others. Teachers encourage them to see mistakes as a normal part of learning rather than a sign of failure. Many adults who take up an instrument say that the [ sense of achievement ] they feel when they master a new piece makes the effort worthwhile.",
+   "title": "Passage 3: Learning a Musical Instrument as an Adult",
+   "lang": "en"
+  },
+  {
+   "id": "tge-read-p04",
+   "text": "Trees play an important role in cities. They provide shade on hot days, absorb rainwater and improve air quality. Research has also shown that people living near green spaces tend to report lower levels of stress.\n\nPlanting trees in cities, ( 1 ), is not as simple as it might seem. Space is limited, and roots can damage pavements and underground pipes. Young trees also need regular watering during their first few years, which requires time and money.\n\nFor these reasons, city planners carefully choose which species to plant. Trees with deep roots are less likely to damage pavements, and species that can survive dry periods need less care. Some cities now [ involve ] local residents by asking them to water young trees near their homes. This not only reduces costs but also gives residents a stronger sense of ( 2 ) for their neighbourhood.",
+   "title": "Passage 4: Urban Trees",
+   "lang": "en"
+  },
+  {
+   "id": "tge-read-p05",
+   "text": "Many companies ask customers to rate their experience after a purchase or a phone call. This feedback can help businesses identify problems and improve their services. ( 1 ), if customers repeatedly complain that delivery takes too long, a company may decide to work with a different delivery firm.\n\nHowever, collecting feedback is only the first step. Some companies gather large amounts of data but rarely act on it. Customers who notice that nothing changes may stop ( 2 ) feedback altogether, believing that their opinions are ignored.\n\nThe most effective companies show customers that their comments make a difference. Some send messages explaining what has been changed in response to suggestions. Others publish regular updates on their websites. By [ closing the loop ] in this way, companies encourage customers to keep sharing their views.",
+   "title": "Passage 5: Customer Feedback",
+   "lang": "en"
+  }
+ ],
+ "questions": [
+  {
+   "id": "tge-read-01",
+   "domain": "eng-reading",
+   "type": "single",
+   "question": "Which word best fills blank ( 1 )?",
+   "choices": [
+    "As a result",
+    "However",
+    "For example",
+    "Instead"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "直前の「どこからでも仕事ができる」が原因で、「住んでいる場所に関係なく人を雇える」という結果につながるので、As a result（その結果）が入ります。",
+   "passage": "tge-read-p01",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tge-read-02",
+   "domain": "eng-reading",
+   "type": "single",
+   "question": "Which word best fills blank ( 2 )?",
+   "choices": [
+    "understand",
+    "ignore",
+    "forget",
+    "repeat"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "声の調子や表情は、相手の言いたいことを「理解する」のに役立つ、という文脈なので understand が入ります。",
+   "passage": "tge-read-p01",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tge-read-03",
+   "domain": "eng-reading",
+   "type": "single",
+   "question": "The word [ emphasise ] is closest in meaning to",
+   "choices": [
+    "focus on",
+    "hide",
+    "reduce",
+    "question"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "emphasise は「強調する・重視する」という意味で、focus on（重点を置く）が最も近い意味です。",
+   "passage": "tge-read-p01",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tge-read-04",
+   "domain": "eng-reading",
+   "type": "single",
+   "question": "According to the passage, why might members of remote teams find it hard to build trust?",
+   "choices": [
+    "They have fewer casual conversations with each other.",
+    "They are paid less than office workers.",
+    "They work longer hours than office workers.",
+    "They do not use software to share documents."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"Without casual conversations in corridors or at lunch, team members may find it hard to build trust.\" とあります。",
+   "passage": "tge-read-p01",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tge-read-05",
+   "domain": "eng-reading",
+   "type": "single",
+   "question": "Which of the following is true according to the passage?",
+   "choices": [
+    "Some remote teams hold video calls to talk about non-work topics.",
+    "Remote teams never experience misunderstandings.",
+    "Managers judge remote workers mainly by how long they are online.",
+    "Remote teams cannot share documents easily."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"Some schedule short video calls simply to chat about non-work topics\" とあります。マネージャーは「オンラインの時間ではなく成果」を重視すると書かれています。",
+   "passage": "tge-read-p01",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tge-read-06",
+   "domain": "eng-reading",
+   "type": "single",
+   "question": "Which word best fills blank ( 1 )?",
+   "choices": [
+    "so that",
+    "even though",
+    "unless",
+    "before"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "「重さの順に並べる」ことで「最も多い材料が最初にくる」という結果・目的になるので、so that が入ります。",
+   "passage": "tge-read-p02",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tge-read-07",
+   "domain": "eng-reading",
+   "type": "single",
+   "question": "Which word best fills blank ( 2 )?",
+   "choices": [
+    "misleading",
+    "accurate",
+    "delicious",
+    "expensive"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "直後に「脂肪が少ないと書かれた商品でも砂糖が多いことがある」という例があるので、「誤解を招く（misleading）」が入ります。",
+   "passage": "tge-read-p02",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tge-read-08",
+   "domain": "eng-reading",
+   "type": "single",
+   "question": "According to the passage, why must labels show common allergens?",
+   "choices": [
+    "So that people with allergies can avoid them.",
+    "So that products can be sold at higher prices.",
+    "So that shoppers can find products more quickly.",
+    "So that manufacturers can use more ingredients."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"so that people with allergies can avoid them\" とあります。",
+   "passage": "tge-read-p02",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tge-read-09",
+   "domain": "eng-reading",
+   "type": "single",
+   "question": "What do the coloured symbols show?",
+   "choices": [
+    "Whether a product is low, medium or high in fat, sugar and salt.",
+    "Where a product was made.",
+    "How much a product costs.",
+    "Whether a product contains nuts or milk."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"show at a glance whether a product is low, medium or high in fat, sugar and salt\" とあります。",
+   "passage": "tge-read-p02",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tge-read-10",
+   "domain": "eng-reading",
+   "type": "single",
+   "question": "The phrase \"at a glance\" is closest in meaning to",
+   "choices": [
+    "quickly and easily",
+    "after careful study",
+    "only once a week",
+    "with great difficulty"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "at a glance は「ひと目で」という意味で、quickly and easily が最も近い意味です。",
+   "passage": "tge-read-p02",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tge-read-11",
+   "domain": "eng-reading",
+   "type": "single",
+   "question": "Which word best fills blank ( 1 )?",
+   "choices": [
+    "However",
+    "Therefore",
+    "Similarly",
+    "Finally"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "「子どもは習得が速い」に対して「大人にも利点がある」と反対の内容が続くので、However が入ります。",
+   "passage": "tge-read-p03",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tge-read-12",
+   "domain": "eng-reading",
+   "type": "single",
+   "question": "Which word best fills blank ( 2 )?",
+   "choices": [
+    "remember",
+    "avoid",
+    "invent",
+    "stop"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "毎日の練習が、新しい動きを脳が「覚える」のに役立つという文脈なので remember が入ります。",
+   "passage": "tge-read-p03",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tge-read-13",
+   "domain": "eng-reading",
+   "type": "single",
+   "question": "According to the passage, which is an advantage adults have when learning an instrument?",
+   "choices": [
+    "They can understand music theory more easily.",
+    "They have more free time than children.",
+    "They are less embarrassed by mistakes.",
+    "They learn new physical skills faster than children."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"They can understand music theory more easily, set clear goals and organise their practice time effectively.\" とあります。",
+   "passage": "tge-read-p03",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tge-read-14",
+   "domain": "eng-reading",
+   "type": "single",
+   "question": "What do teachers recommend about practice?",
+   "choices": [
+    "Short sessions every day.",
+    "One long session at the weekend.",
+    "Practising only with a teacher.",
+    "Practising only in front of others."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"Teachers recommend short daily sessions rather than one long session at the weekend\" とあります。",
+   "passage": "tge-read-p03",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tge-read-15",
+   "domain": "eng-reading",
+   "type": "single",
+   "question": "The phrase [ sense of achievement ] is closest in meaning to",
+   "choices": [
+    "feeling of satisfaction from success",
+    "fear of making mistakes",
+    "desire to stop practising",
+    "need for more free time"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "sense of achievement は「達成感」です。成功したときの満足感（feeling of satisfaction from success）が最も近い意味です。",
+   "passage": "tge-read-p03",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tge-read-16",
+   "domain": "eng-reading",
+   "type": "single",
+   "question": "Which word best fills blank ( 1 )?",
+   "choices": [
+    "however",
+    "for example",
+    "therefore",
+    "in addition"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "前の段落で木の利点を述べ、この段落では「見かけほど簡単ではない」と反対の内容を述べているので however が入ります。",
+   "passage": "tge-read-p04",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tge-read-17",
+   "domain": "eng-reading",
+   "type": "single",
+   "question": "Which word best fills blank ( 2 )?",
+   "choices": [
+    "responsibility",
+    "danger",
+    "confusion",
+    "distance"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "住民が自分で木に水をやることで、地域への「責任感（sense of responsibility）」が強まるという文脈です。",
+   "passage": "tge-read-p04",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tge-read-18",
+   "domain": "eng-reading",
+   "type": "single",
+   "question": "The word [ involve ] is closest in meaning to",
+   "choices": [
+    "include",
+    "avoid",
+    "replace",
+    "warn"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "involve は「参加させる・巻き込む」という意味で、include（含める・加える）が最も近い意味です。",
+   "passage": "tge-read-p04",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tge-read-19",
+   "domain": "eng-reading",
+   "type": "single",
+   "question": "According to the passage, why do city planners choose trees with deep roots?",
+   "choices": [
+    "They are less likely to damage pavements.",
+    "They grow more quickly.",
+    "They provide more shade.",
+    "They need more water."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"Trees with deep roots are less likely to damage pavements\" とあります。",
+   "passage": "tge-read-p04",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tge-read-20",
+   "domain": "eng-reading",
+   "type": "single",
+   "question": "Which of the following is NOT mentioned as a benefit of trees in cities?",
+   "choices": [
+    "They increase the value of houses.",
+    "They provide shade.",
+    "They absorb rainwater.",
+    "They improve air quality."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "日陰を作る・雨水を吸収する・空気をきれいにすることは書かれていますが、住宅の価値については書かれていません。",
+   "passage": "tge-read-p04",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tge-read-21",
+   "domain": "eng-reading",
+   "type": "single",
+   "question": "Which word best fills blank ( 1 )?",
+   "choices": [
+    "For example",
+    "In contrast",
+    "Nevertheless",
+    "Otherwise"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "直前の「フィードバックで問題を見つけて改善できる」の具体例が続くので For example が入ります。",
+   "passage": "tge-read-p05",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tge-read-22",
+   "domain": "eng-reading",
+   "type": "single",
+   "question": "Which word best fills blank ( 2 )?",
+   "choices": [
+    "giving",
+    "receiving",
+    "reading",
+    "selling"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "何も変わらないと感じた顧客が、フィードバックを「出す（give）」のをやめてしまうという文脈です。stop giving で「出すのをやめる」となります。",
+   "passage": "tge-read-p05",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tge-read-23",
+   "domain": "eng-reading",
+   "type": "single",
+   "question": "The phrase [ closing the loop ] most likely means",
+   "choices": [
+    "letting customers know how their feedback has been used",
+    "stopping the collection of feedback",
+    "ending the relationship with customers",
+    "deleting old customer data"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "直前の「提案に応じて何を変えたかを伝える」ことを指しています。意見を出した人に結果を返して、流れを一巡させるという意味です。",
+   "passage": "tge-read-p05",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tge-read-24",
+   "domain": "eng-reading",
+   "type": "single",
+   "question": "According to the passage, what might happen if customers notice that nothing changes?",
+   "choices": [
+    "They may stop giving feedback.",
+    "They may give more detailed feedback.",
+    "They may ask for a refund.",
+    "They may work for the company."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"Customers who notice that nothing changes may stop ( 2 ) feedback altogether\" とあります。",
+   "passage": "tge-read-p05",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tge-read-25",
+   "domain": "eng-reading",
+   "type": "single",
+   "question": "What is the main idea of the passage?",
+   "choices": [
+    "Collecting feedback is useful only when companies act on it and show customers the results.",
+    "Companies should collect as much customer data as possible.",
+    "Customers usually complain about slow delivery.",
+    "Feedback is more useful for small companies than large ones."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "第 2 段落「集めるのは最初の一歩にすぎない」、第 3 段落「意見が変化につながったことを示す」が文章の要点です。",
+   "passage": "tge-read-p05",
+   "shuffle": true,
+   "lang": "en"
+  }
+ ]
+}

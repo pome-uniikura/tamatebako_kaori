@@ -1,0 +1,2144 @@
+[
+ {
+  "id": "tng-douigo-001",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「永遠」と最も意味が近い語はどれか。",
+  "choices": [
+   "大切",
+   "機知",
+   "欠点",
+   "永久",
+   "経験"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「永遠」「永久」は、どれも「いつまでも果てしなく続くこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-002",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「永久」と最も意味が近い語はどれか。",
+  "choices": [
+   "委細",
+   "支度",
+   "永遠",
+   "推測",
+   "案外"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「永遠」「永久」は、どれも「いつまでも果てしなく続くこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-003",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「方法」と最も意味が近い語はどれか。",
+  "choices": [
+   "手段",
+   "同意",
+   "風潮",
+   "加盟",
+   "向上"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「方法」「手段」は、どれも「目的を果たすためのやり方」という意味です。"
+ },
+ {
+  "id": "tng-douigo-004",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「手段」と最も意味が近い語はどれか。",
+  "choices": [
+   "推量",
+   "着実",
+   "方法",
+   "失望",
+   "興味"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「方法」「手段」は、どれも「目的を果たすためのやり方」という意味です。"
+ },
+ {
+  "id": "tng-douigo-005",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「欠点」と最も意味が近い語はどれか。",
+  "choices": [
+   "短所",
+   "運命",
+   "釈明",
+   "手本",
+   "決意"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「欠点」「短所」は、どれも「足りないところ、劣っているところ」という意味です。"
+ },
+ {
+  "id": "tng-douigo-006",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「短所」と最も意味が近い語はどれか。",
+  "choices": [
+   "弁明",
+   "欠点",
+   "将来",
+   "措置",
+   "了解"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「欠点」「短所」は、どれも「足りないところ、劣っているところ」という意味です。"
+ },
+ {
+  "id": "tng-douigo-007",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「将来」と最も意味が近い語はどれか。",
+  "choices": [
+   "同意",
+   "手段",
+   "未来",
+   "承知",
+   "外見"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「将来」「未来」は、どれも「これから先」という意味です。"
+ },
+ {
+  "id": "tng-douigo-008",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「未来」と最も意味が近い語はどれか。",
+  "choices": [
+   "加盟",
+   "寄与",
+   "将来",
+   "同意",
+   "経験"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「将来」「未来」は、どれも「これから先」という意味です。"
+ },
+ {
+  "id": "tng-douigo-009",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「準備」と最も意味が近い語はどれか。",
+  "choices": [
+   "明白",
+   "進歩",
+   "経験",
+   "弁明",
+   "支度"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「準備」「用意」「支度」は、どれも「前もって整えておくこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-010",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「用意」と最も意味が近い語はどれか。",
+  "choices": [
+   "自然",
+   "了解",
+   "支度",
+   "対等",
+   "薄情"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「準備」「用意」「支度」は、どれも「前もって整えておくこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-011",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「支度」と最も意味が近い語はどれか。",
+  "choices": [
+   "貯蓄",
+   "釈明",
+   "不意",
+   "用意",
+   "傾向"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「準備」「用意」「支度」は、どれも「前もって整えておくこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-012",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「体験」と最も意味が近い語はどれか。",
+  "choices": [
+   "天然",
+   "貯金",
+   "価格",
+   "決心",
+   "経験"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「体験」「経験」は、どれも「実際に自分で見たりしたりすること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-013",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「経験」と最も意味が近い語はどれか。",
+  "choices": [
+   "貢献",
+   "倹約",
+   "加盟",
+   "熟知",
+   "体験"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「体験」「経験」は、どれも「実際に自分で見たりしたりすること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-014",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「案外」と最も意味が近い語はどれか。",
+  "choices": [
+   "冷静",
+   "虚構",
+   "賛成",
+   "警戒",
+   "意外"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「案外」「意外」は、どれも「思っていたことと違うさま」という意味です。"
+ },
+ {
+  "id": "tng-douigo-015",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「意外」と最も意味が近い語はどれか。",
+  "choices": [
+   "方法",
+   "模範",
+   "返事",
+   "案外",
+   "支度"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「案外」「意外」は、どれも「思っていたことと違うさま」という意味です。"
+ },
+ {
+  "id": "tng-douigo-016",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「互角」と最も意味が近い語はどれか。",
+  "choices": [
+   "同意",
+   "対等",
+   "機知",
+   "処置",
+   "本心"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「互角」「対等」は、どれも「力に差がないこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-017",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「対等」と最も意味が近い語はどれか。",
+  "choices": [
+   "値段",
+   "返答",
+   "短所",
+   "返事",
+   "互角"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「互角」「対等」は、どれも「力に差がないこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-018",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「進歩」と最も意味が近い語はどれか。",
+  "choices": [
+   "音信",
+   "本音",
+   "向上",
+   "永久",
+   "公表"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「進歩」「向上」は、どれも「よい方向へ進んでいくこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-019",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「向上」と最も意味が近い語はどれか。",
+  "choices": [
+   "簡単",
+   "準備",
+   "推量",
+   "進歩",
+   "欠点"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「進歩」「向上」は、どれも「よい方向へ進んでいくこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-020",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「承知」と最も意味が近い語はどれか。",
+  "choices": [
+   "推量",
+   "消息",
+   "加入",
+   "用意",
+   "了解"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「承知」「了解」は、どれも「事情を聞いて理解し、受け入れること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-021",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「了解」と最も意味が近い語はどれか。",
+  "choices": [
+   "承知",
+   "歴然",
+   "努力",
+   "返答",
+   "警戒"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「承知」「了解」は、どれも「事情を聞いて理解し、受け入れること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-022",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「手本」と最も意味が近い語はどれか。",
+  "choices": [
+   "決心",
+   "模範",
+   "簡単",
+   "努力",
+   "突然"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「手本」「模範」は、どれも「見習うべきもの」という意味です。"
+ },
+ {
+  "id": "tng-douigo-023",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「模範」と最も意味が近い語はどれか。",
+  "choices": [
+   "準備",
+   "手本",
+   "緻密",
+   "架空",
+   "詳細"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「手本」「模範」は、どれも「見習うべきもの」という意味です。"
+ },
+ {
+  "id": "tng-douigo-024",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「不意」と最も意味が近い語はどれか。",
+  "choices": [
+   "沈着",
+   "是認",
+   "突然",
+   "成就",
+   "着実"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「不意」「突然」は、どれも「思いがけないこと、だしぬけ」という意味です。"
+ },
+ {
+  "id": "tng-douigo-025",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「突然」と最も意味が近い語はどれか。",
+  "choices": [
+   "決意",
+   "屈指",
+   "不意",
+   "倹約",
+   "了解"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「不意」「突然」は、どれも「思いがけないこと、だしぬけ」という意味です。"
+ },
+ {
+  "id": "tng-douigo-026",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「用心」と最も意味が近い語はどれか。",
+  "choices": [
+   "指図",
+   "方法",
+   "着実",
+   "傑作",
+   "警戒"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「用心」「警戒」は、どれも「悪いことが起きないよう気をつけること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-027",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「警戒」と最も意味が近い語はどれか。",
+  "choices": [
+   "永久",
+   "節約",
+   "用心",
+   "用意",
+   "重要"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「用心」「警戒」は、どれも「悪いことが起きないよう気をつけること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-028",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「寄与」と最も意味が近い語はどれか。",
+  "choices": [
+   "是認",
+   "失望",
+   "機転",
+   "貢献",
+   "容易"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「寄与」「貢献」は、どれも「役に立つ働きをすること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-029",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「貢献」と最も意味が近い語はどれか。",
+  "choices": [
+   "用意",
+   "介抱",
+   "不意",
+   "風潮",
+   "寄与"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「寄与」「貢献」は、どれも「役に立つ働きをすること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-030",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「関心」と最も意味が近い語はどれか。",
+  "choices": [
+   "薄情",
+   "興味",
+   "看病",
+   "応答",
+   "介抱"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「関心」「興味」は、どれも「心を引かれること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-031",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「興味」と最も意味が近い語はどれか。",
+  "choices": [
+   "将来",
+   "特別",
+   "天然",
+   "関心",
+   "明白"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「関心」「興味」は、どれも「心を引かれること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-032",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「簡単」と最も意味が近い語はどれか。",
+  "choices": [
+   "将来",
+   "容易",
+   "加入",
+   "大切",
+   "手本"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「簡単」「容易」は、どれも「手間がかからず、たやすいこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-033",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「容易」と最も意味が近い語はどれか。",
+  "choices": [
+   "返答",
+   "卓越",
+   "簡単",
+   "支度",
+   "介抱"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「簡単」「容易」は、どれも「手間がかからず、たやすいこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-034",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「天然」と最も意味が近い語はどれか。",
+  "choices": [
+   "達成",
+   "看病",
+   "自然",
+   "突然",
+   "用意"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「天然」「自然」は、どれも「人の手が加わっていないこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-035",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「自然」と最も意味が近い語はどれか。",
+  "choices": [
+   "推移",
+   "天然",
+   "生涯",
+   "処置",
+   "熟知"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「天然」「自然」は、どれも「人の手が加わっていないこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-036",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「価格」と最も意味が近い語はどれか。",
+  "choices": [
+   "値段",
+   "詳細",
+   "倹約",
+   "冷静",
+   "力量"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「価格」「値段」は、どれも「品物の値打ちを金額で表したもの」という意味です。"
+ },
+ {
+  "id": "tng-douigo-037",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「値段」と最も意味が近い語はどれか。",
+  "choices": [
+   "欠乏",
+   "弁明",
+   "刊行",
+   "価格",
+   "興味"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「価格」「値段」は、どれも「品物の値打ちを金額で表したもの」という意味です。"
+ },
+ {
+  "id": "tng-douigo-038",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「推測」と最も意味が近い語はどれか。",
+  "choices": [
+   "特別",
+   "虚構",
+   "明白",
+   "推量",
+   "是認"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「推測」「推量」は、どれも「わかっていることをもとに、おしはかること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-039",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「推量」と最も意味が近い語はどれか。",
+  "choices": [
+   "推測",
+   "綿密",
+   "欠点",
+   "値段",
+   "冷淡"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「推測」「推量」は、どれも「わかっていることをもとに、おしはかること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-040",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「帰省」と最も意味が近い語はどれか。",
+  "choices": [
+   "加入",
+   "対等",
+   "倹約",
+   "帰郷",
+   "出版"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「帰省」「帰郷」は、どれも「ふるさとに帰ること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-041",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「帰郷」と最も意味が近い語はどれか。",
+  "choices": [
+   "機知",
+   "委細",
+   "帰省",
+   "用意",
+   "刊行"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「帰省」「帰郷」は、どれも「ふるさとに帰ること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-042",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「返事」と最も意味が近い語はどれか。",
+  "choices": [
+   "返答",
+   "刊行",
+   "興味",
+   "卓越",
+   "同意"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「返事」「返答」「応答」は、どれも「呼びかけや問いに答えること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-043",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「返答」と最も意味が近い語はどれか。",
+  "choices": [
+   "冷淡",
+   "堅実",
+   "応答",
+   "機転",
+   "宿命"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「返事」「返答」「応答」は、どれも「呼びかけや問いに答えること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-044",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「応答」と最も意味が近い語はどれか。",
+  "choices": [
+   "欠点",
+   "返答",
+   "処置",
+   "機転",
+   "無口"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「返事」「返答」「応答」は、どれも「呼びかけや問いに答えること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-045",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「冷静」と最も意味が近い語はどれか。",
+  "choices": [
+   "沈着",
+   "用意",
+   "失望",
+   "容易",
+   "腐心"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「冷静」「沈着」は、どれも「落ち着いていて、感情に流されないこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-046",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「沈着」と最も意味が近い語はどれか。",
+  "choices": [
+   "貯蓄",
+   "名作",
+   "冷静",
+   "失望",
+   "特別"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「冷静」「沈着」は、どれも「落ち着いていて、感情に流されないこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-047",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「貯蓄」と最も意味が近い語はどれか。",
+  "choices": [
+   "天然",
+   "力量",
+   "貯金",
+   "熟知",
+   "特別"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「貯蓄」「貯金」は、どれも「お金をためること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-048",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「貯金」と最も意味が近い語はどれか。",
+  "choices": [
+   "貯蓄",
+   "綿密",
+   "加入",
+   "永遠",
+   "成就"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「貯蓄」「貯金」は、どれも「お金をためること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-049",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「運命」と最も意味が近い語はどれか。",
+  "choices": [
+   "宿命",
+   "意外",
+   "準備",
+   "本心",
+   "失望"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「運命」「宿命」は、どれも「人の力ではどうにもならない巡り合わせ」という意味です。"
+ },
+ {
+  "id": "tng-douigo-050",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「宿命」と最も意味が近い語はどれか。",
+  "choices": [
+   "帰郷",
+   "運命",
+   "返事",
+   "寄与",
+   "永遠"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「運命」「宿命」は、どれも「人の力ではどうにもならない巡り合わせ」という意味です。"
+ },
+ {
+  "id": "tng-douigo-051",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「出版」と最も意味が近い語はどれか。",
+  "choices": [
+   "音信",
+   "綿密",
+   "刊行",
+   "経験",
+   "是認"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「出版」「刊行」は、どれも「書物などを印刷して世に出すこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-052",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「刊行」と最も意味が近い語はどれか。",
+  "choices": [
+   "安価",
+   "対等",
+   "出版",
+   "力量",
+   "成就"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「出版」「刊行」は、どれも「書物などを印刷して世に出すこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-053",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「熟知」と最も意味が近い語はどれか。",
+  "choices": [
+   "興味",
+   "精通",
+   "永久",
+   "落胆",
+   "機転"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「熟知」「精通」は、どれも「くわしく知っていること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-054",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「精通」と最も意味が近い語はどれか。",
+  "choices": [
+   "是認",
+   "支度",
+   "処置",
+   "着実",
+   "熟知"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「熟知」「精通」は、どれも「くわしく知っていること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-055",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「努力」と最も意味が近い語はどれか。",
+  "choices": [
+   "肯定",
+   "沈着",
+   "手段",
+   "尽力",
+   "帰郷"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「努力」「尽力」は、どれも「力を尽くすこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-056",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「尽力」と最も意味が近い語はどれか。",
+  "choices": [
+   "弁明",
+   "簡単",
+   "傑作",
+   "努力",
+   "無口"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「努力」「尽力」は、どれも「力を尽くすこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-057",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「加入」と最も意味が近い語はどれか。",
+  "choices": [
+   "指図",
+   "返事",
+   "加盟",
+   "機転",
+   "傑作"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「加入」「加盟」は、どれも「団体などに加わること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-058",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「加盟」と最も意味が近い語はどれか。",
+  "choices": [
+   "生涯",
+   "容易",
+   "苦心",
+   "是認",
+   "加入"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「加入」「加盟」は、どれも「団体などに加わること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-059",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「苦心」と最も意味が近い語はどれか。",
+  "choices": [
+   "不意",
+   "腐心",
+   "短所",
+   "熟知",
+   "支度"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「苦心」「腐心」は、どれも「あれこれと心を砕くこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-060",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「腐心」と最も意味が近い語はどれか。",
+  "choices": [
+   "関心",
+   "苦心",
+   "失望",
+   "値段",
+   "了解"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「苦心」「腐心」は、どれも「あれこれと心を砕くこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-061",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「決心」と最も意味が近い語はどれか。",
+  "choices": [
+   "決意",
+   "冷淡",
+   "対等",
+   "生涯",
+   "帰郷"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「決心」「決意」は、どれも「心をはっきりと決めること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-062",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「決意」と最も意味が近い語はどれか。",
+  "choices": [
+   "意外",
+   "処置",
+   "案外",
+   "決心",
+   "措置"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「決心」「決意」は、どれも「心をはっきりと決めること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-063",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「失望」と最も意味が近い語はどれか。",
+  "choices": [
+   "不足",
+   "落胆",
+   "互角",
+   "方法",
+   "対等"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「失望」「落胆」は、どれも「期待が外れてがっかりすること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-064",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「落胆」と最も意味が近い語はどれか。",
+  "choices": [
+   "失望",
+   "詳細",
+   "貯金",
+   "宿命",
+   "達成"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「失望」「落胆」は、どれも「期待が外れてがっかりすること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-065",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「一生」と最も意味が近い語はどれか。",
+  "choices": [
+   "対等",
+   "無口",
+   "寄与",
+   "堅実",
+   "生涯"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「一生」「生涯」は、どれも「生まれてから死ぬまでの間」という意味です。"
+ },
+ {
+  "id": "tng-douigo-066",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「生涯」と最も意味が近い語はどれか。",
+  "choices": [
+   "外見",
+   "簡単",
+   "冷淡",
+   "一生",
+   "賛成"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「一生」「生涯」は、どれも「生まれてから死ぬまでの間」という意味です。"
+ },
+ {
+  "id": "tng-douigo-067",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「同意」と最も意味が近い語はどれか。",
+  "choices": [
+   "虚構",
+   "突然",
+   "賛成",
+   "価格",
+   "模範"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「同意」「賛成」は、どれも「ほかの人の意見と同じ考えであること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-068",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「賛成」と最も意味が近い語はどれか。",
+  "choices": [
+   "同意",
+   "有数",
+   "将来",
+   "傑作",
+   "手腕"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「同意」「賛成」は、どれも「ほかの人の意見と同じ考えであること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-069",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「変遷」と最も意味が近い語はどれか。",
+  "choices": [
+   "生涯",
+   "将来",
+   "節約",
+   "推移",
+   "容易"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「変遷」「推移」は、どれも「時とともに移り変わること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-070",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「推移」と最も意味が近い語はどれか。",
+  "choices": [
+   "自然",
+   "変遷",
+   "返事",
+   "命令",
+   "重要"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「変遷」「推移」は、どれも「時とともに移り変わること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-071",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「命令」と最も意味が近い語はどれか。",
+  "choices": [
+   "経験",
+   "音信",
+   "決心",
+   "指図",
+   "抜群"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「命令」「指図」は、どれも「言いつけて従わせること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-072",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「指図」と最も意味が近い語はどれか。",
+  "choices": [
+   "落胆",
+   "決意",
+   "関心",
+   "永遠",
+   "命令"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「命令」「指図」は、どれも「言いつけて従わせること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-073",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「明白」と最も意味が近い語はどれか。",
+  "choices": [
+   "卓越",
+   "容易",
+   "歴然",
+   "力量",
+   "傑作"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「明白」「歴然」は、どれも「はっきりしていて疑いのないこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-074",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「歴然」と最も意味が近い語はどれか。",
+  "choices": [
+   "大切",
+   "手本",
+   "安価",
+   "将来",
+   "明白"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「明白」「歴然」は、どれも「はっきりしていて疑いのないこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-075",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「抜群」と最も意味が近い語はどれか。",
+  "choices": [
+   "容易",
+   "同意",
+   "興味",
+   "卓越",
+   "尽力"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「抜群」「卓越」は、どれも「ほかより飛び抜けて優れていること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-076",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「卓越」と最も意味が近い語はどれか。",
+  "choices": [
+   "天然",
+   "寡黙",
+   "運命",
+   "抜群",
+   "貢献"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「抜群」「卓越」は、どれも「ほかより飛び抜けて優れていること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-077",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「手腕」と最も意味が近い語はどれか。",
+  "choices": [
+   "外観",
+   "寡黙",
+   "力量",
+   "一生",
+   "沈着"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「手腕」「力量」は、どれも「物事を処理するすぐれた腕前」という意味です。"
+ },
+ {
+  "id": "tng-douigo-078",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「力量」と最も意味が近い語はどれか。",
+  "choices": [
+   "卓越",
+   "架空",
+   "模範",
+   "手腕",
+   "刊行"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「手腕」「力量」は、どれも「物事を処理するすぐれた腕前」という意味です。"
+ },
+ {
+  "id": "tng-douigo-079",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「消息」と最も意味が近い語はどれか。",
+  "choices": [
+   "緻密",
+   "帰郷",
+   "明白",
+   "音信",
+   "尽力"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「消息」「音信」は、どれも「様子や知らせ」という意味です。"
+ },
+ {
+  "id": "tng-douigo-080",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「音信」と最も意味が近い語はどれか。",
+  "choices": [
+   "寄与",
+   "節約",
+   "永久",
+   "機転",
+   "消息"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「消息」「音信」は、どれも「様子や知らせ」という意味です。"
+ },
+ {
+  "id": "tng-douigo-081",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「倹約」と最も意味が近い語はどれか。",
+  "choices": [
+   "節約",
+   "落胆",
+   "明白",
+   "傾向",
+   "釈明"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「倹約」「節約」は、どれも「無駄を省いて費用を少なくすること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-082",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「節約」と最も意味が近い語はどれか。",
+  "choices": [
+   "経験",
+   "倹約",
+   "格別",
+   "推量",
+   "不足"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「倹約」「節約」は、どれも「無駄を省いて費用を少なくすること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-083",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「格別」と最も意味が近い語はどれか。",
+  "choices": [
+   "指図",
+   "架空",
+   "腐心",
+   "特別",
+   "模範"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「格別」「特別」は、どれも「普通とは違っていること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-084",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「特別」と最も意味が近い語はどれか。",
+  "choices": [
+   "出版",
+   "架空",
+   "帰郷",
+   "推測",
+   "格別"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「格別」「特別」は、どれも「普通とは違っていること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-085",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「看病」と最も意味が近い語はどれか。",
+  "choices": [
+   "貯蓄",
+   "帰郷",
+   "経験",
+   "介抱",
+   "発表"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「看病」「介抱」は、どれも「病人の世話をすること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-086",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「介抱」と最も意味が近い語はどれか。",
+  "choices": [
+   "尽力",
+   "外観",
+   "明白",
+   "看病",
+   "欠乏"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「看病」「介抱」は、どれも「病人の世話をすること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-087",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「詳細」と最も意味が近い語はどれか。",
+  "choices": [
+   "尽力",
+   "傾向",
+   "機知",
+   "委細",
+   "自然"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「詳細」「委細」は、どれも「くわしいこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-088",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「委細」と最も意味が近い語はどれか。",
+  "choices": [
+   "決心",
+   "貯蓄",
+   "将来",
+   "準備",
+   "詳細"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「詳細」「委細」は、どれも「くわしいこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-089",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「欠乏」と最も意味が近い語はどれか。",
+  "choices": [
+   "処置",
+   "不足",
+   "対等",
+   "傾向",
+   "腐心"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「欠乏」「不足」は、どれも「足りないこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-090",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「不足」と最も意味が近い語はどれか。",
+  "choices": [
+   "興味",
+   "名作",
+   "欠乏",
+   "方法",
+   "精通"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「欠乏」「不足」は、どれも「足りないこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-091",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「外見」と最も意味が近い語はどれか。",
+  "choices": [
+   "加盟",
+   "釈明",
+   "外観",
+   "精通",
+   "力量"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「外見」「外観」は、どれも「外から見た様子」という意味です。"
+ },
+ {
+  "id": "tng-douigo-092",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「外観」と最も意味が近い語はどれか。",
+  "choices": [
+   "熟知",
+   "支度",
+   "進歩",
+   "看病",
+   "外見"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「外見」「外観」は、どれも「外から見た様子」という意味です。"
+ },
+ {
+  "id": "tng-douigo-093",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「機知」と最も意味が近い語はどれか。",
+  "choices": [
+   "方法",
+   "簡単",
+   "貯金",
+   "運命",
+   "機転"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「機知」「機転」は、どれも「その場に応じて素早く働く知恵」という意味です。"
+ },
+ {
+  "id": "tng-douigo-094",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「機転」と最も意味が近い語はどれか。",
+  "choices": [
+   "方法",
+   "大切",
+   "加入",
+   "機知",
+   "命令"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「機知」「機転」は、どれも「その場に応じて素早く働く知恵」という意味です。"
+ },
+ {
+  "id": "tng-douigo-095",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「薄情」と最も意味が近い語はどれか。",
+  "choices": [
+   "冷淡",
+   "未来",
+   "方法",
+   "経験",
+   "風潮"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「薄情」「冷淡」は、どれも「思いやりがないこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-096",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「冷淡」と最も意味が近い語はどれか。",
+  "choices": [
+   "達成",
+   "成就",
+   "薄情",
+   "冷静",
+   "向上"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「薄情」「冷淡」は、どれも「思いやりがないこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-097",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「安価」と最も意味が近い語はどれか。",
+  "choices": [
+   "処置",
+   "返事",
+   "廉価",
+   "手本",
+   "失望"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「安価」「廉価」は、どれも「値段が安いこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-098",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「廉価」と最も意味が近い語はどれか。",
+  "choices": [
+   "冷静",
+   "容易",
+   "用心",
+   "屈指",
+   "安価"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「安価」「廉価」は、どれも「値段が安いこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-099",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「綿密」と最も意味が近い語はどれか。",
+  "choices": [
+   "緻密",
+   "名作",
+   "有数",
+   "価格",
+   "傑作"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「綿密」「緻密」は、どれも「細かいところまで注意が行き届いていること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-100",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「緻密」と最も意味が近い語はどれか。",
+  "choices": [
+   "特別",
+   "是認",
+   "綿密",
+   "突然",
+   "価格"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「綿密」「緻密」は、どれも「細かいところまで注意が行き届いていること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-101",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「公表」と最も意味が近い語はどれか。",
+  "choices": [
+   "欠点",
+   "決心",
+   "模範",
+   "発表",
+   "自然"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「公表」「発表」は、どれも「広く世間に知らせること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-102",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「発表」と最も意味が近い語はどれか。",
+  "choices": [
+   "公表",
+   "安価",
+   "用心",
+   "関心",
+   "尽力"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「公表」「発表」は、どれも「広く世間に知らせること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-103",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「処置」と最も意味が近い語はどれか。",
+  "choices": [
+   "失望",
+   "尽力",
+   "力量",
+   "生涯",
+   "措置"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「処置」「措置」は、どれも「状況に応じて取り計らうこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-104",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「措置」と最も意味が近い語はどれか。",
+  "choices": [
+   "処置",
+   "同意",
+   "発表",
+   "用心",
+   "尽力"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「処置」「措置」は、どれも「状況に応じて取り計らうこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-105",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「傑作」と最も意味が近い語はどれか。",
+  "choices": [
+   "案外",
+   "一生",
+   "成就",
+   "名作",
+   "突然"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「傑作」「名作」は、どれも「非常にすぐれた作品」という意味です。"
+ },
+ {
+  "id": "tng-douigo-106",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「名作」と最も意味が近い語はどれか。",
+  "choices": [
+   "安価",
+   "不意",
+   "進歩",
+   "傑作",
+   "欠点"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「傑作」「名作」は、どれも「非常にすぐれた作品」という意味です。"
+ },
+ {
+  "id": "tng-douigo-107",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「架空」と最も意味が近い語はどれか。",
+  "choices": [
+   "節約",
+   "一生",
+   "返答",
+   "外見",
+   "虚構"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「架空」「虚構」は、どれも「事実にもとづかず、想像で作られたもの」という意味です。"
+ },
+ {
+  "id": "tng-douigo-108",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「虚構」と最も意味が近い語はどれか。",
+  "choices": [
+   "架空",
+   "価格",
+   "緻密",
+   "天然",
+   "抜群"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「架空」「虚構」は、どれも「事実にもとづかず、想像で作られたもの」という意味です。"
+ },
+ {
+  "id": "tng-douigo-109",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「是認」と最も意味が近い語はどれか。",
+  "choices": [
+   "決意",
+   "尽力",
+   "屈指",
+   "肯定",
+   "模範"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「是認」「肯定」は、どれも「よいと認めること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-110",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「肯定」と最も意味が近い語はどれか。",
+  "choices": [
+   "返答",
+   "成就",
+   "歴然",
+   "是認",
+   "一生"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「是認」「肯定」は、どれも「よいと認めること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-111",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「無口」と最も意味が近い語はどれか。",
+  "choices": [
+   "準備",
+   "倹約",
+   "容易",
+   "寡黙",
+   "値段"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「無口」「寡黙」は、どれも「口数が少ないこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-112",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「寡黙」と最も意味が近い語はどれか。",
+  "choices": [
+   "是認",
+   "帰郷",
+   "風潮",
+   "体験",
+   "無口"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「無口」「寡黙」は、どれも「口数が少ないこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-113",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「着実」と最も意味が近い語はどれか。",
+  "choices": [
+   "抜群",
+   "進歩",
+   "刊行",
+   "堅実",
+   "簡単"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「着実」「堅実」は、どれも「落ち着いて確実に物事を進めること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-114",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「堅実」と最も意味が近い語はどれか。",
+  "choices": [
+   "抜群",
+   "着実",
+   "苦心",
+   "綿密",
+   "運命"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「着実」「堅実」は、どれも「落ち着いて確実に物事を進めること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-115",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「屈指」と最も意味が近い語はどれか。",
+  "choices": [
+   "意外",
+   "変遷",
+   "宿命",
+   "貢献",
+   "有数"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「屈指」「有数」は、どれも「多くの中で特に優れていること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-116",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「有数」と最も意味が近い語はどれか。",
+  "choices": [
+   "腐心",
+   "屈指",
+   "決意",
+   "寄与",
+   "本心"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「屈指」「有数」は、どれも「多くの中で特に優れていること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-117",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「釈明」と最も意味が近い語はどれか。",
+  "choices": [
+   "歴然",
+   "加盟",
+   "措置",
+   "弁明",
+   "委細"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「釈明」「弁明」は、どれも「事情を説明して誤解を解こうとすること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-118",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「弁明」と最も意味が近い語はどれか。",
+  "choices": [
+   "応答",
+   "決意",
+   "本心",
+   "生涯",
+   "釈明"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「釈明」「弁明」は、どれも「事情を説明して誤解を解こうとすること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-119",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「本心」と最も意味が近い語はどれか。",
+  "choices": [
+   "対等",
+   "本音",
+   "重要",
+   "是認",
+   "綿密"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「本心」「本音」は、どれも「本当の気持ち」という意味です。"
+ },
+ {
+  "id": "tng-douigo-120",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「本音」と最も意味が近い語はどれか。",
+  "choices": [
+   "本心",
+   "簡単",
+   "委細",
+   "用心",
+   "不意"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「本心」「本音」は、どれも「本当の気持ち」という意味です。"
+ },
+ {
+  "id": "tng-douigo-121",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「達成」と最も意味が近い語はどれか。",
+  "choices": [
+   "同意",
+   "機知",
+   "貢献",
+   "成就",
+   "着実"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "「達成」「成就」は、どれも「目的を成し遂げること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-122",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「成就」と最も意味が近い語はどれか。",
+  "choices": [
+   "本音",
+   "経験",
+   "無口",
+   "推移",
+   "達成"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「達成」「成就」は、どれも「目的を成し遂げること」という意味です。"
+ },
+ {
+  "id": "tng-douigo-123",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「風潮」と最も意味が近い語はどれか。",
+  "choices": [
+   "推測",
+   "力量",
+   "未来",
+   "意外",
+   "傾向"
+  ],
+  "answer": [
+   4
+  ],
+  "explanation": "「風潮」「傾向」は、どれも「世の中の動きや傾き」という意味です。"
+ },
+ {
+  "id": "tng-douigo-124",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「傾向」と最も意味が近い語はどれか。",
+  "choices": [
+   "風潮",
+   "永久",
+   "廉価",
+   "向上",
+   "安価"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "「風潮」「傾向」は、どれも「世の中の動きや傾き」という意味です。"
+ },
+ {
+  "id": "tng-douigo-125",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「重要」と最も意味が近い語はどれか。",
+  "choices": [
+   "値段",
+   "大切",
+   "帰郷",
+   "体験",
+   "了解"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "「重要」「大切」は、どれも「非常に大切なこと」という意味です。"
+ },
+ {
+  "id": "tng-douigo-126",
+  "domain": "douigo",
+  "type": "single",
+  "question": "「大切」と最も意味が近い語はどれか。",
+  "choices": [
+   "変遷",
+   "方法",
+   "重要",
+   "推測",
+   "短所"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "「重要」「大切」は、どれも「非常に大切なこと」という意味です。"
+ }
+]

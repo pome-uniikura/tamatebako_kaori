@@ -1,0 +1,636 @@
+{
+ "passages": [
+  {
+   "id": "tbe-img-p01",
+   "text": "In the world of technology start-ups, failure is often described as a valuable experience. Investors sometimes prefer to support entrepreneurs who have previously run a company that did not succeed, believing that they have learned lessons that first-time founders have not. A founder who has failed may be better at noticing early warning signs, such as rising costs or falling customer interest.\n\nHowever, failure is only valuable if people reflect on it honestly. An entrepreneur who blames bad luck or difficult market conditions, without examining their own decisions, is likely to repeat the same mistakes. For this reason, some experienced investors ask founders to explain in detail why their previous business failed before deciding whether to support a new one.",
+   "title": "The Value of Failure in Start-ups",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-p02",
+   "text": "Bicycle-sharing schemes allow people to rent a bike for a short trip and return it at a different location. In many cities, they have become a popular way to travel short distances, especially for journeys that are too long to walk but too short to justify taking a taxi. Users unlock the bikes with a smartphone app and pay according to how long they ride.\n\nThe schemes have faced problems, however. In some cities, bikes were left blocking pavements or were damaged, and operators had to spend large sums collecting and repairing them. To deal with this, several cities now require bikes to be returned to designated parking areas, and users who leave bikes elsewhere are charged an extra fee.",
+   "title": "Shared Bicycles",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-p03",
+   "text": "More and more reading now takes place on screens rather than on paper. Screens offer clear advantages: thousands of books can be stored on a single device, text size can be adjusted, and new material can be downloaded instantly.\n\nSome studies, however, suggest that readers understand long and complex texts slightly better on paper. Researchers believe one reason may be that people tend to read more quickly and less carefully on screens, skimming the text rather than reading every line. Interestingly, the difference seems to disappear when readers are given plenty of time and are told that they will be tested on the content. This suggests that the way we read may matter more than what we read on.",
+   "title": "Reading on Screens",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-p04",
+   "text": "Community gardens are shared spaces where local residents grow vegetables, fruit and flowers. In addition to providing fresh food, they offer opportunities for neighbours to meet and work together. Many gardeners say that the social contact is as important to them as the harvest.\n\nSetting up a community garden is not always easy. Organisers must find suitable land, secure permission from its owner and agree on rules for sharing tasks such as watering and weeding. Gardens that last for many years usually have a small group of committed volunteers who take responsibility for these practical matters.",
+   "title": "Community Gardens",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-p05",
+   "text": "As companies sell products around the world, many now provide customer service in several languages. Customers are generally more satisfied when they can explain a problem in their own language, and they are more likely to buy from the same company again.\n\nProviding this service is costly. Companies must hire staff who speak different languages or use translation technology. Automatic translation has improved greatly, but it can still misunderstand technical terms or the emotional tone of a complaint. For this reason, many firms use automatic translation for simple questions and pass more complicated cases to human staff.",
+   "title": "Multilingual Customer Service",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-p06",
+   "text": "Open-plan offices, in which employees work in a large shared space without walls, were designed to encourage communication and teamwork. They also allow companies to fit more desks into a smaller area, which reduces costs.\n\nHowever, many employees find open-plan offices noisy and distracting. Some studies have found that, after moving to an open-plan layout, workers actually spoke to each other face to face less often and sent more emails instead, perhaps because they wanted to avoid disturbing their colleagues. In response, some companies have added quiet rooms where staff can concentrate or make private phone calls.",
+   "title": "Noise in Open-Plan Offices",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-p07",
+   "text": "Habits are actions that we perform automatically, often without thinking. Psychologists explain that a habit usually has three parts: a cue that triggers the behaviour, the behaviour itself, and a reward that makes us want to repeat it. For example, feeling tired in the afternoon (the cue) may lead us to buy a snack (the behaviour), which gives us a burst of energy (the reward).\n\nTo change a habit, experts suggest keeping the same cue and reward but replacing the behaviour. Someone who snacks when tired could take a short walk instead, which can also provide a feeling of renewed energy. Simply trying to resist the habit through willpower alone is often less effective.",
+   "title": "The Science of Habits",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-p08",
+   "text": "Old mobile phones, computers and other electronic devices contain valuable metals such as gold, silver and copper. Recovering these metals through recycling can reduce the need for mining, which often causes serious environmental damage.\n\nYet only a small share of electronic waste is collected for recycling. Many people keep old devices in drawers because they worry about personal data stored on them, or simply do not know where to take them. Some manufacturers now offer to collect old devices and erase the data free of charge, hoping to increase the amount of material they can recover.",
+   "title": "Recycling Electronic Waste",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-p09",
+   "text": "For many freelancers, cafés have become a second office. They offer a change of scenery, a steady supply of coffee and, often, free wireless internet. Some people find that the background noise of a café actually helps them concentrate, as it masks more distracting sounds.\n\nCafé owners have mixed feelings about this trend. Customers who stay for hours while buying only one drink take up tables that could be used by others. Some cafés have responded by limiting internet access to two hours, while others have created special areas for laptop users, charging a small fee for a seat with a power socket.",
+   "title": "Working From Cafés",
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-p10",
+   "text": "Volunteer tourism combines travel with unpaid work, such as teaching English, building houses or protecting wildlife. Participants often say the experience is more meaningful than an ordinary holiday, because they feel they are contributing to the places they visit.\n\nCritics warn that good intentions are not always enough. Short-term volunteers without proper skills may take jobs that local workers could do, or may need so much supervision that they create extra work for the host organisation. To avoid these problems, experts advise choosing programmes that match volunteers' skills with clearly defined local needs and that last long enough to make a real difference.",
+   "title": "Volunteer Tourism",
+   "lang": "en"
+  }
+ ],
+ "questions": [
+  {
+   "id": "tbe-img-01",
+   "domain": "eng-images",
+   "type": "single",
+   "question": "According to the passage, why do some investors support entrepreneurs who have failed before?",
+   "choices": [
+    "They believe such entrepreneurs have learned useful lessons.",
+    "They expect such entrepreneurs to ask for less money.",
+    "They think failure is a sign of bad luck rather than poor decisions.",
+    "They are required to do so by law."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "本文に \"believing that they have learned lessons that first-time founders have not\" とあります。",
+   "passage": "tbe-img-p01",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-02",
+   "domain": "eng-images",
+   "type": "single",
+   "question": "What does the writer say makes failure valuable?",
+   "choices": [
+    "Reflecting honestly on what went wrong.",
+    "Starting a new company immediately.",
+    "Avoiding difficult market conditions.",
+    "Receiving support from many investors."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "第 2 段落の \"failure is only valuable if people reflect on it honestly\" が答えです。",
+   "passage": "tbe-img-p01",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-03",
+   "domain": "eng-images",
+   "type": "single",
+   "question": "The word \"examining\" in the second paragraph is closest in meaning to",
+   "choices": [
+    "looking at carefully",
+    "ignoring",
+    "repeating",
+    "celebrating"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "examine は「よく調べる・検討する」という意味です。\"without examining their own decisions\"（自分の判断を振り返らずに）という文脈からも判断できます。",
+   "passage": "tbe-img-p01",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-04",
+   "domain": "eng-images",
+   "type": "single",
+   "question": "What kind of journey are shared bicycles especially popular for, according to the passage?",
+   "choices": [
+    "Trips that are too long to walk but too short for a taxi.",
+    "Long journeys between different cities.",
+    "Trips to work in bad weather.",
+    "Journeys that are cheaper by taxi."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"especially for journeys that are too long to walk but too short to justify taking a taxi\" とあります。",
+   "passage": "tbe-img-p02",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-05",
+   "domain": "eng-images",
+   "type": "single",
+   "question": "How have some cities responded to the problems described?",
+   "choices": [
+    "By requiring bikes to be returned to designated areas.",
+    "By banning bicycle-sharing schemes completely.",
+    "By making the bikes free to use.",
+    "By asking users to repair the bikes themselves."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "第 2 段落に \"several cities now require bikes to be returned to designated parking areas\" とあります。",
+   "passage": "tbe-img-p02",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-06",
+   "domain": "eng-images",
+   "type": "single",
+   "question": "Which of the following is stated in the passage?",
+   "choices": [
+    "Users pay according to the length of time they ride.",
+    "Most users ride the bikes every day.",
+    "The bikes can only be used during the day.",
+    "Operators make large profits from extra fees."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"pay according to how long they ride\" とあります。ほかの選択肢は本文に書かれていません。",
+   "passage": "tbe-img-p02",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-07",
+   "domain": "eng-images",
+   "type": "single",
+   "question": "What is the main point of the passage?",
+   "choices": [
+    "How carefully we read may be more important than whether we use paper or a screen.",
+    "Paper books will soon disappear completely.",
+    "Reading on screens is always harmful to understanding.",
+    "Screens are better than paper for every kind of text."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "最後の一文 \"the way we read may matter more than what we read on\" が文章の要点です。",
+   "passage": "tbe-img-p03",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-08",
+   "domain": "eng-images",
+   "type": "single",
+   "question": "According to researchers, why might people understand long texts less well on screens?",
+   "choices": [
+    "They tend to skim rather than read every line.",
+    "Screens make the text too small to read.",
+    "Digital books contain more mistakes.",
+    "Screens cannot store long texts."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"people tend to read more quickly and less carefully on screens, skimming the text\" とあります。",
+   "passage": "tbe-img-p03",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-09",
+   "domain": "eng-images",
+   "type": "single",
+   "question": "Which is NOT mentioned as an advantage of screens?",
+   "choices": [
+    "They are cheaper than paper books.",
+    "Many books can be stored on one device.",
+    "The size of the text can be changed.",
+    "New material can be obtained immediately."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "画面の利点として、保存できる量・文字の大きさ・すぐに入手できることは挙げられていますが、値段については書かれていません。",
+   "passage": "tbe-img-p03",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-10",
+   "domain": "eng-images",
+   "type": "single",
+   "question": "According to the passage, what do many gardeners value as much as the harvest?",
+   "choices": [
+    "The chance to meet and work with neighbours.",
+    "The money they save on food.",
+    "The exercise they get from gardening.",
+    "The opportunity to sell their vegetables."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"the social contact is as important to them as the harvest\" とあります。",
+   "passage": "tbe-img-p04",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-11",
+   "domain": "eng-images",
+   "type": "single",
+   "question": "What do long-lasting community gardens usually have?",
+   "choices": [
+    "A small group of committed volunteers.",
+    "Financial support from the government.",
+    "A large number of professional gardeners.",
+    "Land owned by the gardeners themselves."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "第 2 段落の最後に \"usually have a small group of committed volunteers\" とあります。",
+   "passage": "tbe-img-p04",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-12",
+   "domain": "eng-images",
+   "type": "single",
+   "question": "The word \"secure\" in the second paragraph is closest in meaning to",
+   "choices": [
+    "obtain",
+    "protect",
+    "refuse",
+    "lock"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "secure permission は「許可を得る」という意味です。文脈から「得る（obtain）」が最も近い意味です。secure には「守る」という意味もありますが、ここでは当てはまりません。",
+   "passage": "tbe-img-p04",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-13",
+   "domain": "eng-images",
+   "type": "single",
+   "question": "According to the passage, what happens when customers can use their own language?",
+   "choices": [
+    "They are generally more satisfied.",
+    "They complain more often.",
+    "They expect lower prices.",
+    "They prefer automatic translation."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"Customers are generally more satisfied when they can explain a problem in their own language\" とあります。",
+   "passage": "tbe-img-p05",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-14",
+   "domain": "eng-images",
+   "type": "single",
+   "question": "Why do many firms pass complicated cases to human staff?",
+   "choices": [
+    "Automatic translation can still misunderstand technical terms or emotional tone.",
+    "Human staff are cheaper than translation technology.",
+    "Customers refuse to use automatic translation.",
+    "Automatic translation cannot handle simple questions."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "機械翻訳は \"can still misunderstand technical terms or the emotional tone of a complaint\" ため、複雑な案件は人に回すと説明されています。",
+   "passage": "tbe-img-p05",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-15",
+   "domain": "eng-images",
+   "type": "single",
+   "question": "What is the writer's overall view of automatic translation?",
+   "choices": [
+    "It is useful but not yet able to replace human staff in every case.",
+    "It is too inaccurate to be used at all.",
+    "It has completely replaced human translators.",
+    "It is more expensive than hiring staff."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"has improved greatly, but ...\" と、進歩を認めつつ限界も指摘し、簡単な質問には使い、複雑な案件は人が対応するとしています。",
+   "passage": "tbe-img-p05",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-16",
+   "domain": "eng-images",
+   "type": "single",
+   "question": "What was one of the original purposes of open-plan offices?",
+   "choices": [
+    "To encourage communication between employees.",
+    "To give each employee more space.",
+    "To reduce the number of emails.",
+    "To make offices quieter."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"were designed to encourage communication and teamwork\" とあります。",
+   "passage": "tbe-img-p06",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-17",
+   "domain": "eng-images",
+   "type": "single",
+   "question": "What did some studies find after companies moved to open-plan offices?",
+   "choices": [
+    "Workers talked face to face less often.",
+    "Workers stopped sending emails.",
+    "Workers became less distracted.",
+    "Workers asked for larger desks."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"workers actually spoke to each other face to face less often and sent more emails instead\" とあります。",
+   "passage": "tbe-img-p06",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-18",
+   "domain": "eng-images",
+   "type": "single",
+   "question": "The word \"actually\" in the second paragraph suggests that the result was",
+   "choices": [
+    "the opposite of what was expected",
+    "exactly what was planned",
+    "not important",
+    "impossible to measure"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "会話を増やすための設計だったのに、実際には会話が減ったという「予想と反対の結果」を、actually（実は）が示しています。",
+   "passage": "tbe-img-p06",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-19",
+   "domain": "eng-images",
+   "type": "single",
+   "question": "According to the passage, what are the three parts of a habit?",
+   "choices": [
+    "A cue, a behaviour and a reward.",
+    "A goal, a plan and a result.",
+    "A thought, a feeling and an action.",
+    "A problem, a solution and a test."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"a cue that triggers the behaviour, the behaviour itself, and a reward\" とあります。",
+   "passage": "tbe-img-p07",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-20",
+   "domain": "eng-images",
+   "type": "single",
+   "question": "What do experts suggest to change a habit?",
+   "choices": [
+    "Replace the behaviour while keeping the cue and reward.",
+    "Remove the cue completely.",
+    "Rely only on willpower.",
+    "Change the reward to something unpleasant."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"keeping the same cue and reward but replacing the behaviour\" とあります。",
+   "passage": "tbe-img-p07",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-21",
+   "domain": "eng-images",
+   "type": "single",
+   "question": "In the example, what is the reward?",
+   "choices": [
+    "A burst of energy.",
+    "Feeling tired in the afternoon.",
+    "Buying a snack.",
+    "Taking a short walk."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "例の中で (the reward) と書かれているのは \"gives us a burst of energy\" の部分です。",
+   "passage": "tbe-img-p07",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-22",
+   "domain": "eng-images",
+   "type": "single",
+   "question": "According to the passage, why can recycling electronic devices benefit the environment?",
+   "choices": [
+    "It can reduce the need for mining.",
+    "It makes devices last longer.",
+    "It reduces the amount of electricity used.",
+    "It prevents people from buying new devices."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"can reduce the need for mining, which often causes serious environmental damage\" とあります。",
+   "passage": "tbe-img-p08",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-23",
+   "domain": "eng-images",
+   "type": "single",
+   "question": "Which reason for keeping old devices is mentioned in the passage?",
+   "choices": [
+    "Concern about personal data.",
+    "The high cost of recycling.",
+    "The value of the metals inside.",
+    "Plans to repair them later."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"because they worry about personal data stored on them\" とあります。",
+   "passage": "tbe-img-p08",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-24",
+   "domain": "eng-images",
+   "type": "single",
+   "question": "Why do some manufacturers offer free collection and data erasure?",
+   "choices": [
+    "To increase the amount of material they can recover.",
+    "To sell more new devices to customers.",
+    "Because the law requires them to.",
+    "To reduce the price of their products."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"hoping to increase the amount of material they can recover\" とあります。",
+   "passage": "tbe-img-p08",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-25",
+   "domain": "eng-images",
+   "type": "single",
+   "question": "According to the passage, why might some people concentrate better in a café?",
+   "choices": [
+    "Background noise can hide more distracting sounds.",
+    "Cafés are quieter than offices.",
+    "Coffee makes them work faster.",
+    "Other customers help them with their work."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"the background noise of a café actually helps them concentrate, as it masks more distracting sounds\" とあります。",
+   "passage": "tbe-img-p09",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-26",
+   "domain": "eng-images",
+   "type": "single",
+   "question": "What problem do café owners have with some customers?",
+   "choices": [
+    "They stay for a long time but buy little.",
+    "They make too much noise.",
+    "They do not use the internet.",
+    "They refuse to pay for coffee."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"Customers who stay for hours while buying only one drink take up tables\" とあります。",
+   "passage": "tbe-img-p09",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-27",
+   "domain": "eng-images",
+   "type": "single",
+   "question": "Which response by cafés is mentioned in the passage?",
+   "choices": [
+    "Charging a fee for a seat with a power socket.",
+    "Banning laptops completely.",
+    "Closing earlier in the evening.",
+    "Raising the price of coffee."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"charging a small fee for a seat with a power socket\" とあります。",
+   "passage": "tbe-img-p09",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-28",
+   "domain": "eng-images",
+   "type": "single",
+   "question": "Why do participants often find volunteer tourism meaningful?",
+   "choices": [
+    "They feel they are contributing to the places they visit.",
+    "They are paid for their work.",
+    "It is cheaper than an ordinary holiday.",
+    "They can learn a new language quickly."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"they feel they are contributing to the places they visit\" とあります。",
+   "passage": "tbe-img-p10",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-29",
+   "domain": "eng-images",
+   "type": "single",
+   "question": "What concern do critics raise?",
+   "choices": [
+    "Unskilled short-term volunteers may create extra work for host organisations.",
+    "Volunteers usually stay too long.",
+    "Host organisations refuse to accept volunteers.",
+    "Volunteer tourism is too expensive for most people."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"may need so much supervision that they create extra work for the host organisation\" とあります。",
+   "passage": "tbe-img-p10",
+   "shuffle": true,
+   "lang": "en"
+  },
+  {
+   "id": "tbe-img-30",
+   "domain": "eng-images",
+   "type": "single",
+   "question": "What do experts advise?",
+   "choices": [
+    "Choosing programmes that match volunteers' skills with local needs.",
+    "Avoiding volunteer tourism altogether.",
+    "Volunteering only in wildlife protection.",
+    "Joining programmes that last no more than a week."
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "\"choosing programmes that match volunteers' skills with clearly defined local needs\" とあります。期間については「十分な長さ」を勧めており、短期を勧めてはいません。",
+   "passage": "tbe-img-p10",
+   "shuffle": true,
+   "lang": "en"
+  }
+ ]
+}
